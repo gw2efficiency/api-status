@@ -1,0 +1,20 @@
+[
+  {
+    "id": 7,
+    "unlock_details": "<c=@reminder>Unlock this PvP rank finisher by earning rank points and increasing your PvP rank.</c>",
+    "unlock_items": [],
+    "order": 12,
+    "icon": "https://render.guildwars2.com/file/A19393F149215F171C395DA5C455D6F6CDCD6C09/620119.png",
+    "name": "Shark Rank Finisher"
+  },
+  {
+    "id": 13,
+    "unlock_details": "<c=@reminder>Unlock this finisher by discovering it in Black Lion Chests.</c>",
+    "unlock_items": [
+      44877
+    ],
+    "order": 42,
+    "icon": "https://render.guildwars2.com/file/1DFFDB1F91FD660C56080D422AB0060F040E0624/620137.png",
+    "name": "Spectre Finisher"
+  }
+]
