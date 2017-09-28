@@ -1,0 +1,76 @@
+{
+  "equipment": [
+    {
+      "id": 66346,
+      "slot": "HelmAquatic",
+      "binding": "Character",
+      "bound_to": "Eff Testing Ele"
+    },
+    {
+      "id": 6465,
+      "slot": "Coat",
+      "binding": "Character",
+      "bound_to": "Eff Testing Ele",
+      "dyes": [
+        376,
+        109,
+        376,
+        null
+      ]
+    },
+    {
+      "id": 555,
+      "slot": "Boots"
+    },
+    {
+      "id": 2963,
+      "slot": "Gloves"
+    },
+    {
+      "id": 3359,
+      "slot": "Helm"
+    },
+    {
+      "id": 3379,
+      "slot": "Leggings"
+    },
+    {
+      "id": 64667,
+      "slot": "WeaponAquaticA",
+      "binding": "Character",
+      "bound_to": "Eff Testing Ele"
+    },
+    {
+      "id": 26155,
+      "slot": "WeaponA1",
+      "upgrades": [
+        24464
+      ],
+      "binding": "Account"
+    },
+    {
+      "id": 32132,
+      "slot": "WeaponA2",
+      "binding": "Character",
+      "bound_to": "Eff Testing Ele"
+    },
+    {
+      "id": 64114,
+      "slot": "Sickle",
+      "binding": "Account",
+      "charges": 20
+    },
+    {
+      "id": 64101,
+      "slot": "Axe",
+      "binding": "Account",
+      "charges": 20
+    },
+    {
+      "id": 64115,
+      "slot": "Pick",
+      "binding": "Account",
+      "charges": 20
+    }
+  ]
+}

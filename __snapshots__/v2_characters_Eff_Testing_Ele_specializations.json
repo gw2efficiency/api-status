@@ -1,0 +1,40 @@
+{
+  "specializations": {
+    "pve": [
+      null,
+      null,
+      null
+    ],
+    "pvp": [
+      {
+        "id": 31,
+        "traits": [
+          335,
+          325,
+          1510
+        ]
+      },
+      {
+        "id": 17,
+        "traits": [
+          348,
+          364,
+          362
+        ]
+      },
+      {
+        "id": 37,
+        "traits": [
+          253,
+          257,
+          238
+        ]
+      }
+    ],
+    "wvw": [
+      null,
+      null,
+      null
+    ]
+  }
+}

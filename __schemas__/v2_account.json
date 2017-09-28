@@ -36,7 +36,10 @@
       "format": "date-time"
     },
     "access": {
-      "type": "string",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
       "required": true
     },
     "commander": {

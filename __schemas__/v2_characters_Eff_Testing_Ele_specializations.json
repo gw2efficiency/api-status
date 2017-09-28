@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "specializations": {
+      "type": "object",
+      "properties": {
+        "pve": {
+          "type": "array",
+          "items": {
+            "type": "null"
+          },
+          "required": true
+        },
+        "pvp": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "traits": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                }
+              }
+            },
+            "required": [
+              "id",
+              "traits"
+            ]
+          },
+          "required": true
+        },
+        "wvw": {
+          "type": "array",
+          "items": {
+            "type": "null"
+          },
+          "required": true
+        }
+      },
+      "additionalProperties": false,
+      "required": true
+    }
+  },
+  "additionalProperties": false
+}

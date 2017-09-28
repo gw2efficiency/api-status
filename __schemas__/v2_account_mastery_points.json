@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "totals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "region": {
+            "type": "string"
+          },
+          "spent": {
+            "type": "number"
+          },
+          "earned": {
+            "type": "number"
+          }
+        }
+      },
+      "required": true
+    },
+    "unlocked": {
+      "type": "array",
+      "items": {},
+      "required": true
+    }
+  },
+  "additionalProperties": false
+}

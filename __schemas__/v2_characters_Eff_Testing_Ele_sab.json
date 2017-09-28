@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "zones": {
+      "type": "array",
+      "items": {},
+      "required": true
+    },
+    "unlocks": {
+      "type": "array",
+      "items": {},
+      "required": true
+    },
+    "songs": {
+      "type": "array",
+      "items": {},
+      "required": true
+    }
+  },
+  "additionalProperties": false
+}

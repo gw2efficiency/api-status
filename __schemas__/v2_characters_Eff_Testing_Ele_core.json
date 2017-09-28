@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "race": {
+      "type": "string",
+      "required": true
+    },
+    "gender": {
+      "type": "string",
+      "required": true
+    },
+    "profession": {
+      "type": "string",
+      "required": true
+    },
+    "level": {
+      "type": "number",
+      "required": true
+    },
+    "guild": {
+      "type": "null",
+      "required": true
+    },
+    "age": {
+      "type": "number",
+      "required": true
+    },
+    "created": {
+      "type": "string",
+      "required": true,
+      "format": "date-time"
+    },
+    "deaths": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "additionalProperties": false
+}

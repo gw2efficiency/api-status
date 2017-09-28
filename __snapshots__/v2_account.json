@@ -8,7 +8,9 @@
   ],
   "guild_leader": [],
   "created": "2017-09-26T01:57:00Z",
-  "access": "PlayForFree",
+  "access": [
+    "PlayForFree"
+  ],
   "commander": false,
   "fractal_level": 1,
   "daily_ap": 0,

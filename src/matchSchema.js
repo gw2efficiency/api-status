@@ -7,6 +7,15 @@ function matchSchema (url, content) {
 
   if (process.env.TRAIN || (process.env.TRAIN_MISSING && !fs.existsSync(filename))) {
     const schema = train(content)
+
+    // Validate that the schema works
+    const result = validate(schema, content)
+    if (!result.valid) {
+      console.log('Failed training schema for ' + url)
+      console.log(result.errors)
+      return {}
+    }
+
     fs.writeFileSync(filename, JSON.stringify(schema, null, 2), 'utf-8')
     return {schemaValid: true}
   }
