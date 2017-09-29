@@ -7,7 +7,6 @@
     "format": "prettier --print-width 120 --no-semi --single-quote --no-bracket-spacing --write 'src/**/*.js' && standard --fix 'src/**/*.js'"
   },
   "dependencies": {
-    "fs-extra": "^4.0.2",
     "json-diff": "^0.5.2",
     "node-fetch": "^1.7.3",
     "qs": "^6.5.1",
