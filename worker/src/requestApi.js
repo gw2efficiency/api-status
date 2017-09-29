@@ -15,17 +15,29 @@ async function requestApi (url) {
   const fullUrl = `https://api.guildwars2.com${url}?${qs.stringify(query)}`
 
   const start = new Date().getTime()
-  const response = await fetch(fullUrl)
-  const end = new Date().getTime()
 
-  const content = await response.text()
-  const json = JSON.parse(content)
+  try {
+    const response = await fetch(fullUrl)
+    const end = new Date().getTime()
 
-  return {
-    duration: end - start,
-    response: {
-      status: response.status,
-      content: json || content
+    const content = await response.text()
+    const json = JSON.parse(content)
+
+    return {
+      duration: end - start,
+      response: {
+        status: response.status,
+        content: json || content
+      }
+    }
+  } catch (err) {
+    const end = new Date().getTime()
+    return {
+      duration: end - start,
+      response: {
+        status: 503,
+        content: ''
+      }
     }
   }
 }

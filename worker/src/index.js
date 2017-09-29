@@ -1,4 +1,5 @@
 const fs = require('fs')
+const path = require('path')
 const runTests = require('./runTests')
 
 async function runScheduledTests () {
@@ -9,8 +10,11 @@ async function runScheduledTests () {
     data: results
   }
 
-  fs.writeFileSync('./results.json', JSON.stringify(content), 'utf-8')
+  const file = path.join(__dirname, '/../latest.json')
+  fs.writeFileSync(file, JSON.stringify(content), 'utf-8')
 }
+
+runScheduledTests()
 
 setInterval(() => {
   runScheduledTests()

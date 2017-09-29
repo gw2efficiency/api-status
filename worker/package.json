@@ -1,9 +1,7 @@
 {
-  "name": "api-snapshot-testing",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "name": "api-snapshot-testing-worker",
   "scripts": {
+    "start": "node src/index.js",
     "format": "prettier --print-width 120 --no-semi --single-quote --no-bracket-spacing --write 'src/**/*.js' && standard --fix 'src/**/*.js'"
   },
   "dependencies": {

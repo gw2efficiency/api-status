@@ -1,9 +1,10 @@
 const fs = require('fs')
+const path = require('path')
 const {train, validate} = require('validate-by-example')
 const toFileName = require('./toFileName')
 
 function matchSchema (endpoint, content) {
-  const filename = './__schemas__/' + toFileName(endpoint.name)
+  const filename = path.join(__dirname, '/../__schemas__/' + toFileName(endpoint.name))
 
   if (process.env.TRAIN || (process.env.TRAIN_MISSING && !fs.existsSync(filename))) {
     const schema = train(content)

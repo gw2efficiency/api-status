@@ -1,12 +1,16 @@
 const testEndpoint = require('./testEndpoint')
-const endpoints = require('./_endpoints')
+const endpoints = require('./endpoints')
 
 async function runTests () {
   console.log('='.repeat(50))
   console.log(`> Testing ${endpoints.length} API endpoints (${new Date().toISOString()})`)
   console.log()
 
-  const results = await Promise.all(endpoints.map(testEndpoint))
+  let results = []
+
+  for (let i = 0; i !== endpoints.length; i++) {
+    results.push(await testEndpoint(endpoints[i]))
+  }
 
   let possiblyBroken = results.filter(x => x.schemaValid === false || x.snapshotValid === false)
   let definitelyBroken = results.filter(x => x.status !== 200)

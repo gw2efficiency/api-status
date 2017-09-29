@@ -1,0 +1,16 @@
+{
+  "name": "api-snapshot-testing-frontend",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "format": "prettier --print-width 120 --no-semi --single-quote --no-bracket-spacing --write 'src/**/*.js' && standard --fix 'src/**/*.js'"
+  },
+  "dependencies": {
+    "preact": "^8.2.5"
+  },
+  "devDependencies": {
+    "@just-boris/preact-scripts": "1.0.7",
+    "prettier": "^1.7.2",
+    "standard": "^10.0.3"
+  }
+}

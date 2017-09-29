@@ -1,9 +1,10 @@
 const fs = require('fs')
+const path = require('path')
 const jsonDiff = require('json-diff')
 const toFileName = require('./toFileName')
 
 function matchSnapshot (endpoint, content) {
-  const filename = './__snapshots__/' + toFileName(endpoint.name)
+  const filename = path.join(__dirname, '/../__snapshots__/' + toFileName(endpoint.name))
 
   if (endpoint.snapshotTransformation) {
     content = endpoint.snapshotTransformation(content)
@@ -20,11 +21,13 @@ function matchSnapshot (endpoint, content) {
   }
 
   const snapshot = JSON.parse(fs.readFileSync(filename, 'utf-8'))
-  const diff = jsonDiff.diffString(snapshot, content, {color: false})
+  const matching = JSON.stringify(snapshot) === JSON.stringify(content)
 
-  if (!diff) {
+  if (matching) {
     return {snapshotValid: true}
   }
+
+  const diff = jsonDiff.diffString(snapshot, content, {color: false})
 
   if (process.env.DEBUG_SNAPSHOTS) {
     console.log('='.repeat(10) + ' ENDPOINT ' + '='.repeat(10))
