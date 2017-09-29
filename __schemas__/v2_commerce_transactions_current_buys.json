@@ -7,28 +7,19 @@
       "id": {
         "type": "number"
       },
-      "current": {
+      "item_id": {
         "type": "number"
       },
-      "max": {
+      "price": {
         "type": "number"
       },
-      "done": {
-        "type": "boolean"
+      "quantity": {
+        "type": "number"
       },
-      "bits": {
-        "type": "array",
-        "items": {
-          "type": "number"
-        }
+      "created": {
+        "type": "string"
       }
-    },
-    "required": [
-      "id",
-      "current",
-      "max",
-      "done"
-    ]
+    }
   },
   "properties": {},
   "additionalProperties": false

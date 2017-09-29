@@ -27,7 +27,9 @@
     },
     "guild_leader": {
       "type": "array",
-      "items": {},
+      "items": {
+        "type": "string"
+      },
       "required": true
     },
     "created": {

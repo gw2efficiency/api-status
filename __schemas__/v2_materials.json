@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "number"
+      },
+      "name": {
+        "type": "string"
+      },
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
+      },
+      "order": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "items",
+      "order"
+    ]
+  },
+  "properties": {},
+  "additionalProperties": false
+}

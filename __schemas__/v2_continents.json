@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "continent_dims": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
+      },
+      "min_zoom": {
+        "type": "number"
+      },
+      "max_zoom": {
+        "type": "number"
+      },
+      "floors": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
+      },
+      "id": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "name",
+      "continent_dims",
+      "min_zoom",
+      "max_zoom",
+      "floors",
+      "id"
+    ]
+  },
+  "properties": {},
+  "additionalProperties": false
+}

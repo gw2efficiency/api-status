@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "number"
+      },
+      "name": {
+        "type": "string"
+      },
+      "icon": {
+        "type": "string"
+      },
+      "unlock_items": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "icon",
+      "unlock_items"
+    ]
+  },
+  "properties": {},
+  "additionalProperties": false
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "swap": {
+        "type": "number"
+      },
+      "heal": {
+        "type": "number"
+      },
+      "elite": {
+        "type": "number"
+      },
+      "utilities": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
+      }
+    },
+    "required": [
+      "id",
+      "swap",
+      "heal",
+      "elite",
+      "utilities"
+    ]
+  },
+  "properties": {},
+  "additionalProperties": false
+}
