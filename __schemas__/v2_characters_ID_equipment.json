@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "equipment": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "slot": {
+            "type": "string"
+          },
+          "binding": {
+            "type": "string"
+          },
+          "bound_to": {
+            "type": "string"
+          },
+          "dyes": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "upgrades": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "charges": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "id",
+          "slot"
+        ]
+      },
+      "required": true
+    }
+  },
+  "additionalProperties": false
+}

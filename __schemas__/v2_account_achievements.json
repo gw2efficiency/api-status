@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "number"
+      },
+      "current": {
+        "type": "number"
+      },
+      "max": {
+        "type": "number"
+      },
+      "done": {
+        "type": "boolean"
+      },
+      "bits": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
+      }
+    },
+    "required": [
+      "id",
+      "current",
+      "max",
+      "done"
+    ]
+  },
+  "properties": {},
+  "additionalProperties": false
+}

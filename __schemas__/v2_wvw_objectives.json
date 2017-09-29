@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "sector_id": {
+        "type": "number"
+      },
+      "type": {
+        "type": "string"
+      },
+      "map_type": {
+        "type": "string"
+      },
+      "map_id": {
+        "type": "number"
+      },
+      "upgrade_id": {
+        "type": "number"
+      },
+      "marker": {
+        "type": "string"
+      },
+      "chat_link": {
+        "type": "string"
+      },
+      "coord": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
+      },
+      "label_coord": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "sector_id",
+      "type",
+      "map_type",
+      "map_id",
+      "marker",
+      "chat_link"
+    ]
+  },
+  "properties": {},
+  "additionalProperties": false
+}

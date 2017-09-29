@@ -1,0 +1,394 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "race": {
+        "type": "string"
+      },
+      "gender": {
+        "type": "string"
+      },
+      "flags": {
+        "type": "array",
+        "items": {}
+      },
+      "profession": {
+        "type": "string"
+      },
+      "level": {
+        "type": "number"
+      },
+      "guild": {
+        "oneOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "string"
+          }
+        ]
+      },
+      "age": {
+        "type": "number"
+      },
+      "created": {
+        "type": "string"
+      },
+      "deaths": {
+        "type": "number"
+      },
+      "crafting": {
+        "type": "array",
+        "items": {}
+      },
+      "backstory": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "wvw_abilities": {
+        "type": "array",
+        "items": {}
+      },
+      "specializations": {
+        "type": "object",
+        "properties": {
+          "pve": {
+            "type": "array",
+            "items": {
+              "type": "null"
+            }
+          },
+          "pvp": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "traits": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                }
+              },
+              "required": [
+                "id",
+                "traits"
+              ]
+            }
+          },
+          "wvw": {
+            "type": "array",
+            "items": {
+              "type": "null"
+            }
+          }
+        }
+      },
+      "skills": {
+        "type": "object",
+        "properties": {
+          "pve": {
+            "type": "object",
+            "properties": {
+              "heal": {
+                "oneOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "required": true
+              },
+              "utilities": {
+                "type": "array",
+                "items": {
+                  "oneOf": [
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "required": true
+              },
+              "elite": {
+                "oneOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "required": true
+              }
+            },
+            "additionalProperties": false,
+            "required": true
+          },
+          "pvp": {
+            "type": "object",
+            "properties": {
+              "heal": {
+                "oneOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "required": true
+              },
+              "utilities": {
+                "type": "array",
+                "items": {
+                  "oneOf": [
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "required": true
+              },
+              "elite": {
+                "oneOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "required": true
+              }
+            },
+            "additionalProperties": false,
+            "required": true
+          },
+          "wvw": {
+            "type": "object",
+            "properties": {
+              "heal": {
+                "oneOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "required": true
+              },
+              "utilities": {
+                "type": "array",
+                "items": {
+                  "oneOf": [
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "required": true
+              },
+              "elite": {
+                "oneOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "required": true
+              }
+            },
+            "additionalProperties": false,
+            "required": true
+          }
+        },
+        "additionalProperties": false,
+        "required": true
+      },
+      "equipment": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "number"
+            },
+            "slot": {
+              "type": "string"
+            },
+            "binding": {
+              "type": "string"
+            },
+            "bound_to": {
+              "type": "string"
+            },
+            "dyes": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "upgrades": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            },
+            "charges": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "id",
+            "slot"
+          ]
+        },
+        "required": true
+      },
+      "recipes": {
+        "type": "array",
+        "items": {}
+      },
+      "equipment_pvp": {
+        "type": "object",
+        "properties": {
+          "amulet": {
+            "type": "number"
+          },
+          "rune": {
+            "type": "number"
+          },
+          "sigils": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          }
+        }
+      },
+      "training": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "number"
+            },
+            "spent": {
+              "type": "number"
+            },
+            "done": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "id",
+            "spent",
+            "done"
+          ]
+        }
+      },
+      "bags": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "number"
+            },
+            "size": {
+              "type": "number"
+            },
+            "inventory": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "number"
+                      },
+                      "count": {
+                        "type": "number"
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "count"
+                    ]
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            }
+          },
+          "required": [
+            "id",
+            "size",
+            "inventory"
+          ]
+        },
+        "required": true
+      }
+    },
+    "required": [
+      "name",
+      "race",
+      "gender",
+      "flags",
+      "profession",
+      "level",
+      "guild",
+      "age",
+      "created",
+      "deaths",
+      "crafting",
+      "backstory",
+      "wvw_abilities",
+      "specializations",
+      "skills",
+      "equipment",
+      "recipes",
+      "equipment_pvp",
+      "training",
+      "bags"
+    ]
+  },
+  "properties": {},
+  "additionalProperties": false
+}
