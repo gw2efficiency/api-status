@@ -5,6 +5,10 @@ const endpoints = require('./_endpoints')
 async function run () {
   fs.mkdirsSync('./__schemas__/')
   fs.mkdirsSync('./__snapshots__/')
+
+  console.log(`> Testing ${endpoints.length} API endpoints`)
+  console.log()
+
   const results = await Promise.all(endpoints.map(testEndpoint))
 
   let possiblyBroken = results.filter(x => x.schemaValid === false || x.snapshotValid === false)
@@ -24,6 +28,7 @@ async function run () {
 
   console.log(`✔️ OK: ${results.length - possiblyBroken.length - definitelyBroken.length} API endpoint(s)`)
   console.log(`✔️ OK: ${results.filter(x => x.snapshotValid).length} matching snapshots`)
+  console.log(`✔️ OK: ${results.filter(x => x.schemaValid).length} matching schemas`)
 }
 
 run()

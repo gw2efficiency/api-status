@@ -25,15 +25,17 @@ function matchSnapshot (endpoint, content) {
     return {snapshotValid: true}
   }
 
-  console.log('='.repeat(10) + ' ENDPOINT ' + '='.repeat(10))
-  console.log(endpoint.url)
-  console.log('='.repeat(10) + ' SNAPSHOT ' + '='.repeat(10))
-  console.log(JSON.stringify(snapshot))
-  console.log('='.repeat(10) + ' CONTENT ' + '='.repeat(10))
-  console.log(JSON.stringify(content))
-  console.log('='.repeat(10) + ' DIFF ' + '='.repeat(10))
-  console.log(diff.trim())
-  console.log()
+  if (process.env.DEBUG_SNAPSHOTS) {
+    console.log('='.repeat(10) + ' ENDPOINT ' + '='.repeat(10))
+    console.log(endpoint.url)
+    console.log('='.repeat(10) + ' SNAPSHOT ' + '='.repeat(10))
+    console.log(JSON.stringify(snapshot))
+    console.log('='.repeat(10) + ' CONTENT ' + '='.repeat(10))
+    console.log(JSON.stringify(content))
+    console.log('='.repeat(10) + ' DIFF ' + '='.repeat(10))
+    console.log(diff.trim())
+    console.log()
+  }
 
   return {
     snapshotValid: false,
