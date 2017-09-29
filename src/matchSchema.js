@@ -12,7 +12,7 @@ function matchSchema (endpoint, content) {
     const result = validate(schema, content)
     if (!result.valid) {
       console.log('Failed training schema for ' + endpoint.name)
-      // console.log(result.errors)
+      console.log(result.errors)
       return {}
     }
 
@@ -21,6 +21,7 @@ function matchSchema (endpoint, content) {
   }
 
   if (!fs.existsSync(filename)) {
+    console.log(`/WARN\\ Missing schema for ${endpoint.name}`)
     return {}
   }
 

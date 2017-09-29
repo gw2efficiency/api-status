@@ -15,6 +15,7 @@ function matchSnapshot (endpoint, content) {
   }
 
   if (!fs.existsSync(filename)) {
+    console.log(`/WARN\\ Missing snapshot for ${endpoint.name}`)
     return {}
   }
 
