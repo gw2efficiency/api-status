@@ -1,0 +1,552 @@
+[
+  {
+    "name": "Obindo.6802",
+    "rank": 1,
+    "date": "2016-07-11T16:27:45Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 49
+      }
+    ]
+  },
+  {
+    "name": "lex.2164",
+    "rank": 2,
+    "date": "2016-07-09T12:21:49Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 46
+      }
+    ]
+  },
+  {
+    "name": "SlaSh.5827",
+    "rank": 3,
+    "date": "2016-07-10T22:01:29Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 32
+      }
+    ]
+  },
+  {
+    "name": "Nina.4317",
+    "rank": 4,
+    "date": "2016-07-11T18:55:14Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 28
+      }
+    ]
+  },
+  {
+    "name": "Wishes.3021",
+    "rank": 4,
+    "date": "2016-07-11T20:31:18Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 28
+      }
+    ]
+  },
+  {
+    "name": "Sauron.9260",
+    "rank": 6,
+    "date": "2016-07-11T19:16:54Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 26
+      }
+    ]
+  },
+  {
+    "name": "Markchuntonov.4367",
+    "rank": 7,
+    "date": "2016-07-10T22:42:29Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 22
+      }
+    ]
+  },
+  {
+    "name": "theend.2137",
+    "rank": 8,
+    "date": "2016-07-10T13:46:17Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 19
+      }
+    ]
+  },
+  {
+    "name": "ImdA.4701",
+    "rank": 9,
+    "date": "2016-07-07T13:14:36Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 18
+      }
+    ]
+  },
+  {
+    "name": "XOMIACHKA.7314",
+    "rank": 10,
+    "date": "2016-07-07T20:46:43Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 16
+      }
+    ]
+  },
+  {
+    "name": "Almogfrd.9270",
+    "rank": 10,
+    "date": "2016-07-11T18:52:35Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 16
+      }
+    ]
+  },
+  {
+    "name": "fauly.1795",
+    "rank": 12,
+    "date": "2016-07-06T17:20:41Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 14
+      }
+    ]
+  },
+  {
+    "name": "Corail.6375",
+    "rank": 12,
+    "date": "2016-07-09T23:32:28Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 14
+      }
+    ]
+  },
+  {
+    "name": "Patrick.2987",
+    "rank": 14,
+    "date": "2016-07-10T16:07:42Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 13
+      }
+    ]
+  },
+  {
+    "name": "Caphalor.5768",
+    "rank": 15,
+    "date": "2016-06-23T12:38:14Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 11
+      }
+    ]
+  },
+  {
+    "name": "dylan.7032",
+    "rank": 15,
+    "date": "2016-07-11T11:29:58Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 11
+      }
+    ]
+  },
+  {
+    "name": "Gottwald.5410",
+    "rank": 15,
+    "date": "2016-07-11T11:40:47Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 11
+      }
+    ]
+  },
+  {
+    "name": "dominik.9721",
+    "rank": 15,
+    "date": "2016-07-11T20:59:00Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 11
+      }
+    ]
+  },
+  {
+    "name": "Quaak.5603",
+    "rank": 19,
+    "date": "2016-06-30T16:26:35Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "name": "Loupay.3916",
+    "rank": 19,
+    "date": "2016-07-05T15:52:33Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "name": "trekon.6752",
+    "rank": 19,
+    "date": "2016-07-10T01:41:23Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "name": "Alcazaro.7618",
+    "rank": 19,
+    "date": "2016-07-11T16:19:47Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "name": "Spakker.9820",
+    "rank": 23,
+    "date": "2016-07-02T17:38:07Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 9
+      }
+    ]
+  },
+  {
+    "name": "REAG.5267",
+    "rank": 23,
+    "date": "2016-07-04T21:57:40Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 9
+      }
+    ]
+  },
+  {
+    "name": "zalcs.9701",
+    "rank": 23,
+    "date": "2016-07-09T17:30:58Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 9
+      }
+    ]
+  },
+  {
+    "name": "Galhaldir.1569",
+    "rank": 23,
+    "date": "2016-07-11T16:19:47Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 9
+      }
+    ]
+  },
+  {
+    "name": "DoktorBaum.3017",
+    "rank": 27,
+    "date": "2016-07-09T12:03:07Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "name": "Metrix.5867",
+    "rank": 27,
+    "date": "2016-07-09T13:56:09Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "name": "NeMeSiS.9154",
+    "rank": 27,
+    "date": "2016-07-09T20:30:00Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "name": "Ptolemaeus.3129",
+    "rank": 27,
+    "date": "2016-07-10T10:37:23Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "name": "Raven.7094",
+    "rank": 31,
+    "date": "2016-07-03T00:55:20Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "name": "Gakeman.5296",
+    "rank": 31,
+    "date": "2016-07-03T15:47:23Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "name": "Sinid.7460",
+    "rank": 31,
+    "date": "2016-07-04T01:13:49Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "name": "Kardulgor.6859",
+    "rank": 31,
+    "date": "2016-07-08T18:45:24Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "name": "Triton.8294",
+    "rank": 31,
+    "date": "2016-07-09T20:30:01Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "name": "jonasdon.1520",
+    "rank": 31,
+    "date": "2016-07-11T11:10:56Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "name": "Trystan.3874",
+    "rank": 31,
+    "date": "2016-07-11T13:04:39Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "name": "Fanessa.8651",
+    "rank": 38,
+    "date": "2016-06-29T18:42:41Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "name": "Puki.6158",
+    "rank": 38,
+    "date": "2016-07-03T18:59:33Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "name": "lossofmotivation.3407",
+    "rank": 38,
+    "date": "2016-07-04T11:06:01Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "name": "Dara Slice.8306",
+    "rank": 38,
+    "date": "2016-07-10T12:56:55Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "name": "aelska.4609",
+    "rank": 38,
+    "date": "2016-07-11T17:04:54Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "name": "Rilauven.4123",
+    "rank": 43,
+    "date": "2016-07-04T15:47:15Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "name": "madchild.2685",
+    "rank": 43,
+    "date": "2016-07-08T10:07:11Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "name": "bluri.2653",
+    "rank": 43,
+    "date": "2016-07-08T19:50:26Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "name": "suffish.4150",
+    "rank": 43,
+    "date": "2016-07-09T13:21:51Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "name": "Rayzen.9406",
+    "rank": 43,
+    "date": "2016-07-10T01:03:46Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "name": "Deathok.2914",
+    "rank": 43,
+    "date": "2016-07-10T09:24:30Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "name": "swissman.3952",
+    "rank": 43,
+    "date": "2016-07-10T13:13:52Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "name": "thijsken.5031",
+    "rank": 43,
+    "date": "2016-07-11T12:40:50Z",
+    "scores": [
+      {
+        "id": "E6487336-4B5B-4BFA-9CFA-9FF232CAEF85",
+        "value": 5
+      }
+    ]
+  }
+]

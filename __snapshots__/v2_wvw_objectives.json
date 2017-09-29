@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1102-104",
+    "name": "Deathless Necropolis",
+    "sector_id": 1325,
+    "type": "Tower",
+    "map_type": "GreenHome",
+    "map_id": 1102,
+    "upgrade_id": 33,
+    "marker": "https://render.guildwars2.com/file/ABEC80C79576A103EA33EC66FCB99B77291A2F0D/102531.png",
+    "chat_link": "[&DGgAAABOBAAA]"
+  },
+  {
+    "id": "968-77",
+    "name": "Inferno's Needle",
+    "sector_id": 1171,
+    "type": "Tower",
+    "map_type": "EdgeOfTheMists",
+    "map_id": 968,
+    "coord": [
+      7527.71,
+      10619.2,
+      -6189.76
+    ],
+    "label_coord": [
+      7481.4,
+      10755.7
+    ],
+    "marker": "https://render.guildwars2.com/file/D73DBE6D90140DC127F1DFBD90ACB77EE8701370/730416.png",
+    "chat_link": "[&DE0AAADIAwAA]"
+  },
+  {
+    "id": "968-97",
+    "name": "Workshop",
+    "sector_id": 1152,
+    "type": "Generic",
+    "map_type": "EdgeOfTheMists",
+    "map_id": 968,
+    "coord": [
+      6850.23,
+      10729.8,
+      -4933.22
+    ],
+    "label_coord": [
+      6900.07,
+      10849.6
+    ],
+    "marker": "https://render.guildwars2.com/file/B34C2E3D0F34FD03F44BB5ED4E18DCDD0059A5C4/730429.png",
+    "chat_link": "[&DGEAAADIAwAA]"
+  }
+]

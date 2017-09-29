@@ -1,0 +1,77 @@
+[
+  {
+    "id": 39,
+    "name": "Curses",
+    "profession": "Necromancer",
+    "elite": false,
+    "minor_traits": [
+      802,
+      803,
+      810
+    ],
+    "major_traits": [
+      1883,
+      2013,
+      815,
+      816,
+      1693,
+      812,
+      813,
+      1696,
+      801
+    ],
+    "icon": "https://render.guildwars2.com/file/C8E1A81601C3D5AC10285505E9F730621C3357CD/1012007.png",
+    "background": "https://render.guildwars2.com/file/71E7075E1AC9460AA507A630B54D1395DA465B2D/1012065.png"
+  },
+  {
+    "id": 55,
+    "name": "Soulbeast",
+    "profession": "Ranger",
+    "elite": true,
+    "minor_traits": [
+      2151,
+      2156,
+      2127
+    ],
+    "major_traits": [
+      2134,
+      2071,
+      2072,
+      2119,
+      2085,
+      2161,
+      2155,
+      2128,
+      2143
+    ],
+    "weapon_trait": 2088,
+    "icon": "https://render.guildwars2.com/file/0AA4A2C62C4F2D0E0D59DBEE9C63EB4AF472F0C5/1769893.png",
+    "background": "https://render.guildwars2.com/file/D624537D6B50C90B2A329EB16CF8911BDD4C0107/1769902.png",
+    "profession_icon_big": "https://render.guildwars2.com/file/7257FBD9A35002DC5155062773D305353AF45E2F/1770214.png",
+    "profession_icon": "https://render.guildwars2.com/file/F80AC2AFAAF55C0F7F012C7EBECC90FD01F27FE9/1770215.png"
+  },
+  {
+    "id": 36,
+    "name": "Arms",
+    "profession": "Warrior",
+    "elite": false,
+    "minor_traits": [
+      1342,
+      1343,
+      1337
+    ],
+    "major_traits": [
+      1455,
+      1344,
+      1334,
+      1315,
+      1316,
+      1333,
+      1336,
+      1346,
+      1707
+    ],
+    "icon": "https://render.guildwars2.com/file/03754E10970D0C68D76A1955245D7CB39AA21E59/1012029.png",
+    "background": "https://render.guildwars2.com/file/0A08B2DC35C8D22CC07B9F4C9023F7E9734C1B27/1012105.png"
+  }
+]

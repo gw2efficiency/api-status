@@ -1,0 +1,102 @@
+[
+  {
+    "id": 100,
+    "name": "+5% Gold from Kills Banner",
+    "description": "Spawns a guild banner that will give +5% boost to gold earned from monster kills for any ally that touches it for 30 minutes. Does not stack with other gold banners.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/C24C03C80347A8981132A43E2DF35EBBD6A403EE/1202589.png",
+    "type": "Consumable",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 300,
+        "name": "Guild Favor",
+        "item_id": 70701
+      }
+    ]
+  },
+  {
+    "id": 572,
+    "name": "Scribing: Guild Flame Ram",
+    "description": "Craft schematics to manufacture WvW flame rams that cost less supply to place.",
+    "build_time": 0,
+    "icon": "https://render.guildwars2.com/file/03C7F9AFFD325E5C54B801A3DC111CE56EC9D7E6/1228601.png",
+    "type": "Unlock",
+    "required_level": 26,
+    "experience": 35,
+    "prerequisites": [
+      256
+    ],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 300,
+        "name": "Guild Favor",
+        "item_id": 70701
+      },
+      {
+        "type": "Item",
+        "count": 50,
+        "name": "Sheet of Fine Paper",
+        "item_id": 70714
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Cured Thick Leather Square",
+        "item_id": 19735
+      },
+      {
+        "type": "Item",
+        "count": 75,
+        "name": "Flame Ram Blueprints",
+        "item_id": 21161
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Elder Wood Plank",
+        "item_id": 19709
+      },
+      {
+        "type": "Item",
+        "count": 100,
+        "name": "Mithril Ingot",
+        "item_id": 19684
+      },
+      {
+        "type": "Item",
+        "count": 5,
+        "name": "Molten Lodestone",
+        "item_id": 24315
+      },
+      {
+        "type": "Currency",
+        "count": 2000,
+        "name": "Aetherium"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "+10% Magic Find Banner",
+    "description": "Spawns a guild banner that will give +10% magic find to any ally that touches it for 30 minutes. Stacks with other loot buffs.",
+    "build_time": 30,
+    "icon": "https://render.guildwars2.com/file/ABE3B31A04EA643231CE008038293B7268EECBDA/1202631.png",
+    "type": "Consumable",
+    "required_level": 0,
+    "experience": 0,
+    "prerequisites": [],
+    "costs": [
+      {
+        "type": "Collectible",
+        "count": 300,
+        "name": "Guild Favor",
+        "item_id": 70701
+      }
+    ]
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "type": "Focus",
+    "output_item_id": 13947,
+    "output_item_count": 1,
+    "min_rating": 250,
+    "time_to_craft_ms": 1000,
+    "disciplines": [
+      "Artificer"
+    ],
+    "flags": [],
+    "ingredients": [
+      {
+        "item_id": 19840,
+        "count": 1
+      },
+      {
+        "item_id": 13246,
+        "count": 1
+      },
+      {
+        "item_id": 12985,
+        "count": 1
+      }
+    ],
+    "id": 4023,
+    "chat_link": "[&CbcPAAA=]"
+  },
+  {
+    "type": "Helm",
+    "output_item_id": 71870,
+    "output_item_count": 1,
+    "min_rating": 500,
+    "time_to_craft_ms": 1000,
+    "disciplines": [
+      "Armorsmith"
+    ],
+    "flags": [
+      "LearnedFromItem"
+    ],
+    "ingredients": [
+      {
+        "item_id": 49523,
+        "count": 1
+      },
+      {
+        "item_id": 46725,
+        "count": 1
+      },
+      {
+        "item_id": 72689,
+        "count": 1
+      },
+      {
+        "item_id": 70548,
+        "count": 1
+      }
+    ],
+    "id": 11231,
+    "chat_link": "[&Cd8rAAA=]"
+  },
+  {
+    "type": "LegendaryComponent",
+    "output_item_id": 76292,
+    "output_item_count": 1,
+    "min_rating": 500,
+    "time_to_craft_ms": 5000,
+    "disciplines": [
+      "Leatherworker",
+      "Armorsmith",
+      "Tailor",
+      "Artificer",
+      "Weaponsmith",
+      "Huntsman"
+    ],
+    "flags": [
+      "LearnedFromItem"
+    ],
+    "ingredients": [
+      {
+        "item_id": 46746,
+        "count": 1
+      },
+      {
+        "item_id": 38014,
+        "count": 5
+      },
+      {
+        "item_id": 24277,
+        "count": 10
+      }
+    ],
+    "id": 10947,
+    "chat_link": "[&CcMqAAA=]"
+  }
+]

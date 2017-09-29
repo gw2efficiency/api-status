@@ -1,0 +1,38 @@
+[
+  {
+    "id": 36,
+    "name": "Juvenile Black Widow Spider",
+    "description": "The black widow is the rarest variety of spider. Like other spiders, they can throw poison and spin webs to immobilize their foes. Black widows can also use a special poison that paralyzes foes in their tracks. —Acht",
+    "icon": "https://render.guildwars2.com/file/07EA03060306A6D95752C70CA7D8931420069B0D/52604.png",
+    "skills": [
+      {
+        "id": 12729
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Juvenile Red Jellyfish",
+    "description": "Jellyfish can release a variety of clouds in the water to replenish themselves and disorient their enemies. Their tentacles immobilize their prey by disrupting their nervous system. —Acht",
+    "icon": "https://render.guildwars2.com/file/C7F8301C1B76B3B208A23B19C3AABF0BBED8CA4C/52616.png",
+    "skills": [
+      {
+        "id": 12749
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Juvenile Murellow",
+    "description": "The elusive murellow's body courses with poisons, giving it a sickly appearance and causing its hair to fall out. Despite its gaunt frame, it is a fierce protector, spitting clouds of poison as it shrugs off attacks. —Acht",
+    "icon": "https://render.guildwars2.com/file/4AA07A3721C4050A92A9EA4D905366303E5AF4D4/52572.png",
+    "skills": [
+      {
+        "id": 12687
+      },
+      {
+        "id": 12690
+      }
+    ]
+  }
+]

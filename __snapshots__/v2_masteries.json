@@ -1,0 +1,160 @@
+[
+  {
+    "id": 1,
+    "name": "Exalted Lore",
+    "requirement": "Journey to Auric Basin to unlock the Exalted Lore Mastery track.",
+    "order": 2,
+    "background": "https://render.guildwars2.com/file/4E09B60E16E6A7404B0638A00D0C6A02F7294308/1228720.png",
+    "region": "Maguuma",
+    "levels": [
+      {
+        "name": "Exalted Markings",
+        "description": "Gain the knowledge to read Exalted markings. You can now decipher their words and gain access to secrets of their civilization.",
+        "instruction": "You can now interact with Exalted artifacts found in Auric Basin and the greater Maguuma Jungle.",
+        "icon": "https://render.guildwars2.com/file/7372DCB5085D75F672B50CB8F3577373B8F90468/1228654.png",
+        "point_cost": 1,
+        "exp_cost": 508000
+      },
+      {
+        "name": "Exalted Acceptance",
+        "description": "Gain the trust of the strange and mysterious Exalted, giving you access to their services in the Forgotten City.",
+        "instruction": "You can now trade with the Exalted and their representatives. Mastery vendors can be found across the Maguuma Jungle and are marked by Mastery icons on the map.",
+        "icon": "https://render.guildwars2.com/file/39DBD70271A074DCD6B1EAE1D639BD4D36765EC4/1228651.png",
+        "point_cost": 2,
+        "exp_cost": 1016000
+      },
+      {
+        "name": "Exalted Assistance",
+        "description": "Learn to use Exalted Recall devices found in the Maguuma Jungle to summon an Exalted warrior to fight for a short while.",
+        "instruction": "You can interact with Exalted recall devices, summoning a helpful Exalted ally or enhancing the power of an already summoned ally.",
+        "icon": "https://render.guildwars2.com/file/B9B7E50E29F554570E63945249002FC6B64C7FFB/1228652.png",
+        "point_cost": 3,
+        "exp_cost": 1778000
+      },
+      {
+        "name": "Exalted Purification",
+        "description": "Become honored among the Exalted by challenging their champion each day, and unlock their finest treasures within the Forgotten City.",
+        "instruction": "You can now fight the Tarnished Traitor found below the Forgotten City. Defeating the Tarnished Traitor will give you access to a reward chest once per day.",
+        "icon": "https://render.guildwars2.com/file/EE132C76A52AC66D0211CED63E74F64B7F4AFB34/1228655.png",
+        "point_cost": 5,
+        "exp_cost": 2540000
+      },
+      {
+        "name": "Exalted Gathering",
+        "description": "Learn from the Exalted how to gather rare materials around the Maguuma Jungle. Learn to mine up Auric Slivers from ore nodes in Auric Basin.",
+        "instruction": "When mining ore while in Auric Basin, you will gain Auric Slivers in addition to normal materials. You also have a chance to mine special items from ore nodes all around the Heart of Maguuma.",
+        "icon": "https://render.guildwars2.com/file/324312530AA1A427AB0951D0BFBC92C4B69774D6/1228653.png",
+        "point_cost": 8,
+        "exp_cost": 3302000
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Itzel Lore",
+    "requirement": "Train Basic Gliding in the Gliding Mastery track to unlock the Itzel Lore Mastery track.",
+    "order": 1,
+    "background": "https://render.guildwars2.com/file/F2ED9E6B330AA015B8AD06FF222715284E1BC622/1228723.png",
+    "region": "Maguuma",
+    "levels": [
+      {
+        "name": "Bouncing Mushrooms",
+        "description": "Learn how to land precisely and use the bouncing mushrooms found around the Heart of Maguuma to get to places previously impossible to reach.",
+        "instruction": "Bouncing mushrooms can be found all over the Heart of Maguuma. Jump on top of bouncing mushrooms to spring into the air.",
+        "icon": "https://render.guildwars2.com/file/C1D5574EF6B9B4CC7AB7EC3600993698D39BF975/1228645.png",
+        "point_cost": 1,
+        "exp_cost": 508000
+      },
+      {
+        "name": "Itzel Language",
+        "description": "Learn the difficult dialect of the Itzel, endearing yourself to the local Itzel and gaining access to vendors with exclusive wares.",
+        "instruction": "You can now trade with the Itzel. Mastery vendors can be found across the Maguuma Jungle and are marked by Mastery icons on the map.",
+        "icon": "https://render.guildwars2.com/file/68B5A54FEC5F3C7763C5BDD12C0296942ABB0BB2/1228660.png",
+        "point_cost": 2,
+        "exp_cost": 1016000
+      },
+      {
+        "name": "Blazing Speed Mushrooms",
+        "description": "With stomach training, learn to ingest the speed-increasing mushrooms found scattered in the Heart of Maguuma. Run at blazing speeds with the help of nature!",
+        "instruction": "Blazing-speed mushrooms can be found all over the Heart of Maguuma. Simply move near or through a blazing-speed mushroom to get a speed boost.",
+        "icon": "https://render.guildwars2.com/file/C2609360DCF254E70C023517E27375AB0FA32236/1228644.png",
+        "point_cost": 3,
+        "exp_cost": 1778000
+      },
+      {
+        "name": "Itzel Poison Lore",
+        "description": "Learn about Itzel poisons, and gain the ability to pass through poisonous Mordrem vines and withstand poison hazes that exist in Maguuma.",
+        "instruction": "You can now enter poison haze areas and pass through poisonous Mordrem vines without taking damage.",
+        "icon": "https://render.guildwars2.com/file/4D2F77BE539B0F065B97C8B007E8D7324DA40D3C/1228662.png",
+        "point_cost": 5,
+        "exp_cost": 2540000
+      },
+      {
+        "name": "Itzel Leadership",
+        "description": "Carefully study the Itzel fighting style and then challenge their enemy's champion to claim a valuable daily prize.",
+        "instruction": "You can now fight Mayatl the Fierce by speaking to the Itzel bladedancer outside the Jaka Itzel village. Defeating this champion gives you access to a reward chest once per day.",
+        "icon": "https://render.guildwars2.com/file/0735EF06110A01EF69C2710EA1390A45EBE57232/1228661.png",
+        "point_cost": 8,
+        "exp_cost": 3302000
+      },
+      {
+        "name": "Adrenal Mushrooms",
+        "description": "Learning to eat these mushrooms tweaks your adrenal glands, giving you a surge of adrenaline and instantly refreshing your skills.",
+        "instruction": "Adrenal mushrooms can be found rarely in the Heart of Maguuma. Simply move near or pass through adrenal mushrooms to have all your skills instantly refreshed.",
+        "icon": "https://render.guildwars2.com/file/EB50DAD5409C937CD17A0A216A7B3E04E0C25307/1228643.png",
+        "point_cost": 12,
+        "exp_cost": 4318000
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Pact Commander",
+    "requirement": "",
+    "order": 0,
+    "background": "https://render.guildwars2.com/file/65DE3662C705233AC1073EF297B15AADD7A8A644/1228718.png",
+    "region": "Tyria",
+    "levels": [
+      {
+        "name": "Pact Mentor",
+        "description": "Learn to be a mentor to the heroes of Tyria, gaining a special Mentoring Badge, chat title, and swiftness for you and your party in all cities.",
+        "instruction": "You can now use the Mentoring Badge accessible in the Party menu and the Mentor chat title activated through the mentor slash command. Your party now has a permanent  5% swiftness bonus in cities.",
+        "icon": "https://render.guildwars2.com/file/D32A52F4E1EB3EC57D035531A31BE217E63DC0F8/1228648.png",
+        "point_cost": 1,
+        "exp_cost": 635000
+      },
+      {
+        "name": "Productive Downtime",
+        "description": "Learn to be more efficient and gain bonus experience when crafting.",
+        "instruction": "You now gain a bonus 10% experience from all crafting that grants experience. You also have a 10% higher chance of critical bonus crafting experience.",
+        "icon": "https://render.guildwars2.com/file/0BCD77C3BF1BFD54162C992EDBF04209B653B865/1228649.png",
+        "point_cost": 2,
+        "exp_cost": 1270000
+      },
+      {
+        "name": "Supply Line Management",
+        "description": "Gain access to a network of regional merchants across Tyria with a limited supply of rare goods for trade, and increase your party's swiftness bonus in cities to 15%.",
+        "instruction": "You can now trade with the Pact Supply Network Agents who travel across Central Tyria. You can purchase one item from each agent each day in exchange for karma. Your party now has a permanent 15% swiftness bonus while in cities.",
+        "icon": "https://render.guildwars2.com/file/4E43E92F349620FA060ABF9A3BC052657F7EC35A/1228650.png",
+        "point_cost": 3,
+        "exp_cost": 2222500
+      },
+      {
+        "name": "Noblesse Oblige",
+        "description": "Learn to revive your allies faster and with less penalties.",
+        "instruction": "You can now revive allied players faster and remove durability and downed penalties on a successful revive. The speed of your revive is increased more when the level of the character being revived is lower than your own.",
+        "icon": "https://render.guildwars2.com/file/EC25C613ED2A35DB4256F0DF4A5F19389765D8E6/1228647.png",
+        "point_cost": 5,
+        "exp_cost": 3175000
+      },
+      {
+        "name": "Advanced Logistics",
+        "description": "Learn to automatically pick up loot from fallen foes and gain a greater swiftness bonus for your party in cities.",
+        "instruction": "You now have the option to have loot from creatures you defeat be deposited automatically into your inventory. This ability can be turned off in the Options menu. Your party now has a permanent 33% swiftness bonus in cities.",
+        "icon": "https://render.guildwars2.com/file/A41824167F010C0667B3F697DE03E132BD01ED01/1228646.png",
+        "point_cost": 8,
+        "exp_cost": 4127500
+      }
+    ]
+  }
+]

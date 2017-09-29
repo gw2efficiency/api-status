@@ -1,0 +1,29 @@
+{
+  "pvp_rank": 1,
+  "pvp_rank_points": 500,
+  "pvp_rank_rollovers": 0,
+  "aggregate": {
+    "wins": 0,
+    "losses": 0,
+    "desertions": 0,
+    "byes": 0,
+    "forfeits": 0
+  },
+  "professions": {},
+  "ladders": {
+    "ranked": {
+      "wins": 0,
+      "losses": 0,
+      "desertions": 0,
+      "byes": 0,
+      "forfeits": 0
+    },
+    "unranked": {
+      "wins": 0,
+      "losses": 0,
+      "desertions": 0,
+      "byes": 0,
+      "forfeits": 0
+    }
+  }
+}

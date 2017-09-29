@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1832,
+    "tier": 2,
+    "order": 2,
+    "name": "Takedown Round",
+    "description": "Striking a foe above the health threshold places a delayed explosive charge on them.",
+    "slot": "Major",
+    "facts": [
+      {
+        "text": "Recharge",
+        "type": "Recharge",
+        "icon": "https://render.guildwars2.com/file/D767B963D120F077C3B163A05DC05A7317D7DB70/156651.png",
+        "value": 10
+      },
+      {
+        "text": "Percent",
+        "type": "Percent",
+        "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+        "percent": 50
+      }
+    ],
+    "skills": [
+      {
+        "name": "Long-Fused Powder Pack",
+        "facts": [
+          {
+            "text": "Radius",
+            "type": "Distance",
+            "icon": "https://render.guildwars2.com/file/B0CD8077991E4FB1622D2930337ED7F9B54211D5/156665.png",
+            "distance": 240
+          },
+          {
+            "text": "Number of Targets",
+            "type": "Number",
+            "icon": "https://render.guildwars2.com/file/BBE8191A494B0352259C10EADFDACCE177E6DA5B/1770208.png",
+            "value": 5
+          },
+          {
+            "text": "Damage",
+            "type": "Damage",
+            "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
+            "hit_count": 1,
+            "dmg_multiplier": 1.5
+          },
+          {
+            "text": "Explosion Delay",
+            "type": "Time",
+            "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+            "duration": 1
+          },
+          {
+            "text": "Explosion",
+            "type": "NoData",
+            "icon": "https://render.guildwars2.com/file/450630987A0566D4A7A491EDA4DCDF57D9396854/1770203.png"
+          }
+        ],
+        "description": "Drop a delayed explosive pack at your foe's location.",
+        "icon": "https://render.guildwars2.com/file/FF66C9731A6BC608AB185F98BE5F07E43AEACD36/103534.png",
+        "flags": [],
+        "id": 30686,
+        "chat_link": "[&Bt53AAA=]",
+        "traited_facts": [
+          {
+            "text": "Apply Buff/Condition",
+            "type": "Buff",
+            "icon": "https://render.guildwars2.com/file/3A394C1A0A3257EB27A44842DDEEF0DF000E1241/102850.png",
+            "duration": 5,
+            "status": "Vulnerability",
+            "description": "Damage and condition damage taken are increased; stacks intensity.",
+            "apply_count": 1,
+            "requires_trait": 517
+          }
+        ]
+      }
+    ],
+    "specialization": 21,
+    "icon": "https://render.guildwars2.com/file/C24DFF8043B5D202E97C059BCBACD5B1F055C950/1012383.png"
+  },
+  {
+    "id": 1859,
+    "tier": 3,
+    "order": 0,
+    "name": "Time Marches On",
+    "description": "You move 25% faster. The duration of incoming movement-impairing conditions is reduced by 25%.",
+    "slot": "Minor",
+    "facts": [
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/070325E519C178D502A8160523766070D30C0C19/102838.png",
+        "duration": 0,
+        "status": "Crippled",
+        "description": "Movement speed decreased by 50%; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/28C4EC547A3516AF0242E826772DA43A5EAC3DF3/102839.png",
+        "duration": 0,
+        "status": "Chilled",
+        "description": "Movement speed decreased by 66%; skill cooldown increased by 66%; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/397A613651BFCA2832B6469CE34735580A2C120E/102844.png",
+        "duration": 0,
+        "status": "Immobile",
+        "description": "Unable to move; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Movement Speed Increase",
+        "type": "Percent",
+        "icon": "https://render.guildwars2.com/file/9352ED3244417304995F26CB01AE76BB7E547052/156661.png",
+        "percent": 25
+      },
+      {
+        "text": "Duration Decreased",
+        "type": "Percent",
+        "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+        "percent": 25
+      }
+    ],
+    "specialization": 40,
+    "icon": "https://render.guildwars2.com/file/D343AA7E530448F37B20936FCD3163C9BF2CE665/1012485.png"
+  },
+  {
+    "id": 674,
+    "tier": 3,
+    "order": 1,
+    "name": "Prismatic Understanding",
+    "description": "Increased stealth duration from mesmer skills. Gain random boons while you are in stealth.",
+    "slot": "Major",
+    "facts": [
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/DFB4D1B50AE4D6A275B349E15B179261EE3EB0AF/102854.png",
+        "duration": 3,
+        "status": "Aegis",
+        "description": "Block the next incoming attack; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/CD77D1FAB7B270223538A8F8ECDA1CFB044D65F4/102834.png",
+        "duration": 3,
+        "status": "Protection",
+        "description": "Incoming damage decreased by 33%; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/F69996772B9E18FD18AD0AABAB25D7E3FC42F261/102835.png",
+        "duration": 3,
+        "status": "Regeneration",
+        "description": "Gain health every second; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
+        "duration": 5,
+        "status": "Might",
+        "description": "Increased outgoing damage; stacks intensity.",
+        "apply_count": 1
+      },
+      {
+        "text": "Apply Buff/Condition",
+        "type": "Buff",
+        "icon": "https://render.guildwars2.com/file/20CFC14967E67F7A3FD4A4B8722B4CF5B8565E11/102836.png",
+        "duration": 3,
+        "status": "Swiftness",
+        "description": "Movement speed increased by 33%; stacks duration.",
+        "apply_count": 1
+      },
+      {
+        "text": "Interval",
+        "type": "Time",
+        "icon": "https://render.guildwars2.com/file/B75E91EB22E0DFCC1D08030204055946506D56F6/1770206.png",
+        "duration": 1
+      },
+      {
+        "text": "Duration Increase",
+        "type": "Percent",
+        "icon": "https://render.guildwars2.com/file/7B2193ACCF77E56C13E608191B082D68AA0FAA71/156659.png",
+        "percent": 50
+      }
+    ],
+    "specialization": 45,
+    "icon": "https://render.guildwars2.com/file/41F5AC92387E4CCAF30628E0A5FDB37FB5F50B34/1012469.png"
+  }
+]

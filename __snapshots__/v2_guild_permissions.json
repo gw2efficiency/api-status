@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ClaimableActivate",
+    "name": "Activate Claimable Tactics",
+    "description": "Allowed to activate upgrades at a claimable."
+  },
+  {
+    "id": "EditRoles",
+    "name": "Edit Ranks",
+    "description": "Create, delete, and edit the properties of ranks lower than this one."
+  },
+  {
+    "id": "SetGuildHall",
+    "name": "Claim Guild Hall",
+    "description": "Claim a new guild hall for your guild."
+  }
+]

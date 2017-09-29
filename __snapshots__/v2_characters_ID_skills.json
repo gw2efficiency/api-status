@@ -1,0 +1,31 @@
+{
+  "skills": {
+    "pve": {
+      "heal": 5569,
+      "utilities": [
+        5734,
+        null,
+        null
+      ],
+      "elite": null
+    },
+    "pvp": {
+      "heal": 5503,
+      "utilities": [
+        null,
+        null,
+        null
+      ],
+      "elite": null
+    },
+    "wvw": {
+      "heal": 5503,
+      "utilities": [
+        null,
+        null,
+        null
+      ],
+      "elite": null
+    }
+  }
+}

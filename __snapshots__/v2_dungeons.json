@@ -1,0 +1,65 @@
+[
+  {
+    "id": "citadel_of_flame",
+    "paths": [
+      {
+        "id": "cof_story",
+        "type": "Story"
+      },
+      {
+        "id": "ferrah",
+        "type": "Explorable"
+      },
+      {
+        "id": "magg",
+        "type": "Explorable"
+      },
+      {
+        "id": "rhiannon",
+        "type": "Explorable"
+      }
+    ]
+  },
+  {
+    "id": "twilight_arbor",
+    "paths": [
+      {
+        "id": "ta_story",
+        "type": "Story"
+      },
+      {
+        "id": "leurent",
+        "type": "Explorable"
+      },
+      {
+        "id": "vevina",
+        "type": "Explorable"
+      },
+      {
+        "id": "aetherpath",
+        "type": "Explorable"
+      }
+    ]
+  },
+  {
+    "id": "crucible_of_eternity",
+    "paths": [
+      {
+        "id": "coe_story",
+        "type": "Story"
+      },
+      {
+        "id": "submarine",
+        "type": "Explorable"
+      },
+      {
+        "id": "teleporter",
+        "type": "Explorable"
+      },
+      {
+        "id": "front_door",
+        "type": "Explorable"
+      }
+    ]
+  }
+]

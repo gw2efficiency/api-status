@@ -1,0 +1,29 @@
+{
+  "level": 0,
+  "motd": "cooler dove honour dolphin messy yacht wisteria utopia ramadan foment",
+  "influence": 0,
+  "aetherium": 0,
+  "resonance": 0,
+  "favor": 0,
+  "member_count": 1,
+  "member_capacity": 50,
+  "id": "14762DCE-C2A4-E711-80D5-441EA14F1E44",
+  "name": "Lqibzzexgvkikpydotxsvijehyhexd",
+  "tag": "LQIb",
+  "emblem": {
+    "background": {
+      "id": 4,
+      "colors": [
+        473
+      ]
+    },
+    "foreground": {
+      "id": 4,
+      "colors": [
+        584,
+        340
+      ]
+    },
+    "flags": []
+  }
+}

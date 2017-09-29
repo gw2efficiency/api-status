@@ -1,0 +1,33 @@
+[
+  {
+    "id": 30,
+    "name": "Paladin Amulet",
+    "icon": "https://render.guildwars2.com/file/690CCB0FF13943ABD065CECC056B9F439F12963F/1341199.png",
+    "attributes": {
+      "Power": 1050,
+      "Precision": 1050,
+      "Toughness": 560,
+      "Vitality": 560
+    }
+  },
+  {
+    "id": 13,
+    "name": "Rabid Amulet",
+    "icon": "https://render.guildwars2.com/file/090C47B6BFC5F70B5BA83D3B0F4630A51F07ED34/220642.png",
+    "attributes": {
+      "ConditionDamage": 1200,
+      "Precision": 900,
+      "Toughness": 900
+    }
+  },
+  {
+    "id": 5,
+    "name": "Cavalier Amulet",
+    "icon": "https://render.guildwars2.com/file/A0971CBC0EB8D8D51A7F0EFE6092B8713171DDF6/543914.png",
+    "attributes": {
+      "Toughness": 1200,
+      "Power": 900,
+      "CritDamage": 900
+    }
+  }
+]

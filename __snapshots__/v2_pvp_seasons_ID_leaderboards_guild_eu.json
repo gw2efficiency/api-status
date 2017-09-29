@@ -1,0 +1,1068 @@
+[
+  {
+    "name": "Make Pvp Great Again",
+    "id": "7D608B72-9AFD-E511-80D3-AC162DC085C0",
+    "team": "Triple Q",
+    "team_id": 20,
+    "rank": 1,
+    "date": "2016-07-11T11:48:39Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1736
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 64
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "name": "How Can You Be So Bad At This",
+    "id": "C21EBC70-04EE-E511-80D3-E4115BD7B405",
+    "team": "We Premade In Sapphire With Ts",
+    "team_id": 4,
+    "rank": 2,
+    "date": "2016-07-10T16:25:08Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1688
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 53
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "name": "Bowscoped",
+    "id": "3DD4A8AB-A1E0-E511-80D3-E4115BD7186D",
+    "team": "Jedis From Kryta",
+    "team_id": 5,
+    "rank": 3,
+    "date": "2016-07-11T20:31:18Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1678
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 35
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Beyond The Wall",
+    "id": "E55FDF7C-1C36-44F4-9D25-D756A2467481",
+    "team": "Feast For Crows",
+    "team_id": 3,
+    "rank": 4,
+    "date": "2016-07-10T23:33:24Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1630
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 93
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 18
+      }
+    ]
+  },
+  {
+    "name": "Pandapocalypse",
+    "id": "0D00FBA6-1ACB-E411-A3E6-AC162DC0E835",
+    "team": "Panda",
+    "team_id": 10,
+    "rank": 5,
+    "date": "2016-07-11T18:31:25Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1608
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 67
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Only Who Is Left",
+    "id": "CBEC4EA6-03D2-E411-AEFB-AC162DC05865",
+    "team": "May The Bridges I Burn",
+    "team_id": 11,
+    "rank": 6,
+    "date": "2016-07-11T19:30:00Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1489
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 17
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "name": "Make Pvp Great Again",
+    "id": "7D608B72-9AFD-E511-80D3-AC162DC085C0",
+    "team": "Bloody Ernst",
+    "team_id": 18,
+    "rank": 7,
+    "date": "2016-07-11T14:30:44Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1477
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 26
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "name": "Big Black Crabs From Underworld",
+    "id": "2A1F1343-A460-4CB2-8B89-657182877ADB",
+    "team": "Mad Crab",
+    "team_id": 2,
+    "rank": 8,
+    "date": "2016-07-11T00:00:16Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1469
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 16
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "name": "Keep Calm And Carry",
+    "id": "1CE657C0-D911-E411-8577-AC162DC028B5",
+    "rank": 9,
+    "date": "2016-07-09T01:02:01Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1446
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 12
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Lost In Gandara",
+    "id": "4965DCE5-1BEF-40E2-84B0-2E3DEF6C4E94",
+    "rank": 10,
+    "date": "2016-07-11T21:18:50Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1443
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 13
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Aiwe",
+    "id": "15033345-333E-4669-B124-0BAD77787ED9",
+    "team": "Kill Them Aiwe",
+    "team_id": 29,
+    "rank": 11,
+    "date": "2016-07-11T21:49:40Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1424
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 16
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "name": "Make Pvp Great Again",
+    "id": "7D608B72-9AFD-E511-80D3-AC162DC085C0",
+    "team": "Sweg Team Of Doom",
+    "team_id": 22,
+    "rank": 12,
+    "date": "2016-07-11T00:16:47Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1423
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 9
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "Legendary Wanted",
+    "id": "19A53819-3E09-E511-A278-AC162DC0070D",
+    "rank": 13,
+    "date": "2016-07-11T21:46:16Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1408
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 22
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "name": "Shadows Of The North",
+    "id": "FF88B06A-B030-405D-8AA7-C4CF8C138955",
+    "rank": 14,
+    "date": "2016-07-09T22:06:15Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1408
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 11
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Die Wächter Der Heiligen Träne",
+    "id": "65D3996D-315E-E411-925A-AC162DAE5AD5",
+    "team": "Die Lootlegion",
+    "team_id": 4,
+    "rank": 15,
+    "date": "2016-07-10T20:15:19Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1403
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 11
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Trupp Blutfeuer",
+    "id": "D4BBAC5D-9414-4BE3-ABCA-7257E4A69824",
+    "team": "Wattebausch",
+    "team_id": 42,
+    "rank": 16,
+    "date": "2016-07-11T00:29:48Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1400
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 11
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Aiwe",
+    "id": "15033345-333E-4669-B124-0BAD77787ED9",
+    "rank": 17,
+    "date": "2016-07-11T16:07:04Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1395
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 31
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 19
+      }
+    ]
+  },
+  {
+    "name": "Aiwe",
+    "id": "15033345-333E-4669-B124-0BAD77787ED9",
+    "rank": 18,
+    "date": "2016-07-11T18:01:50Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1394
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 11
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "name": "Keep Calm And Carry",
+    "id": "1CE657C0-D911-E411-8577-AC162DC028B5",
+    "rank": 19,
+    "date": "2016-07-10T23:20:25Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1387
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 5
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "name": "Une Bonne Auberge",
+    "id": "9BE555B7-3D31-4444-AB21-C74AB4BD3C2B",
+    "team": "Ultra Bonne Ambiance",
+    "team_id": 8,
+    "rank": 19,
+    "date": "2016-07-11T21:39:07Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1387
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 5
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "name": "Legacy Of The Six",
+    "id": "FF509111-AF73-4D0C-9193-AAEE7DCEFA41",
+    "team": "Copper Sellers",
+    "team_id": 8,
+    "rank": 21,
+    "date": "2016-07-09T22:47:41Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1386
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 19
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 11
+      }
+    ]
+  },
+  {
+    "name": "Youcanrunbutyoucant",
+    "id": "D241A6CB-8E66-4A84-BF10-8AB75A8C9423",
+    "team": "Club Erotica",
+    "team_id": 1,
+    "rank": 22,
+    "date": "2016-07-10T16:55:07Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1386
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 13
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "name": "Snow Kitties",
+    "id": "41256580-1BDF-E511-80D3-E4115BD7B405",
+    "team": "Kitty On Esporst Sky",
+    "team_id": 6,
+    "rank": 23,
+    "date": "2016-07-11T00:00:18Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1386
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 11
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "name": "Keep Calm And Carry",
+    "id": "1CE657C0-D911-E411-8577-AC162DC028B5",
+    "team": "Wombocombo",
+    "team_id": 6,
+    "rank": 24,
+    "date": "2016-07-10T00:46:27Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1386
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 7
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Une Bonne Auberge",
+    "id": "9BE555B7-3D31-4444-AB21-C74AB4BD3C2B",
+    "team": "Une Bonne Année",
+    "team_id": 2,
+    "rank": 25,
+    "date": "2016-07-11T21:20:34Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1384
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 7
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name": "Your Warm Cozy Home",
+    "id": "9D5417AE-1DD8-E511-80D3-E4115BD7186D",
+    "rank": 26,
+    "date": "2016-07-10T00:00:17Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1384
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 5
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Colorforce To The",
+    "id": "C3D59015-7DB0-4E89-AD20-53873C0E4A4D",
+    "team": "Glitterforce",
+    "team_id": 5,
+    "rank": 27,
+    "date": "2016-07-10T16:26:45Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1380
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 7
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "Snow Kitties",
+    "id": "41256580-1BDF-E511-80D3-E4115BD7B405",
+    "team": "Kitty Is A Way Of Life",
+    "team_id": 5,
+    "rank": 28,
+    "date": "2016-07-11T00:00:15Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1375
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 14
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 9
+      }
+    ]
+  },
+  {
+    "name": "Aiwe",
+    "id": "15033345-333E-4669-B124-0BAD77787ED9",
+    "rank": 29,
+    "date": "2016-07-10T00:00:12Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1373
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 6
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Oopsy",
+    "id": "57E16DC6-D4F9-4367-8F95-43431ABA5B71",
+    "rank": 30,
+    "date": "2016-07-10T16:20:36Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1371
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 4
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Platos Cavern",
+    "id": "0ACB3F68-E050-E511-AF00-AC162DC028B5",
+    "team": "Season",
+    "team_id": 1,
+    "rank": 31,
+    "date": "2016-07-11T19:22:28Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1371
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 3
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "name": "Serafin",
+    "id": "E2909754-1584-4292-9407-954DA2828E3C",
+    "team": "Dackelclub",
+    "team_id": 12,
+    "rank": 32,
+    "date": "2016-07-11T22:01:03Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1370
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 44
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 37
+      }
+    ]
+  },
+  {
+    "name": "Colorforce To The",
+    "id": "C3D59015-7DB0-4E89-AD20-53873C0E4A4D",
+    "team": "Käsebrot",
+    "team_id": 8,
+    "rank": 33,
+    "date": "2016-07-10T20:19:30Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1369
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 9
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "name": "Svanir Appreciation Society",
+    "id": "24CCF2F0-947A-E511-AA11-AC162DAAE275",
+    "team": "Tea And Crumpets",
+    "team_id": 41,
+    "rank": 34,
+    "date": "2016-07-10T00:00:18Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1369
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 4
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Fatal Fantasy",
+    "id": "28BA0C6D-1A2F-E611-80D3-E4115BE8BBE8",
+    "rank": 35,
+    "date": "2016-07-11T22:05:31Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1368
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 4
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "Symphonies Of The Night",
+    "id": "5B7A6DA2-9AB7-E311-A53D-AC162DC028B5",
+    "team": "The Wings Club",
+    "team_id": 2,
+    "rank": 36,
+    "date": "2016-07-09T20:23:02Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1366
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 53
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 32
+      }
+    ]
+  },
+  {
+    "name": "Aiwe",
+    "id": "15033345-333E-4669-B124-0BAD77787ED9",
+    "rank": 37,
+    "date": "2016-07-09T00:03:28Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1365
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 11
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "name": "Aiwe",
+    "id": "15033345-333E-4669-B124-0BAD77787ED9",
+    "rank": 38,
+    "date": "2016-07-11T21:24:41Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1363
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 13
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "name": "Aiwe",
+    "id": "15033345-333E-4669-B124-0BAD77787ED9",
+    "rank": 39,
+    "date": "2016-07-10T22:15:23Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1363
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 7
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "Aiwe",
+    "id": "15033345-333E-4669-B124-0BAD77787ED9",
+    "rank": 40,
+    "date": "2016-07-10T00:00:11Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1362
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 16
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 11
+      }
+    ]
+  },
+  {
+    "name": "Tough Muffins",
+    "id": "AF3C2870-9DF1-4807-9ABA-FE26630250AF",
+    "rank": 41,
+    "date": "2016-07-10T21:45:39Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1361
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 2
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "name": "Victuri Elati",
+    "id": "B9D6A4DF-3FBE-4DDF-A325-2BD41A0E5A0B",
+    "team": "Schlechtschmetterfront",
+    "team_id": 15,
+    "rank": 42,
+    "date": "2016-07-10T14:56:25Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1360
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 42
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 40
+      }
+    ]
+  },
+  {
+    "name": "Une Bonne Auberge",
+    "id": "9BE555B7-3D31-4444-AB21-C74AB4BD3C2B",
+    "team": "United Badass Abricot",
+    "team_id": 10,
+    "rank": 43,
+    "date": "2016-07-11T21:01:47Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1359
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 5
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "name": "Rammstein",
+    "id": "F1547310-9AF9-4096-A55E-B2FA8A03A8FE",
+    "team": "Rammstein X",
+    "team_id": 26,
+    "rank": 44,
+    "date": "2016-07-11T21:55:31Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1356
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 4
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Bullêtproof",
+    "id": "8CD1CE11-40AB-E511-80D3-E4115BD7186D",
+    "rank": 45,
+    "date": "2016-07-09T22:17:42Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1356
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 3
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Colorforce To The",
+    "id": "C3D59015-7DB0-4E89-AD20-53873C0E4A4D",
+    "team": "Heute Mit Geri",
+    "team_id": 9,
+    "rank": 46,
+    "date": "2016-07-09T21:00:56Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1355
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 3
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "The Zaishen Order",
+    "id": "8F401555-8A0F-4277-AF10-63948B48B73A",
+    "team": "Alpha",
+    "team_id": 36,
+    "rank": 47,
+    "date": "2016-07-10T17:24:45Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1355
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 1
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "name": "Only Who Is Left",
+    "id": "CBEC4EA6-03D2-E411-AEFB-AC162DC05865",
+    "team": "Guild Mission",
+    "team_id": 5,
+    "rank": 48,
+    "date": "2016-07-10T01:19:09Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1354
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 2
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "name": "Fresh Air Memorial Guild",
+    "id": "5BA7A2E4-28EB-E411-A3E6-AC162DC0E835",
+    "team": "Zerkerbros",
+    "team_id": 1,
+    "rank": 49,
+    "date": "2016-07-11T20:35:24Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1354
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 1
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "name": "Iniquity",
+    "id": "FFD73CFC-D403-4EBE-8330-9EE7633AC3E7",
+    "team": "Testy Test Team",
+    "team_id": 1,
+    "rank": 50,
+    "date": "2016-07-10T18:28:43Z",
+    "scores": [
+      {
+        "id": "16F74226-5DDF-4FE7-ADC5-72A49DA30572",
+        "value": 1352
+      },
+      {
+        "id": "9A9CB2FD-7D73-4DFE-8FDD-A97A9C7C0B0C",
+        "value": 2
+      },
+      {
+        "id": "9064DD25-2C75-48D6-88C9-7FAD18DC784D",
+        "value": 0
+      }
+    ]
+  }
+]
