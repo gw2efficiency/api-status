@@ -17,8 +17,8 @@ async function testEndpoint (endpoint) {
 
   return Object.assign(
     result,
-    endpoint.matchSchema ? matchSchema(endpoint.name, response.content) : {},
-    endpoint.matchSnapshot ? matchSnapshot(endpoint.name, response.content) : {}
+    endpoint.matchSchema ? matchSchema(endpoint, response.content) : {},
+    endpoint.matchSnapshot ? matchSnapshot(endpoint, response.content) : {}
   )
 }
 

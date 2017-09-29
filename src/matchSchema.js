@@ -2,8 +2,8 @@ const fs = require('fs')
 const {train, validate} = require('validate-by-example')
 const toFileName = require('./toFileName')
 
-function matchSchema (url, content) {
-  const filename = './__schemas__/' + toFileName(url)
+function matchSchema (endpoint, content) {
+  const filename = './__schemas__/' + toFileName(endpoint.name)
 
   if (process.env.TRAIN || (process.env.TRAIN_MISSING && !fs.existsSync(filename))) {
     const schema = train(content)
@@ -11,8 +11,8 @@ function matchSchema (url, content) {
     // Validate that the schema works
     const result = validate(schema, content)
     if (!result.valid) {
-      console.log('Failed training schema for ' + url)
-      console.log(result.errors)
+      console.log('Failed training schema for ' + endpoint.name)
+      // console.log(result.errors)
       return {}
     }
 

@@ -23,6 +23,7 @@ async function run () {
   }
 
   console.log(`✔️ OK: ${results.length - possiblyBroken.length - definitelyBroken.length} API endpoint(s)`)
+  console.log(`✔️ OK: ${results.filter(x => x.snapshotValid).length} matching snapshots`)
 }
 
 run()
