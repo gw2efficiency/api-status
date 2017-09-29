@@ -1,0 +1,7 @@
+apps:
+  - name: snapshot-server
+    script: server/src/index.js
+    env:
+      PORT: 3123
+  - name: snapshot-worker
+    script : worker/src/index.js
