@@ -2,10 +2,10 @@ import { h, Component } from 'preact'
 
 class ResultsRow extends Component {
   render () {
-    const data = this.props.data
+    const {data, className, onClick} = this.props
 
     return (
-      <tr>
+      <tr onClick={onClick} className={className}>
         <td width={400}>{data.name}</td>
         <td>
           {data.status < 400 && (
@@ -56,12 +56,16 @@ class ResultsRow extends Component {
               <span className='text-danger oi oi-timer'/>
             )}
 
-            <div className='ml-2'>{data.duration.toLocaleString()} ms</div>
+            <div className='ml-2'>{data.duration !== 0 ? `${data.duration.toLocaleString()} ms` : ''}</div>
           </div>
         </td>
       </tr>
     )
   }
+}
+
+ResultsRow.defaultProps = {
+  className: 'result-row'
 }
 
 export default ResultsRow
