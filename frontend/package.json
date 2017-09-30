@@ -1,5 +1,6 @@
 {
   "name": "api-snapshot-testing-frontend",
+  "version": "0.0.1",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

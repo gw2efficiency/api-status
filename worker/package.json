@@ -1,5 +1,6 @@
 {
   "name": "api-snapshot-testing-worker",
+  "version": "0.0.1",
   "scripts": {
     "start": "node src/index.js",
     "format": "prettier --print-width 120 --no-semi --single-quote --no-bracket-spacing --write 'src/**/*.js' && standard --fix 'src/**/*.js'"
