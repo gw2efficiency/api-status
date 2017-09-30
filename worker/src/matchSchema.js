@@ -12,8 +12,7 @@ function matchSchema (endpoint, content) {
     // Validate that the schema works
     const result = validate(schema, content)
     if (!result.valid) {
-      console.log('Failed training schema for ' + endpoint.name)
-      console.log(result.errors)
+      console.log('Failed automatically training schema for ' + endpoint.name)
       return {}
     }
 

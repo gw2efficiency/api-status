@@ -16,6 +16,8 @@ async function runScheduledTests () {
 
 runScheduledTests()
 
-setInterval(() => {
-  runScheduledTests()
-}, 60 * 1000)
+if (!process.env.TRAIN && !process.env.TRAIN_MISSING) {
+  setInterval(() => {
+    runScheduledTests()
+  }, 60 * 1000)
+}

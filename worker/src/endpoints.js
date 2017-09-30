@@ -651,7 +651,15 @@ const endpoints = [
     url:
       '/v2/stories/seasons?ids=EAB597C0-C484-4FD3-9430-31433BAC81B6,215AAA0F-CDAC-4F93-86DA-C155A99B5784,09766A86-D88D-4DF2-9385-259E9A8CA583',
     matchSnapshot: true,
-    matchSchema: true
+    matchSchema: true,
+    snapshotTransformation: seasons => {
+      seasons = seasons.map(season => {
+        season.stories.sort((a, b) => a - b)
+        return season
+      })
+
+      return seasons
+    }
   },
   {
     name: '/v2/titles',
