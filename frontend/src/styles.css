@@ -11,15 +11,20 @@
   transition: opacity ease .3s;
   pointer-events: none;
   position: absolute;
-  left: 50%;
-  top: -5px;
+  left: 7px;
+  top: -7px;
   transform: translate(-50%, -100%);
   background: black;
   border-radius: 3px;
   white-space: nowrap;
   color: #fff;
-  padding: 2px 8px;
+  padding: 3px 10px;
   font-size: 12px;
+}
+
+.status-tooltip pre {
+  color: #fff;
+  margin-bottom: 0;
 }
 
 .status-tooltip:after {

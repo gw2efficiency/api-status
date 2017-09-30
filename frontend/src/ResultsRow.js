@@ -28,7 +28,10 @@ class ResultsRow extends Component {
           )}
 
           {data.schemaValid !== undefined && !data.schemaValid && (
-            <span className='text-danger oi oi-warning' title={data.schemaChanges}/>
+            <div className='has-tooltip'>
+              <span className='text-danger oi oi-warning'/>
+              <div className='status-tooltip'><pre>{data.schemaChanges}</pre></div>
+            </div>
           )}
         </td>
         <td>
@@ -39,7 +42,10 @@ class ResultsRow extends Component {
           )}
 
           {data.snapshotValid !== undefined && !data.snapshotValid && (
-            <span className='text-danger oi oi-warning' title={data.snapshotChanges}/>
+            <div className='has-tooltip'>
+              <span className='text-danger oi oi-warning'/>
+              <div className='status-tooltip'><pre>{data.snapshotChanges}</pre></div>
+            </div>
           )}
         </td>
         <td>
