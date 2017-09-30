@@ -12,7 +12,6 @@ class ResultsTable extends Component {
 
   render () {
     const results = this.props.results
-    const workingCount = results.data.filter(x => x.severity === 0).length
     const {expanded} = this.state
 
     return (
@@ -32,7 +31,7 @@ class ResultsTable extends Component {
             </thead>
             <tbody>
               {results.data.filter(x => x.severity > 0).map(x => <ResultsRow data={x} />)}
-              {this.renderSummaryRow(results, workingCount)}
+              {this.renderSummaryRow(results)}
               {expanded && results.data.filter(x => x.severity === 0).map(x => <ResultsRow data={x} />)}
             </tbody>
           </table>
@@ -41,7 +40,10 @@ class ResultsTable extends Component {
     )
   }
 
-  renderSummaryRow (results, workingCount) {
+  renderSummaryRow (results) {
+    const workingResults = results.data.filter(x => x.severity === 0)
+    const workingCount = workingResults.length
+
     if (workingCount === 0) {
       return null
     }
@@ -50,12 +52,14 @@ class ResultsTable extends Component {
     const count = workingCount === results.data.length ? 'All' : workingCount
     const text = `${prefix} ${count} endpoints fully operational 🎉`
 
+    const averageDuration = Math.round(average(workingResults.map(x => x.duration)))
+
     const data = {
       name: text,
       status: 200,
       schemaValid: true,
       snapshotValid: true,
-      duration: 0
+      duration: averageDuration
     }
 
     return (
@@ -66,6 +70,11 @@ class ResultsTable extends Component {
       />
     )
   }
+}
+
+function average (array) {
+  const sum = array.reduce((sum, elem) => sum + elem, 0)
+  return sum / array.length
 }
 
 export default ResultsTable
