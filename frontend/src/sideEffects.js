@@ -9,6 +9,7 @@ export async function getLatestTest () {
     return endpoint
   })
 
+  result.data.sort((a, b) => b.duration - a.duration)
   result.data.sort((a, b) => b.severity - a.severity)
 
   result.updated_at = new Date(result.updated_at)
@@ -29,7 +30,7 @@ function calculateSeverity (endpoint) {
     return 1
   }
 
-  if (endpoint.duration > 1000) {
+  if (endpoint.duration > 1500) {
     return 0.5
   }
 
