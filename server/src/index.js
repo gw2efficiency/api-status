@@ -18,7 +18,7 @@ app.get('/api', function (req, res) {
   res.sendFile(path.join(root, '/worker/latest.json'))
 })
 
-const port = process.env.PORT || 3001
+const port = process.env.PORT || 3123
 app.listen(port, function () {
   console.log(`Server listening on port ${port}`)
 })
