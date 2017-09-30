@@ -1,0 +1,40 @@
+.has-tooltip {
+  position: relative;
+}
+
+.has-tooltip:hover .status-tooltip {
+  opacity: 1;
+}
+
+.status-tooltip {
+  opacity: 0;
+  transition: opacity ease .3s;
+  pointer-events: none;
+  position: absolute;
+  left: 50%;
+  top: -5px;
+  transform: translate(-50%, -100%);
+  background: black;
+  border-radius: 3px;
+  white-space: nowrap;
+  color: #fff;
+  padding: 2px 8px;
+  font-size: 12px;
+}
+
+.status-tooltip:after {
+  content: '';
+  display: block;
+  border: solid;
+  border-width: 6px 6px 0 6px;
+  border-color: black transparent;
+  position: absolute;
+  left: 50%;
+  margin-left: -6px;
+  bottom: -6px;
+}
+
+.result-row--summary:hover {
+  cursor: pointer;
+  background: #f7f7f7;
+}
