@@ -20,8 +20,8 @@ class ResultsTable extends Component {
         <div className='text-center mb-4'>Last update {results.updated_at.toLocaleString()}</div>
 
         <div>
-          <table class='table'>
-            <thead class='thead-default'>
+          <table className='table'>
+            <thead className='thead-default'>
               <tr>
                 <th>Endpoint</th>
                 <th>Online</th>
@@ -32,9 +32,8 @@ class ResultsTable extends Component {
             </thead>
             <tbody>
               {results.data.filter(x => x.severity > 0).map(x => <ResultsRow data={x} />)}
-              {expanded
-                ? results.data.filter(x => x.severity === 0).map(x => <ResultsRow data={x} />)
-                : this.renderSummaryRow(results, workingCount)}
+              {this.renderSummaryRow(results, workingCount)}
+              {expanded && results.data.filter(x => x.severity === 0).map(x => <ResultsRow data={x} />)}
             </tbody>
           </table>
         </div>
@@ -47,9 +46,9 @@ class ResultsTable extends Component {
       return null
     }
 
-    const text = '▶ ' +
-      (workingCount === results.data.length ? 'All' : workingCount) + 
-      ' endpoints fully operational 🎉'
+    const prefix = this.state.expanded ? '▼' : '▶'
+    const count = workingCount === results.data.length ? 'All' : workingCount
+    const text = `${prefix} ${count} endpoints fully operational 🎉`
 
     const data = {
       name: text,
@@ -60,7 +59,11 @@ class ResultsTable extends Component {
     }
 
     return (
-      <ResultsRow data={data} onClick={() => this.setState({expanded: true})} className={'result-row--summary'} />
+      <ResultsRow
+        data={data}
+        onClick={() => this.setState({expanded: !this.state.expanded})}
+        className='result-row--summary'
+      />
     )
   }
 }

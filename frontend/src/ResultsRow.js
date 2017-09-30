@@ -1,4 +1,4 @@
-import { h, Component } from 'preact'
+import {h, Component} from 'preact'
 
 class ResultsRow extends Component {
   render () {
@@ -14,7 +14,7 @@ class ResultsRow extends Component {
 
           {data.status >= 400 && (
             <div className='d-flex align-items-center has-tooltip'>
-              <span className='text-danger oi oi-circle-x'/>
+              <span className='text-danger oi oi-circle-x' />
               <div className='ml-2'>{data.status}</div>
               <div className='status-tooltip'>{data.error || 'Unknown error'}</div>
             </div>

@@ -21,7 +21,7 @@ class App extends Component {
   render () {
     return (
       <div>
-        <div class='container mt-4 mb-4'>
+        <div className='container mt-4 mb-5'>
           <div className='d-flex align-items-center flex-column mb-3'>
             <img src={logo} height={200} alt='GW2 API STATUS' />
           </div>
