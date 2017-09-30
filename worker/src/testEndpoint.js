@@ -5,10 +5,13 @@ const matchSnapshot = require('./matchSnapshot')
 async function testEndpoint (endpoint) {
   const {duration, response} = await requestApi(endpoint.url)
 
+  const error = response.status >= 400 && response.content && response.content.text
+
   let result = {
     name: endpoint.name,
     status: response.status,
-    duration: duration
+    duration,
+    error
   }
 
   if (result.status !== 200) {
