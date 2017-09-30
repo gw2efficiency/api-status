@@ -79,7 +79,7 @@ acorn-jsx@^3.0.0:
   dependencies:
     acorn "^3.0.4"
 
-acorn@^3.0.0, acorn@^3.0.4:
+acorn@^3.0.4:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a"
 
@@ -165,7 +165,7 @@ ansi-regex@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-3.0.0.tgz#ed0317c322064f79466c02966bddb605ab37d998"
 
-ansi-styles@^2.0.1, ansi-styles@^2.2.1:
+ansi-styles@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
 
@@ -1282,13 +1282,13 @@ caller-path@^0.1.0:
   dependencies:
     callsites "^0.2.0"
 
-callsites@2.0.0, callsites@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/callsites/-/callsites-2.0.0.tgz#06eb84f00eea413da86affefacbffb36093b3c50"
-
 callsites@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-0.2.0.tgz#afab96262910a7f33c19a5775825c69f34e350ca"
+
+callsites@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/callsites/-/callsites-2.0.0.tgz#06eb84f00eea413da86affefacbffb36093b3c50"
 
 camel-case@3.0.x:
   version "3.0.0"
@@ -1373,10 +1373,6 @@ chalk@^2.0.0, chalk@^2.1.0:
 check-more-types@2.23.0:
   version "2.23.0"
   resolved "https://registry.yarnpkg.com/check-more-types/-/check-more-types-2.23.0.tgz#6226264d30b1095aa1c0a5b874edbdd5d2d0a66f"
-
-check-more-types@2.24.0:
-  version "2.24.0"
-  resolved "https://registry.yarnpkg.com/check-more-types/-/check-more-types-2.24.0.tgz#1420ffb10fd444dcfc79b43891bbfffd32a84600"
 
 chokidar@^1.6.0, chokidar@^1.7.0:
   version "1.7.0"
@@ -1846,18 +1842,6 @@ debug-log@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/debug-log/-/debug-log-1.0.1.tgz#2307632d4c04382b8df8a32f70b895046d52745f"
 
-debug@2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.1.tgz#79855090ba2c4e3115cc7d8769491d58f0491351"
-  dependencies:
-    ms "0.7.2"
-
-debug@2.6.3:
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.3.tgz#0f7eb8c30965ec08c72accfa0130c8b79984141d"
-  dependencies:
-    ms "0.7.2"
-
 debug@2.6.9, debug@^2.1.1, debug@^2.2.0, debug@^2.6.0, debug@^2.6.3, debug@^2.6.6, debug@^2.6.8:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -1956,10 +1940,6 @@ detect-port-alt@1.1.3:
     address "^1.0.1"
     debug "^2.6.0"
 
-diff@^1.3.2:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/diff/-/diff-1.4.0.tgz#7f28d2eb9ee7b15a97efd89ce63dcfdaa3ccbabf"
-
 diff@^3.2.0:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.3.1.tgz#aa8567a6eed03c531fc89d3f711cd0e5259dec75"
@@ -1977,13 +1957,6 @@ difflib@~0.2.1:
   resolved "https://registry.yarnpkg.com/difflib/-/difflib-0.2.4.tgz#b5e30361a6db023176d562892db85940a718f47e"
   dependencies:
     heap ">= 0.2.0"
-
-disparity@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/disparity/-/disparity-2.0.0.tgz#57ddacb47324ae5f58d2cc0da886db4ce9eeb718"
-  dependencies:
-    ansi-styles "^2.0.1"
-    diff "^1.3.2"
 
 doctrine@1.5.0, doctrine@^1.2.2:
   version "1.5.0"
@@ -2225,12 +2198,6 @@ es6-weak-map@^2.0.1:
 escape-html@~1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
-
-escape-quotes@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/escape-quotes/-/escape-quotes-1.0.2.tgz#b4896d4a6cf82dd5b33f49b713408c6380f6cd97"
-  dependencies:
-    escape-string-regexp "^1.0.5"
 
 escape-string-regexp@1.0.5, escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
@@ -2569,24 +2536,6 @@ extsprintf@1.3.0, extsprintf@^1.2.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.3.0.tgz#96918440e3041a7a414f8c52e3c574eb3c3e1e05"
 
-falafel@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/falafel/-/falafel-2.0.0.tgz#757d47c53598203bedc55dc2f8015f43b82d58b0"
-  dependencies:
-    acorn "^3.0.0"
-    foreach "^2.0.5"
-    isarray "0.0.1"
-    object-keys "^1.0.6"
-
-falafel@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/falafel/-/falafel-2.1.0.tgz#96bb17761daba94f46d001738b3cedf3a67fe06c"
-  dependencies:
-    acorn "^5.0.0"
-    foreach "^2.0.5"
-    isarray "0.0.1"
-    object-keys "^1.0.6"
-
 fast-deep-equal@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-1.0.0.tgz#96256a3bc975595eb36d82e9929d060d893439ff"
@@ -2701,15 +2650,6 @@ find-cache-dir@^0.1.1:
 find-root@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/find-root/-/find-root-1.1.0.tgz#abcfc8ba76f708c42a97b3d685b7e9450bfb9ce4"
-
-find-test-caller@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/find-test-caller/-/find-test-caller-1.0.2.tgz#db3ce6f78f39390e7e8c0b661ff166be49821c24"
-  dependencies:
-    check-more-types "2.23.0"
-    debug "2.6.1"
-    falafel "2.0.0"
-    lazy-ass "1.5.0"
 
 find-up@^1.0.0:
   version "1.1.2"
@@ -4011,10 +3951,6 @@ lazy-ass@1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/lazy-ass/-/lazy-ass-1.5.0.tgz#ca15be243c7c475b8565cdbfa0f9c2f374f2a01d"
 
-lazy-ass@1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/lazy-ass/-/lazy-ass-1.6.0.tgz#7999655e8646c17f089fdd187d150d3324d54513"
-
 lazy-cache@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/lazy-cache/-/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
@@ -4325,10 +4261,6 @@ morgan@^1.9.0:
     on-finished "~2.3.0"
     on-headers "~1.0.1"
 
-ms@0.7.2:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.2.tgz#ae25cf2512b3885a1d95d7f037868d8431124765"
-
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -4506,7 +4438,7 @@ object-hash@^1.1.4:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/object-hash/-/object-hash-1.1.8.tgz#28a659cf987d96a4dabe7860289f3b5326c4a03c"
 
-object-keys@^1.0.10, object-keys@^1.0.6, object-keys@^1.0.8:
+object-keys@^1.0.10, object-keys@^1.0.8:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.0.11.tgz#c54601778ad560f1142ce0e01bcca8b56d13426d"
 
@@ -5667,23 +5599,6 @@ sax@^1.2.1, sax@~1.2.1:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
-schema-shot@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/schema-shot/-/schema-shot-1.9.0.tgz#c0f4d022ff51383b09a0551798382ae55c125b1e"
-  dependencies:
-    callsites "2.0.0"
-    check-more-types "2.24.0"
-    debug "2.6.3"
-    find-test-caller "1.0.2"
-    lazy-ass "1.6.0"
-    mkdirp "0.5.1"
-    ramda "0.23.0"
-    snap-shot-core "1.2.2"
-    stack-sites "1.4.1"
-    strip-ansi "3.0.1"
-    validate-by-example "1.5.0"
-    variable-diff "1.1.0"
-
 schema-utils@^0.x:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-0.3.0.tgz#f5877222ce3e931edae039f17eb3716e7137f8cf"
@@ -5813,10 +5728,6 @@ shellwords@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/shellwords/-/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
 
-shuffle-array@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/shuffle-array/-/shuffle-array-1.0.1.tgz#c4ff3cfe74d16f93730592301b25e6577b12898b"
-
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
@@ -5832,42 +5743,6 @@ slice-ansi@0.0.4:
 slide@^1.1.5:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/slide/-/slide-1.1.6.tgz#56eb027d65b4d2dce6cb2e2d32c4d4afc9e1d707"
-
-snap-shot-core@1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/snap-shot-core/-/snap-shot-core-1.2.2.tgz#e23c3d04aa40fab3647a7167400733e011399e2b"
-  dependencies:
-    check-more-types "2.23.0"
-    debug "2.6.1"
-    escape-quotes "1.0.2"
-    lazy-ass "1.5.0"
-    mkdirp "0.5.1"
-
-snap-shot-core@1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/snap-shot-core/-/snap-shot-core-1.3.0.tgz#b8e25f73ce08cf550711662166a44b977545620a"
-  dependencies:
-    check-more-types "2.24.0"
-    debug "2.6.3"
-    escape-quotes "1.0.2"
-    lazy-ass "1.6.0"
-    mkdirp "0.5.1"
-
-snap-shot@^2.17.0:
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/snap-shot/-/snap-shot-2.17.0.tgz#0a851542f6ac7aff07cbac90470345a958872903"
-  dependencies:
-    callsites "2.0.0"
-    check-more-types "2.24.0"
-    debug "2.6.3"
-    disparity "2.0.0"
-    falafel "2.1.0"
-    find-test-caller "1.0.2"
-    lazy-ass "1.6.0"
-    mkdirp "0.5.1"
-    snap-shot-core "1.3.0"
-    stack-sites "1.4.1"
-    variable-diff "1.1.0"
 
 sntp@1.x.x:
   version "1.0.9"
@@ -5998,14 +5873,6 @@ sshpk@^1.7.0:
     ecc-jsbn "~0.1.1"
     jsbn "~0.1.0"
     tweetnacl "~0.14.0"
-
-stack-sites@1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/stack-sites/-/stack-sites-1.4.1.tgz#fdeeced4472e4bfad02d5e05e5de4b39bb081e02"
-  dependencies:
-    check-more-types "2.23.0"
-    debug "2.6.3"
-    lazy-ass "1.5.0"
 
 standard-engine@~7.0.0:
   version "7.0.0"
@@ -6482,7 +6349,7 @@ uuid@^3.0.0, uuid@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.1.0.tgz#3dd3d3e790abc24d7b0d3a034ffababe28ebbc04"
 
-validate-by-example@1.5.0, validate-by-example@^1.5.0:
+validate-by-example@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/validate-by-example/-/validate-by-example-1.5.0.tgz#f4f4dd3ba54ee21d3763d89ab4cce11cd8f76454"
   dependencies:
@@ -6498,13 +6365,6 @@ validate-npm-package-license@^3.0.1:
   dependencies:
     spdx-correct "~1.0.0"
     spdx-expression-parse "~1.0.0"
-
-variable-diff@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/variable-diff/-/variable-diff-1.1.0.tgz#d2bd5c66db76c13879d96e6a306edc989df978da"
-  dependencies:
-    chalk "^1.1.1"
-    object-assign "^4.0.1"
 
 vary@^1, vary@~1.1.2:
   version "1.1.2"
