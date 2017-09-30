@@ -2,9 +2,7 @@
 
 echo "Installing dependencies..."
 # npm install -g pm2@2.7.1
-cd frontend && yarn && cd ..
-cd server && yarn && cd ..
-cd worker && yarn && cd ..
+yarn
 
 echo "Bundling frontend..."
 cd frontend && npm run build && cd ..
