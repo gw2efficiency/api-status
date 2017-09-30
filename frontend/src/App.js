@@ -12,6 +12,10 @@ class App extends Component {
 
   async componentDidMount () {
     getLatestTest().then(x => this.setState({results: x}))
+
+    setInterval(() => {
+      getLatestTest().then(x => this.setState({results: x}))
+    }, 60 * 1000)
   }
 
   render () {
