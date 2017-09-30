@@ -17,7 +17,7 @@ export async function getLatestTest () {
 }
 
 function calculateSeverity (endpoint) {
-  if (endpoint.status !== 200) {
+  if (endpoint.status >= 400) {
     return 3
   }
 

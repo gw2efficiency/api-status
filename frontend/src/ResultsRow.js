@@ -8,11 +8,11 @@ class ResultsRow extends Component {
       <tr>
         <td width={400}>{data.name}</td>
         <td>
-          {data.status === 200 && (
+          {data.status < 400 && (
             <span className='text-success oi oi-circle-check'/>
           )}
 
-          {data.status !== 200 && (
+          {data.status >= 400 && (
             <div className='d-flex align-items-center'>
               <span className='text-danger oi oi-circle-x'/>
               <div className='ml-2'>{data.status}</div>
