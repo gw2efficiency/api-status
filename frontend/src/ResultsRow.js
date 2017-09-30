@@ -47,7 +47,11 @@ class ResultsRow extends Component {
               <span className='text-success oi oi-circle-check'/>
             )}
 
-            {data.duration > 1000 && (
+            {data.duration > 1000 && data.duration <= 3000 && (
+              <span className='text-warning oi oi-timer'/>
+            )}
+
+            {data.duration > 3000 && (
               <span className='text-danger oi oi-timer'/>
             )}
 
