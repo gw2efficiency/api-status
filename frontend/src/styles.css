@@ -39,7 +39,11 @@
   bottom: -6px;
 }
 
+.result-table {
+  border: 1px solid #e9ecef;
+}
+
 .result-row--summary:hover {
   cursor: pointer;
-  background: #f7f7f7;
+  background: rgba(0,0,0,.075);
 }

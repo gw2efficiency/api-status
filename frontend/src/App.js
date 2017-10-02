@@ -22,12 +22,16 @@ class App extends Component {
     return (
       <div>
         <div className='container mt-4 mb-5'>
-          <div className='d-flex align-items-center flex-column mb-3'>
-            <img src={logo} height={200} alt='GW2 API STATUS' />
+          <div className='text-center mb-3'>
+            <img src={logo} alt='GW2 API STATUS' />
           </div>
 
           {!this.state.results && <div className='text-center mt-5'>Loading...</div>}
           {this.state.results && <ResultsTable results={this.state.results} />}
+
+          <div className='text-center mt-4'>
+            <a href='https://github.com/gw2efficiency/api-status'>Contribute on GitHub</a>
+          </div>
         </div>
       </div>
     )

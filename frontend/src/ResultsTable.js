@@ -16,10 +16,10 @@ class ResultsTable extends Component {
 
     return (
       <div>
-        <div className='text-center mb-4'>Last update {results.updated_at.toLocaleString()}</div>
+        <div className='text-center text-muted mb-4'>Last checked {results.updated_at.toLocaleString()}</div>
 
         <div>
-          <table className='table'>
+          <table className='table result-table'>
             <thead className='thead-default'>
               <tr>
                 <th>Endpoint</th>
