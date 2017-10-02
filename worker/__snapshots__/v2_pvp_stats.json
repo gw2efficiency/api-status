@@ -1,15 +1,30 @@
 {
   "pvp_rank": 1,
-  "pvp_rank_points": 500,
+  "pvp_rank_points": 862,
   "pvp_rank_rollovers": 0,
   "aggregate": {
     "wins": 0,
-    "losses": 0,
+    "losses": 3,
     "desertions": 0,
     "byes": 0,
     "forfeits": 0
   },
-  "professions": {},
+  "professions": {
+    "elementalist": {
+      "wins": 0,
+      "losses": 2,
+      "desertions": 0,
+      "byes": 0,
+      "forfeits": 0
+    },
+    "warrior": {
+      "wins": 0,
+      "losses": 1,
+      "desertions": 0,
+      "byes": 0,
+      "forfeits": 0
+    }
+  },
   "ladders": {
     "ranked": {
       "wins": 0,

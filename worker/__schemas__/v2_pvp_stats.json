@@ -43,7 +43,62 @@
     },
     "professions": {
       "type": "object",
-      "properties": {},
+      "properties": {
+        "elementalist": {
+          "type": "object",
+          "properties": {
+            "wins": {
+              "type": "number",
+              "required": true
+            },
+            "losses": {
+              "type": "number",
+              "required": true
+            },
+            "desertions": {
+              "type": "number",
+              "required": true
+            },
+            "byes": {
+              "type": "number",
+              "required": true
+            },
+            "forfeits": {
+              "type": "number",
+              "required": true
+            }
+          },
+          "additionalProperties": false,
+          "required": true
+        },
+        "warrior": {
+          "type": "object",
+          "properties": {
+            "wins": {
+              "type": "number",
+              "required": true
+            },
+            "losses": {
+              "type": "number",
+              "required": true
+            },
+            "desertions": {
+              "type": "number",
+              "required": true
+            },
+            "byes": {
+              "type": "number",
+              "required": true
+            },
+            "forfeits": {
+              "type": "number",
+              "required": true
+            }
+          },
+          "additionalProperties": false,
+          "required": true
+        }
+      },
       "additionalProperties": false,
       "required": true
     },

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "current": 18,
+    "current": 62,
     "max": 1000,
     "done": false
   },
@@ -13,31 +13,31 @@
   },
   {
     "id": 5,
-    "current": 44,
+    "current": 67,
     "max": 1000,
     "done": false
   },
   {
     "id": 6,
-    "current": 23,
-    "max": 1000,
-    "done": false
-  },
-  {
-    "id": 7,
-    "current": 22,
-    "max": 1000,
-    "done": false
-  },
-  {
-    "id": 8,
     "current": 27,
     "max": 1000,
     "done": false
   },
   {
+    "id": 7,
+    "current": 34,
+    "max": 1000,
+    "done": false
+  },
+  {
+    "id": 8,
+    "current": 89,
+    "max": 1000,
+    "done": false
+  },
+  {
     "id": 9,
-    "current": 19,
+    "current": 41,
     "max": 5000,
     "done": false
   },
@@ -49,7 +49,7 @@
   },
   {
     "id": 11,
-    "current": 23,
+    "current": 63,
     "max": 1000,
     "done": false
   },
@@ -87,6 +87,8 @@
       98,
       99,
       101,
+      102,
+      103,
       104,
       105,
       108,
@@ -97,21 +99,43 @@
       117,
       118,
       119,
-      121
+      120,
+      121,
+      153,
+      154,
+      155,
+      157,
+      158,
+      159,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      174,
+      175,
+      176
     ],
-    "current": 42,
+    "current": 66,
     "max": 175,
     "done": false
   },
   {
     "id": 16,
-    "current": 6,
+    "current": 13,
     "max": 1000,
     "done": false
   },
   {
     "id": 18,
-    "current": 63,
+    "current": 64,
     "max": 5000,
     "done": false
   },
@@ -122,32 +146,56 @@
     "done": false
   },
   {
+    "id": 21,
+    "current": 183,
+    "max": 5000,
+    "done": false
+  },
+  {
     "id": 22,
     "current": 1,
     "max": 5000,
     "done": false
   },
   {
+    "id": 23,
+    "current": 10,
+    "max": 1000,
+    "done": false
+  },
+  {
     "id": 25,
-    "current": 8,
+    "current": 12,
+    "max": 1000,
+    "done": false
+  },
+  {
+    "id": 26,
+    "current": 5,
     "max": 1000,
     "done": false
   },
   {
     "id": 27,
-    "current": 35,
+    "current": 45,
     "max": 1000,
     "done": false
   },
   {
     "id": 28,
-    "current": 3,
+    "current": 30,
     "max": 1000,
     "done": false
   },
   {
     "id": 29,
-    "current": 71,
+    "current": 120,
+    "max": 1000,
+    "done": false
+  },
+  {
+    "id": 31,
+    "current": 1,
     "max": 1000,
     "done": false
   },
@@ -159,13 +207,13 @@
   },
   {
     "id": 34,
-    "current": 3,
+    "current": 7,
     "max": 1000,
     "done": false
   },
   {
     "id": 35,
-    "current": 8,
+    "current": 24,
     "max": 1000,
     "done": false
   },
@@ -177,58 +225,110 @@
   },
   {
     "id": 37,
-    "current": 49,
+    "current": 57,
     "max": 1000,
     "done": false
   },
   {
     "id": 38,
-    "current": 24,
+    "current": 29,
     "max": 1000,
     "done": false
   },
   {
-    "id": 41,
+    "id": 40,
     "current": 2,
     "max": 1000,
     "done": false
   },
   {
+    "id": 41,
+    "current": 4,
+    "max": 1000,
+    "done": false
+  },
+  {
+    "id": 42,
+    "current": 8,
+    "max": 1000,
+    "done": false
+  },
+  {
     "id": 44,
-    "current": 33,
+    "current": 35,
+    "max": 1000,
+    "done": false
+  },
+  {
+    "id": 46,
+    "current": 1,
     "max": 1000,
     "done": false
   },
   {
     "id": 47,
-    "current": 6,
+    "current": 11,
     "max": 1000,
     "done": false
   },
   {
     "id": 48,
-    "current": 3,
+    "current": 9,
+    "max": 1000,
+    "done": false
+  },
+  {
+    "id": 49,
+    "current": 15,
     "max": 1000,
     "done": false
   },
   {
     "id": 52,
-    "current": 18,
+    "current": 36,
+    "max": 1000,
+    "done": false
+  },
+  {
+    "id": 53,
+    "current": 13,
     "max": 1000,
     "done": false
   },
   {
     "id": 57,
-    "current": 213,
+    "current": 399,
     "max": 5000,
+    "done": false
+  },
+  {
+    "id": 85,
+    "current": 6,
+    "max": 400,
+    "done": false
+  },
+  {
+    "id": 87,
+    "current": 38,
+    "max": 400,
     "done": false
   },
   {
     "id": 100,
     "bits": [
-      135
+      123,
+      124,
+      125,
+      126,
+      127,
+      130,
+      133,
+      134,
+      135,
+      137,
+      140
     ],
-    "current": 1,
+    "current": 11,
     "max": 175,
     "done": false
   },
@@ -251,9 +351,31 @@
       22,
       24,
       25,
-      62
+      62,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      164,
+      165,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182
     ],
-    "current": 17,
+    "current": 39,
     "max": 177,
     "done": false
   },
@@ -261,6 +383,46 @@
     "id": 102,
     "bits": [
       9,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      105,
+      106,
+      107,
+      108,
+      109,
+      115,
+      116,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
       144,
       145,
       146,
@@ -286,13 +448,13 @@
       167,
       168
     ],
-    "current": 25,
+    "current": 65,
     "max": 167,
     "done": false
   },
   {
     "id": 127,
-    "current": 15,
+    "current": 84,
     "max": 500,
     "done": false
   },
@@ -304,33 +466,39 @@
   },
   {
     "id": 134,
-    "current": 28,
+    "current": 46,
     "max": 500,
     "done": false
   },
   {
     "id": 136,
-    "current": 18,
+    "current": 28,
     "max": 1000,
     "done": false
   },
   {
     "id": 137,
-    "current": 3,
+    "current": 10,
     "max": 100,
     "done": false
   },
   {
     "id": 139,
-    "current": 10231,
+    "current": 18546,
     "max": 500000,
     "done": false
   },
   {
     "id": 140,
-    "current": 3,
+    "current": 15,
     "max": 500,
     "done": false
+  },
+  {
+    "id": 143,
+    "current": 1,
+    "max": 1,
+    "done": true
   },
   {
     "id": 152,
@@ -340,19 +508,19 @@
   },
   {
     "id": 153,
-    "current": 2440,
+    "current": 6227,
     "max": 300000,
     "done": false
   },
   {
     "id": 247,
-    "current": 500,
+    "current": 862,
     "max": 8500,
     "done": false
   },
   {
     "id": 1567,
-    "current": 32,
+    "current": 59,
     "max": 1000,
     "done": false
   },
@@ -382,11 +550,28 @@
   {
     "id": 1750,
     "bits": [
+      0,
+      2,
       15
     ],
-    "current": 1,
+    "current": 3,
     "max": 36,
     "done": false
+  },
+  {
+    "id": 2548,
+    "bits": [
+      0
+    ],
+    "current": 1,
+    "max": 4,
+    "done": false
+  },
+  {
+    "id": 2740,
+    "current": 1,
+    "max": 1,
+    "done": true
   },
   {
     "id": 2999,
@@ -402,10 +587,17 @@
     "bits": [
       6,
       7,
-      8
+      8,
+      11
     ],
-    "current": 3,
+    "current": 4,
     "max": 20,
+    "done": false
+  },
+  {
+    "id": 3295,
+    "current": 1,
+    "max": 50,
     "done": false
   }
 ]

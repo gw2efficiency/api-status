@@ -12,16 +12,16 @@
     "pvp": {
       "heal": 5503,
       "utilities": [
-        null,
-        null,
-        null
+        5536,
+        5539,
+        5641
       ],
-      "elite": null
+      "elite": 5516
     },
     "wvw": {
       "heal": 5503,
       "utilities": [
-        null,
+        5734,
         null,
         null
       ],

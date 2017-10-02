@@ -526,7 +526,7 @@ const endpoints = [
   },
   {
     name: '/v2/pvp/games',
-    url: '/v2/pvp/games',
+    url: '/v2/pvp/games?ids=A3DC3860-73BB-4B6B-A99B-F5F47A76E470,C27A2C25-4BA8-48A4-8597-791A4071B165',
     matchSnapshot: true,
     matchSchema: true
   },

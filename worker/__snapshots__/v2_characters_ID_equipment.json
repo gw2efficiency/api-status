@@ -41,18 +41,12 @@
       "bound_to": "Eff Testing Ele"
     },
     {
-      "id": 26155,
-      "slot": "WeaponA1",
-      "upgrades": [
-        24464
-      ],
-      "binding": "Account"
+      "id": 30882,
+      "slot": "WeaponA1"
     },
     {
-      "id": 32132,
-      "slot": "WeaponA2",
-      "binding": "Character",
-      "bound_to": "Eff Testing Ele"
+      "id": 30780,
+      "slot": "WeaponA2"
     },
     {
       "id": 64114,

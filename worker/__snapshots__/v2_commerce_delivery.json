@@ -1,4 +1,9 @@
 {
-  "coins": 0,
-  "items": []
+  "coins": 92,
+  "items": [
+    {
+      "id": 49424,
+      "count": 3
+    }
+  ]
 }

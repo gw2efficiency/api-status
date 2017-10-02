@@ -62,7 +62,36 @@
           "pve": {
             "type": "array",
             "items": {
-              "type": "null"
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "number"
+                    },
+                    "traits": {
+                      "type": "array",
+                      "items": {
+                        "oneOf": [
+                          {
+                            "type": "null"
+                          },
+                          {
+                            "type": "number"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "traits"
+                  ]
+                }
+              ]
             }
           },
           "pvp": {

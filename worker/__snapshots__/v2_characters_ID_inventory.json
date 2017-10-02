@@ -22,18 +22,72 @@
           "bound_to": "Eff Testing Ele"
         },
         {
-          "id": 2933,
-          "count": 1
-        },
-        {
-          "id": 19529,
-          "count": 6,
+          "id": 32132,
+          "count": 1,
           "binding": "Character",
           "bound_to": "Eff Testing Ele"
         },
         {
           "id": 19561,
           "count": 1,
+          "binding": "Character",
+          "bound_to": "Eff Testing Ele"
+        },
+        {
+          "id": 24255,
+          "count": 3,
+          "binding": "Character",
+          "bound_to": "Eff Testing Ele"
+        },
+        {
+          "id": 26155,
+          "count": 1,
+          "upgrades": [
+            24464
+          ],
+          "binding": "Account"
+        },
+        {
+          "id": 9318,
+          "count": 1
+        },
+        {
+          "id": 9326,
+          "count": 3
+        },
+        {
+          "id": 68117,
+          "count": 1,
+          "binding": "Account"
+        },
+        {
+          "id": 65601,
+          "count": 2,
+          "binding": "Account"
+        },
+        null,
+        {
+          "id": 23038,
+          "count": 1,
+          "charges": 5,
+          "binding": "Account"
+        },
+        {
+          "id": 45176,
+          "count": 1,
+          "binding": "Account"
+        },
+        {
+          "id": 6469,
+          "count": 1,
+          "binding": "Character",
+          "bound_to": "Eff Testing Ele"
+        },
+        null,
+        null,
+        {
+          "id": 19613,
+          "count": 13,
           "binding": "Character",
           "bound_to": "Eff Testing Ele"
         },
@@ -49,19 +103,23 @@
           "binding": "Character",
           "bound_to": "Eff Testing Ele"
         },
+        null
+      ]
+    },
+    {
+      "id": 8941,
+      "size": 4,
+      "inventory": [
         {
-          "id": 19613,
-          "count": 13,
+          "id": 64671,
+          "count": 1,
           "binding": "Character",
           "bound_to": "Eff Testing Ele"
         },
+        null,
         {
-          "id": 9318,
+          "id": 20316,
           "count": 1
-        },
-        {
-          "id": 9326,
-          "count": 3
         },
         {
           "id": 6467,
@@ -74,50 +132,6 @@
           ],
           "binding": "Character",
           "bound_to": "Eff Testing Ele"
-        },
-        {
-          "id": 19526,
-          "count": 1,
-          "binding": "Character",
-          "bound_to": "Eff Testing Ele"
-        },
-        {
-          "id": 64671,
-          "count": 1,
-          "binding": "Character",
-          "bound_to": "Eff Testing Ele"
-        },
-        {
-          "id": 28816,
-          "count": 1
-        },
-        {
-          "id": 300,
-          "count": 1
-        },
-        {
-          "id": 23038,
-          "count": 1,
-          "charges": 15,
-          "binding": "Account"
-        },
-        {
-          "id": 2563,
-          "count": 1
-        },
-        {
-          "id": 28472,
-          "count": 1
-        },
-        {
-          "id": 6469,
-          "count": 1,
-          "binding": "Character",
-          "bound_to": "Eff Testing Ele"
-        },
-        {
-          "id": 149,
-          "count": 1
         }
       ]
     },
@@ -126,40 +140,20 @@
       "size": 4,
       "inventory": [
         {
-          "id": 20316,
-          "count": 1
-        },
-        {
-          "id": 2979,
-          "count": 1
-        },
-        {
-          "id": 24255,
-          "count": 3,
+          "id": 19526,
+          "count": 1,
           "binding": "Character",
           "bound_to": "Eff Testing Ele"
         },
-        null
-      ]
-    },
-    {
-      "id": 8941,
-      "size": 4,
-      "inventory": [
         {
-          "id": 3227,
-          "count": 1
+          "id": 19529,
+          "count": 6,
+          "binding": "Character",
+          "bound_to": "Eff Testing Ele"
         },
-        {
-          "id": 3207,
-          "count": 1
-        },
+        null,
         {
           "id": 33345,
-          "count": 1
-        },
-        {
-          "id": 26163,
           "count": 1
         }
       ]

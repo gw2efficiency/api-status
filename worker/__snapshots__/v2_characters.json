@@ -5,12 +5,23 @@
     "gender": "Male",
     "flags": [],
     "profession": "Warrior",
-    "level": 13,
+    "level": 23,
     "guild": "14762DCE-C2A4-E711-80D5-441EA14F1E44",
-    "age": 24219,
+    "age": 61661,
     "created": "2017-09-27T02:51:00Z",
-    "deaths": 9,
-    "crafting": [],
+    "deaths": 17,
+    "crafting": [
+      {
+        "discipline": "Armorsmith",
+        "rating": 6,
+        "active": true
+      },
+      {
+        "discipline": "Chef",
+        "rating": 38,
+        "active": true
+      }
+    ],
     "backstory": [
       "17-94",
       "185-163",
@@ -21,7 +32,14 @@
     "wvw_abilities": [],
     "specializations": {
       "pve": [
-        null,
+        {
+          "id": 4,
+          "traits": [
+            1447,
+            1338,
+            null
+          ]
+        },
         null,
         null
       ],
@@ -61,9 +79,9 @@
       "pve": {
         "heal": 14389,
         "utilities": [
-          14404,
-          null,
-          null
+          14403,
+          14410,
+          14404
         ],
         "elite": null
       },
@@ -80,8 +98,8 @@
         "heal": 14401,
         "utilities": [
           14404,
-          null,
-          null
+          14410,
+          14413
         ],
         "elite": null
       }
@@ -94,31 +112,19 @@
         "bound_to": "Eff Testing Warr"
       },
       {
-        "id": 6459,
-        "slot": "Coat",
-        "binding": "Character",
-        "bound_to": "Eff Testing Warr",
-        "dyes": [
-          435,
-          17,
-          377,
-          null
-        ]
+        "id": 3207,
+        "slot": "Coat"
       },
       {
-        "id": 6458,
-        "slot": "Boots",
-        "binding": "Character",
-        "bound_to": "Eff Testing Warr",
-        "dyes": [
-          435,
-          17,
-          17,
-          null
-        ]
+        "id": 10268,
+        "slot": "Boots"
       },
       {
-        "id": 6462,
+        "id": 10274,
+        "slot": "Gloves"
+      },
+      {
+        "id": 69972,
         "slot": "Helm",
         "binding": "Character",
         "bound_to": "Eff Testing Warr",
@@ -134,16 +140,43 @@
         "slot": "Leggings"
       },
       {
-        "id": 23512,
-        "slot": "Accessory1",
+        "id": 64087,
+        "slot": "Shoulders",
+        "upgrades": [
+          24724
+        ],
         "binding": "Character",
         "bound_to": "Eff Testing Warr"
       },
       {
-        "id": 23512,
+        "id": 13275,
+        "slot": "Accessory1",
+        "upgrades": [
+          24464
+        ]
+      },
+      {
+        "id": 13275,
         "slot": "Accessory2",
+        "upgrades": [
+          24464
+        ]
+      },
+      {
+        "id": 69888,
+        "slot": "Ring1",
+        "upgrades": [
+          24464
+        ],
         "binding": "Character",
         "bound_to": "Eff Testing Warr"
+      },
+      {
+        "id": 13277,
+        "slot": "Ring2",
+        "upgrades": [
+          24464
+        ]
       },
       {
         "id": 64669,
@@ -152,31 +185,80 @@
         "bound_to": "Eff Testing Warr"
       },
       {
-        "id": 64670,
+        "id": 27491,
         "slot": "WeaponA1",
+        "upgrades": [
+          24613
+        ],
         "binding": "Character",
         "bound_to": "Eff Testing Warr"
       },
       {
-        "id": 64114,
+        "id": 14939,
+        "slot": "WeaponB1"
+      },
+      {
+        "id": 14939,
+        "slot": "WeaponB2"
+      },
+      {
+        "id": 23004,
         "slot": "Sickle",
         "binding": "Account",
-        "charges": 20
+        "charges": 50
       },
       {
-        "id": 64101,
+        "id": 23002,
         "slot": "Axe",
         "binding": "Account",
-        "charges": 20
+        "charges": 100
       },
       {
-        "id": 64115,
+        "id": 23003,
         "slot": "Pick",
         "binding": "Account",
-        "charges": 17
+        "charges": 100
       }
     ],
-    "recipes": [],
+    "recipes": [
+      9,
+      16,
+      23,
+      40,
+      41,
+      42,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      499,
+      838,
+      839,
+      840,
+      841,
+      2842,
+      2845,
+      2850,
+      2851,
+      2853,
+      2861,
+      2878,
+      2879,
+      3355,
+      3356,
+      3357,
+      6472,
+      6474,
+      8514,
+      8520,
+      9267,
+      9268,
+      10950
+    ],
     "equipment_pvp": {
       "amulet": 34,
       "rune": 21186,
@@ -192,6 +274,16 @@
         "id": 76,
         "spent": 15,
         "done": false
+      },
+      {
+        "id": 64,
+        "spent": 4,
+        "done": false
+      },
+      {
+        "id": 27,
+        "spent": 36,
+        "done": false
       }
     ],
     "bags": [
@@ -200,16 +292,21 @@
         "size": 20,
         "inventory": [
           {
-            "id": 33355,
-            "count": 1
+            "id": 23042,
+            "count": 1,
+            "charges": 25,
+            "binding": "Account"
           },
           {
-            "id": 9270,
-            "count": 4
+            "id": 78741,
+            "count": 1,
+            "binding": "Account"
           },
           {
-            "id": 9286,
-            "count": 2
+            "id": 24440,
+            "count": 22,
+            "binding": "Character",
+            "bound_to": "Eff Testing Warr"
           },
           {
             "id": 78758,
@@ -217,111 +314,115 @@
             "binding": "Account"
           },
           {
-            "id": 9310,
-            "count": 2
-          },
-          {
-            "id": 32141,
-            "count": 1,
-            "binding": "Character",
-            "bound_to": "Eff Testing Warr"
-          },
-          {
-            "id": 19567,
-            "count": 5,
-            "binding": "Character",
-            "bound_to": "Eff Testing Warr"
-          },
-          {
-            "id": 19529,
-            "count": 9,
-            "binding": "Character",
-            "bound_to": "Eff Testing Warr"
-          },
-          {
-            "id": 19576,
-            "count": 2,
-            "binding": "Character",
-            "bound_to": "Eff Testing Warr"
-          },
-          {
-            "id": 9302,
+            "id": 48717,
             "count": 1
           },
           {
             "id": 45175,
-            "count": 4,
+            "count": 7,
             "binding": "Account"
           },
+          null,
           {
-            "id": 19552,
-            "count": 3,
+            "id": 9287,
+            "count": 15
+          },
+          {
+            "id": 19798,
+            "count": 3
+          },
+          {
+            "id": 19795,
+            "count": 1
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          {
+            "id": 2890,
+            "count": 1
+          },
+          null,
+          null,
+          {
+            "id": 45176,
+            "count": 1,
+            "binding": "Account"
+          }
+        ]
+      },
+      {
+        "id": 9414,
+        "size": 10,
+        "inventory": [
+          null,
+          {
+            "id": 24414,
+            "count": 1,
             "binding": "Character",
             "bound_to": "Eff Testing Warr"
           },
+          null,
+          null,
+          null,
+          null,
           {
-            "id": 28952,
-            "count": 1
+            "id": 8778,
+            "count": 5,
+            "binding": "Character",
+            "bound_to": "Eff Testing Warr"
+          },
+          null,
+          {
+            "id": 19996,
+            "count": 1,
+            "binding": "Account"
           },
           {
-            "id": 26003,
-            "count": 1
+            "id": 19992,
+            "count": 1,
+            "binding": "Account"
+          }
+        ]
+      },
+      {
+        "id": 9414,
+        "size": 10,
+        "inventory": [
+          {
+            "id": 19984,
+            "count": 1,
+            "binding": "Account"
           },
           {
-            "id": 27047,
-            "count": 1
+            "id": 20005,
+            "count": 1,
+            "binding": "Account"
           },
+          null,
           {
-            "id": 19526,
+            "id": 64106,
             "count": 1,
             "binding": "Character",
             "bound_to": "Eff Testing Warr"
           },
           {
-            "id": 3207,
-            "count": 1
+            "id": 24432,
+            "count": 1,
+            "binding": "Character",
+            "bound_to": "Eff Testing Warr"
           },
+          null,
+          null,
+          null,
+          null,
           {
-            "id": 28885,
+            "id": 8934,
             "count": 1
-          },
-          {
-            "id": 36076,
-            "count": 50
-          },
-          null
-        ]
-      },
-      {
-        "id": 9414,
-        "size": 10,
-        "inventory": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      {
-        "id": 9414,
-        "size": 10,
-        "inventory": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
+          }
         ]
       }
     ]
@@ -334,9 +435,9 @@
     "profession": "Elementalist",
     "level": 12,
     "guild": null,
-    "age": 13875,
+    "age": 15493,
     "created": "2017-09-26T01:59:00Z",
-    "deaths": 3,
+    "deaths": 14,
     "crafting": [],
     "backstory": [
       "12-74",
@@ -354,27 +455,27 @@
       ],
       "pvp": [
         {
-          "id": 31,
+          "id": 41,
           "traits": [
-            335,
-            325,
-            1510
+            224,
+            214,
+            1503
           ]
         },
         {
           "id": 17,
           "traits": [
             348,
-            364,
+            349,
             362
           ]
         },
         {
           "id": 37,
           "traits": [
-            253,
+            266,
             257,
-            238
+            263
           ]
         }
       ],
@@ -397,16 +498,16 @@
       "pvp": {
         "heal": 5503,
         "utilities": [
-          null,
-          null,
-          null
+          5536,
+          5539,
+          5641
         ],
-        "elite": null
+        "elite": 5516
       },
       "wvw": {
         "heal": 5503,
         "utilities": [
-          null,
+          5734,
           null,
           null
         ],
@@ -455,18 +556,12 @@
         "bound_to": "Eff Testing Ele"
       },
       {
-        "id": 26155,
-        "slot": "WeaponA1",
-        "upgrades": [
-          24464
-        ],
-        "binding": "Account"
+        "id": 30882,
+        "slot": "WeaponA1"
       },
       {
-        "id": 32132,
-        "slot": "WeaponA2",
-        "binding": "Character",
-        "bound_to": "Eff Testing Ele"
+        "id": 30780,
+        "slot": "WeaponA2"
       },
       {
         "id": 64114,
@@ -490,10 +585,10 @@
     "recipes": [],
     "equipment_pvp": {
       "amulet": 20,
-      "rune": 21215,
+      "rune": 21092,
       "sigils": [
-        21155,
-        81268,
+        81245,
+        21147,
         21155,
         81268
       ]
@@ -538,18 +633,72 @@
             "bound_to": "Eff Testing Ele"
           },
           {
-            "id": 2933,
-            "count": 1
-          },
-          {
-            "id": 19529,
-            "count": 6,
+            "id": 32132,
+            "count": 1,
             "binding": "Character",
             "bound_to": "Eff Testing Ele"
           },
           {
             "id": 19561,
             "count": 1,
+            "binding": "Character",
+            "bound_to": "Eff Testing Ele"
+          },
+          {
+            "id": 24255,
+            "count": 3,
+            "binding": "Character",
+            "bound_to": "Eff Testing Ele"
+          },
+          {
+            "id": 26155,
+            "count": 1,
+            "upgrades": [
+              24464
+            ],
+            "binding": "Account"
+          },
+          {
+            "id": 9318,
+            "count": 1
+          },
+          {
+            "id": 9326,
+            "count": 3
+          },
+          {
+            "id": 68117,
+            "count": 1,
+            "binding": "Account"
+          },
+          {
+            "id": 65601,
+            "count": 2,
+            "binding": "Account"
+          },
+          null,
+          {
+            "id": 23038,
+            "count": 1,
+            "charges": 5,
+            "binding": "Account"
+          },
+          {
+            "id": 45176,
+            "count": 1,
+            "binding": "Account"
+          },
+          {
+            "id": 6469,
+            "count": 1,
+            "binding": "Character",
+            "bound_to": "Eff Testing Ele"
+          },
+          null,
+          null,
+          {
+            "id": 19613,
+            "count": 13,
             "binding": "Character",
             "bound_to": "Eff Testing Ele"
           },
@@ -565,19 +714,23 @@
             "binding": "Character",
             "bound_to": "Eff Testing Ele"
           },
+          null
+        ]
+      },
+      {
+        "id": 8941,
+        "size": 4,
+        "inventory": [
           {
-            "id": 19613,
-            "count": 13,
+            "id": 64671,
+            "count": 1,
             "binding": "Character",
             "bound_to": "Eff Testing Ele"
           },
+          null,
           {
-            "id": 9318,
+            "id": 20316,
             "count": 1
-          },
-          {
-            "id": 9326,
-            "count": 3
           },
           {
             "id": 6467,
@@ -590,50 +743,6 @@
             ],
             "binding": "Character",
             "bound_to": "Eff Testing Ele"
-          },
-          {
-            "id": 19526,
-            "count": 1,
-            "binding": "Character",
-            "bound_to": "Eff Testing Ele"
-          },
-          {
-            "id": 64671,
-            "count": 1,
-            "binding": "Character",
-            "bound_to": "Eff Testing Ele"
-          },
-          {
-            "id": 28816,
-            "count": 1
-          },
-          {
-            "id": 300,
-            "count": 1
-          },
-          {
-            "id": 23038,
-            "count": 1,
-            "charges": 15,
-            "binding": "Account"
-          },
-          {
-            "id": 2563,
-            "count": 1
-          },
-          {
-            "id": 28472,
-            "count": 1
-          },
-          {
-            "id": 6469,
-            "count": 1,
-            "binding": "Character",
-            "bound_to": "Eff Testing Ele"
-          },
-          {
-            "id": 149,
-            "count": 1
           }
         ]
       },
@@ -642,40 +751,20 @@
         "size": 4,
         "inventory": [
           {
-            "id": 20316,
-            "count": 1
-          },
-          {
-            "id": 2979,
-            "count": 1
-          },
-          {
-            "id": 24255,
-            "count": 3,
+            "id": 19526,
+            "count": 1,
             "binding": "Character",
             "bound_to": "Eff Testing Ele"
           },
-          null
-        ]
-      },
-      {
-        "id": 8941,
-        "size": 4,
-        "inventory": [
           {
-            "id": 3227,
-            "count": 1
+            "id": 19529,
+            "count": 6,
+            "binding": "Character",
+            "bound_to": "Eff Testing Ele"
           },
-          {
-            "id": 3207,
-            "count": 1
-          },
+          null,
           {
             "id": 33345,
-            "count": 1
-          },
-          {
-            "id": 26163,
             "count": 1
           }
         ]

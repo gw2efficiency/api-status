@@ -2,31 +2,70 @@
   null,
   null,
   null,
+  {
+    "id": 23512,
+    "count": 1,
+    "binding": "Character",
+    "bound_to": "Eff Testing Warr"
+  },
   null,
   null,
   null,
   null,
+  {
+    "id": 9270,
+    "count": 4
+  },
+  null,
+  null,
+  {
+    "id": 36076,
+    "count": 50
+  },
+  null,
+  {
+    "id": 6462,
+    "count": 1,
+    "dyes": [
+      435,
+      17,
+      377,
+      1
+    ],
+    "binding": "Character",
+    "bound_to": "Eff Testing Warr"
+  },
+  null,
+  null,
+  {
+    "id": 9302,
+    "count": 1
+  },
+  {
+    "id": 9278,
+    "count": 2
+  },
+  null,
+  {
+    "id": 9310,
+    "count": 2
+  },
+  null,
+  null,
+  null,
+  {
+    "id": 23512,
+    "count": 1,
+    "binding": "Character",
+    "bound_to": "Eff Testing Warr"
+  },
   null,
   null,
   null,
   null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
+  {
+    "id": 9286,
+    "count": 2
+  },
   null
 ]
