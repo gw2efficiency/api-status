@@ -29,6 +29,12 @@ function matchSnapshot (endpoint, content) {
 
   const diff = jsonDiff.diffString(snapshot, content, {color: false})
 
+  // Sometimes the JSON comparison fails because some things got reordered
+  // But we cant just use diff because of https://github.com/andreyvit/json-diff/pull/29
+  if (!diff) {
+    return {snapshotValid: true}
+  }
+
   if (process.env.DEBUG_SNAPSHOTS) {
     console.log('='.repeat(10) + ' ENDPOINT ' + '='.repeat(10))
     console.log(endpoint.url)
