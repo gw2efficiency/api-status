@@ -1,13 +1,16 @@
+const generateUrl = require('./generateUrl')
 const requestApi = require('./requestApi')
 const matchSchema = require('./matchSchema')
 const matchSnapshot = require('./matchSnapshot')
 
 async function testEndpoint (endpoint) {
-  const {duration, response} = await requestApi(endpoint.url)
+  const url = generateUrl(endpoint.url)
+  const {duration, response} = await requestApi(url)
 
   const error = response.status >= 400 && response.content && response.content.text
 
   let result = {
+    url,
     name: endpoint.name,
     status: response.status,
     duration,

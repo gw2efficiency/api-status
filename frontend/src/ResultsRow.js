@@ -6,7 +6,9 @@ class ResultsRow extends Component {
 
     return (
       <tr onClick={onClick} className={className}>
-        <td width={400}>{data.name}</td>
+        <td width={400}>
+          <a href={data.url} target='_blank' rel='noopener noreferrer'>{data.name}</a>
+        </td>
         <td>
           {data.status < 400 && (
             <span className='text-success oi oi-circle-check'/>
