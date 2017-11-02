@@ -45,15 +45,15 @@
       "dye_slots": {
         "default": [
           {
-            "color_id": 48,
+            "color_id": 1,
             "material": "metal"
           },
           {
-            "color_id": 127,
+            "color_id": 1,
             "material": "metal"
           },
           {
-            "color_id": 615,
+            "color_id": 1,
             "material": "leather"
           },
           null

@@ -1,7 +1,21 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "array",
-  "items": {},
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "number"
+      },
+      "hint": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "id",
+      "hint"
+    ]
+  },
   "properties": {},
   "additionalProperties": false
 }

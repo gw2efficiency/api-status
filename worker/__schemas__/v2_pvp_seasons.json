@@ -70,6 +70,65 @@
       "leaderboards": {
         "type": "object",
         "properties": {
+          "legendary": {
+            "type": "object",
+            "properties": {
+              "settings": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "duration": {
+                    "type": "null"
+                  },
+                  "scoring": {
+                    "type": "string"
+                  },
+                  "tiers": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "range": {
+                          "type": "array",
+                          "items": {
+                            "type": "number"
+                          }
+                        }
+                      },
+                      "required": [
+                        "range"
+                      ]
+                    }
+                  }
+                }
+              },
+              "scorings": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "ordering": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
           "guild": {
             "type": "object",
             "properties": {
@@ -144,65 +203,6 @@
                     "name",
                     "ordering"
                   ]
-                }
-              }
-            }
-          },
-          "legendary": {
-            "type": "object",
-            "properties": {
-              "settings": {
-                "type": "object",
-                "properties": {
-                  "name": {
-                    "type": "string"
-                  },
-                  "duration": {
-                    "type": "null"
-                  },
-                  "scoring": {
-                    "type": "string"
-                  },
-                  "tiers": {
-                    "type": "array",
-                    "items": {
-                      "type": "object",
-                      "properties": {
-                        "range": {
-                          "type": "array",
-                          "items": {
-                            "type": "number"
-                          }
-                        }
-                      },
-                      "required": [
-                        "range"
-                      ]
-                    }
-                  }
-                }
-              },
-              "scorings": {
-                "type": "array",
-                "items": {
-                  "type": "object",
-                  "properties": {
-                    "id": {
-                      "type": "string"
-                    },
-                    "type": {
-                      "type": "string"
-                    },
-                    "description": {
-                      "type": "string"
-                    },
-                    "name": {
-                      "type": "string"
-                    },
-                    "ordering": {
-                      "type": "string"
-                    }
-                  }
                 }
               }
             }

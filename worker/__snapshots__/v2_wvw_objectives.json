@@ -6,7 +6,7 @@
     "type": "Tower",
     "map_type": "GreenHome",
     "map_id": 1102,
-    "upgrade_id": 44,
+    "upgrade_id": 26,
     "marker": "https://render.guildwars2.com/file/ABEC80C79576A103EA33EC66FCB99B77291A2F0D/102531.png",
     "chat_link": "[&DGgAAABOBAAA]"
   },
@@ -18,9 +18,9 @@
     "map_type": "EdgeOfTheMists",
     "map_id": 968,
     "coord": [
-      7527.04,
-      10266.9,
-      -5915.43
+      7527.71,
+      10619.2,
+      -6189.76
     ],
     "label_coord": [
       7481.4,

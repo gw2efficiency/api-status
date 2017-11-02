@@ -86,7 +86,12 @@
                 ]
               }
             }
-          }
+          },
+          "required": [
+            "id",
+            "scores",
+            "map_scores"
+          ]
         }
       },
       "maps": {
