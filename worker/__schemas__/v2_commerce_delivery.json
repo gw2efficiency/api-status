@@ -8,7 +8,17 @@
     },
     "items": {
       "type": "array",
-      "items": {},
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "count": {
+            "type": "number"
+          }
+        }
+      },
       "required": true
     }
   },
