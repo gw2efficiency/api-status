@@ -27,7 +27,9 @@
     "type": "Unlock",
     "required_level": 26,
     "experience": 35,
-    "prerequisites": [],
+    "prerequisites": [
+      256
+    ],
     "costs": [
       {
         "type": "Collectible",
