@@ -684,8 +684,6 @@
   {
     "name": "Reavers Of Grenth",
     "id": "54596F19-72C8-E411-BB46-80C16E7C6D65",
-    "team": "Blackguards",
-    "team_id": 1,
     "rank": 33,
     "date": "2016-07-11T00:00:05Z",
     "scores": [
@@ -728,8 +726,6 @@
   {
     "name": "Netherfore",
     "id": "691CAF29-3F2B-E411-9621-AC162DAE8ACD",
-    "team": "Team Nine",
-    "team_id": 13,
     "rank": 35,
     "date": "2016-07-11T20:56:50Z",
     "scores": [
