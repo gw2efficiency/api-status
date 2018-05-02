@@ -78,28 +78,28 @@
         "type": "Damage",
         "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
         "hit_count": 3,
-        "dmg_multiplier": 0.18
+        "dmg_multiplier": 0.23
       },
       {
         "text": "Damage if range is between 300-600",
         "type": "Damage",
         "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
         "hit_count": 3,
-        "dmg_multiplier": 0.225
+        "dmg_multiplier": 0.265
       },
       {
         "text": "Damage if range is between 600-900",
         "type": "Damage",
         "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
         "hit_count": 3,
-        "dmg_multiplier": 0.27
+        "dmg_multiplier": 0.3
       },
       {
         "text": "Damage if range is greater than 900",
         "type": "Damage",
         "icon": "https://render.guildwars2.com/file/61AA4919C4A7990903241B680A69530121E994C7/156657.png",
         "hit_count": 3,
-        "dmg_multiplier": 0.315
+        "dmg_multiplier": 0.335
       },
       {
         "text": "Number of Targets",
@@ -121,18 +121,6 @@
       "NoUnderwater"
     ],
     "id": 10219,
-    "chat_link": "[&BusnAAA=]",
-    "traited_facts": [
-      {
-        "text": "Apply Buff/Condition",
-        "type": "Buff",
-        "icon": "https://render.guildwars2.com/file/2FA9DF9D6BC17839BBEA14723F1C53D645DDB5E1/102852.png",
-        "duration": 5,
-        "status": "Might",
-        "description": "Increased outgoing damage; stacks intensity.",
-        "apply_count": 2,
-        "requires_trait": 681
-      }
-    ]
+    "chat_link": "[&BusnAAA=]"
   }
 ]

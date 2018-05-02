@@ -470,8 +470,6 @@
   {
     "name": "Snow Kitties",
     "id": "41256580-1BDF-E511-80D3-E4115BD7B405",
-    "team": "Kitty On Esporst Sky",
-    "team_id": 6,
     "rank": 23,
     "date": "2016-07-11T00:00:18Z",
     "scores": [
@@ -534,7 +532,7 @@
     ]
   },
   {
-    "name": "Your Warm Cozy Home",
+    "name": "The Quaggan Academy",
     "id": "9D5417AE-1DD8-E511-80D3-E4115BD7186D",
     "rank": 26,
     "date": "2016-07-10T00:00:17Z",
@@ -578,8 +576,6 @@
   {
     "name": "Snow Kitties",
     "id": "41256580-1BDF-E511-80D3-E4115BD7B405",
-    "team": "Kitty Is A Way Of Life",
-    "team_id": 5,
     "rank": 28,
     "date": "2016-07-11T00:00:15Z",
     "scores": [
