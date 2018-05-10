@@ -12,8 +12,15 @@ async function runTests () {
     results.push(await testEndpoint(endpoints[i]))
   }
 
-  let possiblyBroken = results.filter(x => x.schemaValid === false || x.snapshotValid === false)
-  let definitelyBroken = results.filter(x => x.status !== 200)
+  let possiblyBroken = results.filter(
+    (endpoint) => Object.values(endpoint.servers).some(
+      (server) => server.schemaValid === false || server.snapshotValid === false
+    )
+  )
+
+  let definitelyBroken = results.filter(
+    (endpoint) => Object.values(endpoint.servers).some((server) => server.status !== 200)
+  )
 
   if (definitelyBroken.length > 0) {
     console.log(`❗ ERROR: ${definitelyBroken.length} API endpoint(s)`)

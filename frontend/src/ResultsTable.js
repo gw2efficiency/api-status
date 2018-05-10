@@ -52,22 +52,19 @@ class ResultsTable extends Component {
     const count = workingCount === results.data.length ? 'All' : workingCount
     const text = `${prefix} ${count} endpoints fully operational 🎉`
 
-    const averageDuration = Math.round(average(workingResults.map(x => x.duration)))
-
-    const data = {
-      name: text,
-      status: 200,
-      schemaValid: true,
-      snapshotValid: true,
-      duration: averageDuration
-    }
+    const averageDuration = Math.round(average(workingResults.map(x => x.servers.eu.duration)))
 
     return (
-      <ResultsRow
-        data={data}
-        onClick={() => this.setState({expanded: !this.state.expanded})}
-        className='result-row--summary'
-      />
+      <tr onClick={() => this.setState({expanded: !this.state.expanded})} className="result-row--summary">
+        <td width={400}>{text}</td>
+        <td><span className='text-success oi oi-circle-check'/></td>
+        <td><span className='text-success oi oi-circle-check'/></td>
+        <td><span className='text-success oi oi-circle-check'/></td>
+        <td><div className='d-flex align-items-center'>
+          <span className='text-success oi oi-circle-check'/>
+          <div className='ml-2'>{averageDuration.toLocaleString()}ms</div>
+        </div></td>
+      </tr>
     )
   }
 }

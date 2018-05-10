@@ -5,27 +5,20 @@ const matchSnapshot = require('./matchSnapshot')
 
 async function testEndpoint (endpoint) {
   const url = generateUrl(endpoint.url)
-  const {duration, response} = await requestApi(url)
+  const requests = await requestApi(url)
 
-  const error = response.status >= 400 && response.content && response.content.text
-
-  let result = {
+  return {
     url,
     name: endpoint.name,
-    status: response.status,
-    duration,
-    error
+    servers: Object.entries(requests)
+      .reduce((a, [server, {response: {status, content}, duration }]) => ({
+        ...a, [server]: {
+          status, duration,
+          ...(endpoint.matchSchema ? matchSchema(endpoint, content) : {}),
+          ...(endpoint.matchSnapshot ? matchSnapshot(endpoint, content) : {})
+        }
+      }), [])
   }
-
-  if (result.status !== 200) {
-    return result
-  }
-
-  return Object.assign(
-    result,
-    endpoint.matchSchema ? matchSchema(endpoint, response.content) : {},
-    endpoint.matchSnapshot ? matchSnapshot(endpoint, response.content) : {}
-  )
 }
 
 module.exports = testEndpoint
