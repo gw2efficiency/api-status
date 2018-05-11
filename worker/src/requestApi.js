@@ -26,10 +26,12 @@ function createApiAgent (ip) {
 }
 
 async function requestApi (url) {
-  return Promise.all([server.us, server.eu].map(
-    (agent) => requestApiInternal(url, agent)
+  return Promise.all(Object.entries(servers).map(
+    ([server, agent]) => [server, requestApiInternal(url, agent)]
   )).then(
-    ([us, eu]) => ({us, eu})
+    (servers) => servers.reduce(
+      (servers, [server, result]) => ({...servers, [server]: result}), {}
+    )
   )
 }
 
