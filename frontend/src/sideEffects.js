@@ -9,7 +9,7 @@ export async function getLatestTest () {
     return endpoint
   })
 
-  result.data.sort((a, b) => b.duration - a.duration)
+  result.data.sort((a, b) => b.servers.eu.duration - a.servers.eu.duration)
   result.data.sort((a, b) => b.severity - a.severity)
 
   result.updated_at = new Date(result.updated_at)
@@ -18,21 +18,29 @@ export async function getLatestTest () {
 }
 
 function calculateSeverity (endpoint) {
-  if (endpoint.status >= 400) {
-    return 3
+  const severity = Object.values(endpoint.servers).map(
+    (server) => {
+      if (server.status >= 400) {
+        return 3
+      }
+    
+      if (server.schemaValid === false || server.snapshotValid === false) {
+        return 2
+      }
+    
+      return 0   
+    }
+  ).reduce(
+    (total, severity) => total + severity, 0
+  )
+
+  if (endpoint.servers.eu.duration > 3000) {
+    return severity + 1
   }
 
-  if (endpoint.schemaValid === false || endpoint.snapshotValid === false) {
-    return 2
+  if (endpoint.servers.eu.duration > 1500) {
+    return severity + 0.5
   }
 
-  if (endpoint.duration > 3000) {
-    return 1
-  }
-
-  if (endpoint.duration > 1500) {
-    return 0.5
-  }
-
-  return 0
+  return severity
 }
