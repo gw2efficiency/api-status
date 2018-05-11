@@ -1,25 +1,34 @@
 import {h, Component} from 'preact'
 
+function renderSuccess(server = '') {
+  return (
+    <div className='d-inline-flex align-items-center mr-2'>
+      <span className='text-success oi oi-circle-check mr-2'/> {server.toUpperCase()}
+    </div>
+  )
+}
+
+function renderError(server = '', text, details) {
+  return (
+    <div className='d-inline-flex align-items-center has-tooltip mr-2'>
+      <span className='text-danger oi oi-warning mr-2'/> {server.toUpperCase()}
+      {text && (<div className='ml-2'>{text}</div>)}
+      <div className='status-tooltip'>{details}</div>
+    </div>
+  )
+}
+
 function renderStatus(endpoint) {
   const servers = Object.entries(endpoint.servers)
-  const working = servers.filter(([,{status}]) => status < 400)
   const broken = servers.filter(([,{status}]) => status >= 400)
 
   if(broken.length === 0) {
-    return (<span className='text-success oi oi-circle-check'/>)
+    return renderSuccess();
   }
 
   return servers.map(
     ([server, {status, error}]) => (
-      status < 400 ? (<div className='d-inline-flex align-items-center mr-2'>
-        <span className='text-success oi oi-circle-check mr-2'/> {server.toUpperCase()}</div>
-      ) : (
-        <div className='d-inline-flex align-items-center has-tooltip mr-2'>
-          <span className='text-danger oi oi-circle-x mr-2' /> {server.toUpperCase()}
-          <div className='ml-2'>{status}</div>
-          <div className='status-tooltip'>{error || 'Unknown error'}</div>
-        </div>
-      )
+      status < 400 ? renderSuccess(server) : renderError(server, status, error || 'Unknown error')
     )
   )
 }
@@ -31,23 +40,26 @@ function renderSchema(endpoint) {
     return ('—')
   }
 
-  const working = servers.filter(([,{schemaValid}]) => schemaValid)
   const broken = servers.filter(([,{schemaValid}]) => !schemaValid)
 
   if(broken.length === 0) {
-    return (<span className='text-success oi oi-circle-check'/>)
+    return renderSuccess()
   }
   
+  const firstServer = servers[0][1];
+  const sameError = servers.every(
+    ([, {schemaValid, schemaChanges}]) =>
+      schemaValid === firstServer.schemaValid &&
+      schemaChanges === firstServer.schemaChanges
+  )
+
+  if(sameError) {
+    return renderError('', null, (<pre>{firstServer.schemaChanges}</pre>))
+  }
+
   return servers.map(
     ([server, {schemaValid, schemaChanges}]) => (
-      schemaValid ? (<div className='d-inline-flex align-items-center mr-2'>
-        <span className='text-success oi oi-circle-check mr-2'/> {server.toUpperCase()}</div>
-      ) : (
-        <div className='d-inline-flex align-items-center has-tooltip mr-2'>
-          <span className='text-danger oi oi-warning mr-2'/> {server.toUpperCase()}
-          <div className='status-tooltip'><pre>{schemaChanges}</pre></div>
-        </div>
-      )
+      schemaValid ? renderSuccess(server) : renderError(server, null, (<pre>{schemaChanges}</pre>))
     )
   )
 }
@@ -59,23 +71,26 @@ function renderSnapshot(endpoint) {
     return ('—')
   }
 
-  const working = servers.filter(([,{snapshotValid}]) => snapshotValid)
   const broken = servers.filter(([,{snapshotValid}]) => !snapshotValid)
 
   if(broken.length === 0) {
-    return (<span className='text-success oi oi-circle-check'/>)
+    return renderSuccess();
+  }
+
+  const firstServer = servers[0][1];
+  const sameError = servers.every(
+    ([, {snapshotValid, snapshotChanges}]) =>
+      snapshotValid === firstServer.snapshotValid &&
+      snapshotChanges === firstServer.snapshotChanges
+  )
+
+  if(sameError) {
+    return renderError('', null, (<pre>{firstServer.snapshotChanges}</pre>))
   }
   
   return servers.map(
     ([server, {snapshotValid, snapshotChanges}]) => (
-      snapshotValid ? (<div className='d-inline-flex align-items-center mr-2'>
-        <span className='text-success oi oi-circle-check mr-2'/> {server.toUpperCase()}</div>
-      ) : (
-        <div className='d-inline-flex align-items-center has-tooltip mr-2'>
-          <span className='text-danger oi oi-warning mr-2'/> {server.toUpperCase()}
-          <div className='status-tooltip'><pre>{snapshotChanges}</pre></div>
-        </div>
-      )
+      snapshotValid ? renderSuccess(server) : renderError(server, null, (<pre>{snapshotChanges}</pre>))
     )
   )
 }
