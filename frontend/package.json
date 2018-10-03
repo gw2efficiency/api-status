@@ -10,8 +10,8 @@
     "preact": "^8.2.5"
   },
   "devDependencies": {
-    "@just-boris/preact-scripts": "1.0.7",
+    "@just-boris/preact-scripts": "1.1.4",
     "prettier": "^1.7.2",
-    "standard": "^10.0.3"
+    "standard": "^12.0.1"
   }
 }
