@@ -22,7 +22,7 @@ function calculateSeverity (endpoint) {
     return 3
   }
 
-  if (endpoint.schemaValid === false || endpoint.snapshotValid === false) {
+  if (endpoint.schemaValid === false) {
     return 2
   }
 

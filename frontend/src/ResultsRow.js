@@ -37,20 +37,6 @@ class ResultsRow extends Component {
           )}
         </td>
         <td>
-          {data.snapshotValid === undefined && '—'}
-
-          {data.snapshotValid !== undefined && data.snapshotValid && (
-            <span className='text-success oi oi-circle-check'/>
-          )}
-
-          {data.snapshotValid !== undefined && !data.snapshotValid && (
-            <div className='has-tooltip'>
-              <span className='text-danger oi oi-warning'/>
-              <div className='status-tooltip'><pre>{data.snapshotChanges}</pre></div>
-            </div>
-          )}
-        </td>
-        <td>
           <div className='d-flex align-items-center'>
             {data.duration <= 1500 && (
               <span className='text-success oi oi-circle-check'/>

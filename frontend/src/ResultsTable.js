@@ -25,7 +25,6 @@ class ResultsTable extends Component {
                 <th>Endpoint</th>
                 <th>Online</th>
                 <th>Schema</th>
-                <th>Content</th>
                 <th>Time</th>
               </tr>
             </thead>
@@ -58,7 +57,6 @@ class ResultsTable extends Component {
       name: text,
       status: 200,
       schemaValid: true,
-      snapshotValid: true,
       duration: averageDuration
     }
 
