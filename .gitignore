@@ -2,3 +2,4 @@ node_modules/
 .idea/
 frontend/build/
 worker/latest.json
+.history/
