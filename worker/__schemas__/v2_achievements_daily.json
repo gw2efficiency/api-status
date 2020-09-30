@@ -22,16 +22,20 @@
             }
           },
           "required_access": {
-            "type": "array",
-            "items": {
-              "type": "string"
+            "type": "object",
+            "properties": {
+              "product": {
+                "type": "string"
+              },
+              "condition": {
+                "type": "string"
+              }
             }
           }
         },
         "required": [
           "id",
-          "level",
-          "required_access"
+          "level"
         ]
       },
       "required": true
@@ -56,9 +60,14 @@
             }
           },
           "required_access": {
-            "type": "array",
-            "items": {
-              "type": "string"
+            "type": "object",
+            "properties": {
+              "product": {
+                "type": "string"
+              },
+              "condition": {
+                "type": "string"
+              }
             }
           }
         },
@@ -89,9 +98,14 @@
             }
           },
           "required_access": {
-            "type": "array",
-            "items": {
-              "type": "string"
+            "type": "object",
+            "properties": {
+              "product": {
+                "type": "string"
+              },
+              "condition": {
+                "type": "string"
+              }
             }
           }
         },
@@ -122,9 +136,14 @@
             }
           },
           "required_access": {
-            "type": "array",
-            "items": {
-              "type": "string"
+            "type": "object",
+            "properties": {
+              "product": {
+                "type": "string"
+              },
+              "condition": {
+                "type": "string"
+              }
             }
           }
         },
