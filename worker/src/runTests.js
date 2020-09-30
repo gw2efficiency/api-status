@@ -12,7 +12,7 @@ async function runTests () {
     results.push(await testEndpoint(endpoints[i]))
   }
 
-  let possiblyBroken = results.filter(x => x.schemaValid === false || x.snapshotValid === false)
+  let possiblyBroken = results.filter(x => x.schemaValid === false)
   let definitelyBroken = results.filter(x => x.status !== 200)
 
   if (definitelyBroken.length > 0) {
@@ -28,7 +28,6 @@ async function runTests () {
   }
 
   console.log(`✔️ OK: ${results.length - possiblyBroken.length - definitelyBroken.length} API endpoint(s)`)
-  console.log(`✔️ OK: ${results.filter(x => x.snapshotValid).length} matching snapshots`)
   console.log(`✔️ OK: ${results.filter(x => x.schemaValid).length} matching schemas`)
   console.log('='.repeat(50))
   console.log()
