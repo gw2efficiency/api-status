@@ -64,8 +64,7 @@
         },
         "required": [
           "id",
-          "level",
-          "required_access"
+          "level"
         ]
       },
       "required": true
@@ -98,8 +97,7 @@
         },
         "required": [
           "id",
-          "level",
-          "required_access"
+          "level"
         ]
       },
       "required": true
@@ -132,8 +130,7 @@
         },
         "required": [
           "id",
-          "level",
-          "required_access"
+          "level"
         ]
       },
       "required": true
