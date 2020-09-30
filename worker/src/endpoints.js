@@ -1,3 +1,5 @@
+const CHARACTER = 'Eff Testing Ele'
+
 const endpoints = [
   {
     name: '/v2/account',
@@ -162,57 +164,57 @@ const endpoints = [
   },
   {
     name: '/v2/characters/ID/backstory',
-    url: '/v2/characters/Eff Testing Ele/backstory',
+    url: `/v2/characters/${CHARACTER}/backstory`,
     matchSchema: true
   },
   {
     name: '/v2/characters/ID/core',
-    url: '/v2/characters/Eff Testing Ele/core',
+    url: `/v2/characters/${CHARACTER}/core`,
     matchSchema: true
   },
   {
     name: '/v2/characters/ID/crafting',
-    url: '/v2/characters/Eff Testing Ele/crafting',
+    url: `/v2/characters/${CHARACTER}/crafting`,
     matchSchema: true
   },
   {
     name: '/v2/characters/ID/equipment',
-    url: '/v2/characters/Eff Testing Ele/equipment',
+    url: `/v2/characters/${CHARACTER}/equipment`,
     matchSchema: true
   },
   {
     name: '/v2/characters/ID/heropoints',
-    url: '/v2/characters/Eff Testing Ele/heropoints',
+    url: `/v2/characters/${CHARACTER}/heropoints`,
     matchSchema: true
   },
   {
     name: '/v2/characters/ID/inventory',
-    url: '/v2/characters/Eff Testing Ele/inventory',
+    url: `/v2/characters/${CHARACTER}/inventory`,
     matchSchema: true
   },
   {
     name: '/v2/characters/ID/recipes',
-    url: '/v2/characters/Eff Testing Ele/recipes',
+    url: `/v2/characters/${CHARACTER}/recipes`,
     matchSchema: true
   },
   {
     name: '/v2/characters/ID/sab',
-    url: '/v2/characters/Eff Testing Ele/sab',
+    url: `/v2/characters/${CHARACTER}/sab`,
     matchSchema: true
   },
   {
     name: '/v2/characters/ID/skills',
-    url: '/v2/characters/Eff Testing Ele/skills',
+    url: `/v2/characters/${CHARACTER}/skills`,
     matchSchema: true
   },
   {
     name: '/v2/characters/ID/specializations',
-    url: '/v2/characters/Eff Testing Ele/specializations',
+    url: `/v2/characters/${CHARACTER}/specializations`,
     matchSchema: true
   },
   {
     name: '/v2/characters/ID/training',
-    url: '/v2/characters/Eff Testing Ele/training',
+    url: `/v2/characters/${CHARACTER}/training`,
     matchSchema: true
   },
   {
