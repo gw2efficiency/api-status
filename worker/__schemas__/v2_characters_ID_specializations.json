@@ -8,28 +8,71 @@
         "pve": {
           "type": "array",
           "items": {
-            "type": "null"
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "number"
+                  },
+                  "traits": {
+                    "type": "array",
+                    "items": {
+                      "oneOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "type": "number"
+                        }
+                      ]
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "traits"
+                ]
+              }
+            ]
           },
           "required": true
         },
         "pvp": {
           "type": "array",
           "items": {
-            "type": "object",
-            "properties": {
-              "id": {
-                "type": "number"
+            "oneOf": [
+              {
+                "type": "null"
               },
-              "traits": {
-                "type": "array",
-                "items": {
-                  "type": "number"
-                }
+              {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "number"
+                  },
+                  "traits": {
+                    "type": "array",
+                    "items": {
+                      "oneOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "type": "number"
+                        }
+                      ]
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "traits"
+                ]
               }
-            },
-            "required": [
-              "id",
-              "traits"
             ]
           },
           "required": true
@@ -37,7 +80,36 @@
         "wvw": {
           "type": "array",
           "items": {
-            "type": "null"
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "number"
+                  },
+                  "traits": {
+                    "type": "array",
+                    "items": {
+                      "oneOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "type": "number"
+                        }
+                      ]
+                    }
+                  }
+                },
+                "required": [
+                  "id",
+                  "traits"
+                ]
+              }
+            ]
           },
           "required": true
         }
