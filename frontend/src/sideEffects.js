@@ -1,4 +1,4 @@
-const url = process.env.NODE_ENV === 'production' ? '/api' : 'http://localhost:3123/api'
+const url = process.env.NODE_ENV === 'production' ? '/api' : `http://${window.location.hostname}:3123/api`
 
 export async function getLatestTest () {
   const response = await window.fetch(url)
