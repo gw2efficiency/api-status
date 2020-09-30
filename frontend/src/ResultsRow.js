@@ -38,15 +38,15 @@ class ResultsRow extends Component {
         </td>
         <td>
           <div className='d-flex align-items-center'>
-            {data.duration <= 1500 && (
+            {data.duration <= 10000 && (
               <span className='text-success oi oi-circle-check'/>
             )}
 
-            {data.duration > 1500 && data.duration <= 3000 && (
+            {data.duration > 10000 && data.duration <= 30000 && (
               <span className='text-warning oi oi-timer'/>
             )}
 
-            {data.duration > 3000 && (
+            {data.duration > 30000 && (
               <span className='text-danger oi oi-timer'/>
             )}
 

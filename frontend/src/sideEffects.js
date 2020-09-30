@@ -26,11 +26,11 @@ function calculateSeverity (endpoint) {
     return 2
   }
 
-  if (endpoint.duration > 3000) {
+  if (endpoint.duration > 30000) {
     return 1
   }
 
-  if (endpoint.duration > 1500) {
+  if (endpoint.duration > 10000) {
     return 0.5
   }
 
