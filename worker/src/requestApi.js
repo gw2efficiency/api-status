@@ -25,8 +25,7 @@ async function requestApi (url) {
 
   try {
     json = JSON.parse(content)
-  } catch (err) {
-  }
+  } catch (err) {}
 
   return {
     duration: end - start,

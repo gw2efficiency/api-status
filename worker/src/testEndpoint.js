@@ -20,10 +20,7 @@ async function testEndpoint (endpoint) {
     return result
   }
 
-  return Object.assign(
-    result,
-    endpoint.matchSchema ? matchSchema(endpoint, response.content) : {}
-  )
+  return Object.assign(result, endpoint.matchSchema ? matchSchema(endpoint, response.content) : {})
 }
 
 module.exports = testEndpoint
