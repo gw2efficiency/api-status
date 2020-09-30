@@ -4,16 +4,16 @@
   "items": {
     "type": "object",
     "properties": {
-      "id": {
-        "type": "number"
-      },
       "hint": {
         "type": "string"
+      },
+      "id": {
+        "type": "number"
       }
     },
     "required": [
-      "id",
-      "hint"
+      "hint",
+      "id"
     ]
   },
   "properties": {},

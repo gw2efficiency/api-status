@@ -7,6 +7,7 @@ function generateUrl (url) {
   url = splitUrl[0]
 
   const query = Object.assign(qs.parse(splitUrl[1] || ''), {
+    v: 'latest',
     access_token: API_KEY,
     lang: 'en'
   })

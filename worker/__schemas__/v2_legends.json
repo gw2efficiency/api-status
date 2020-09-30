@@ -7,6 +7,9 @@
       "id": {
         "type": "string"
       },
+      "code": {
+        "type": "number"
+      },
       "swap": {
         "type": "number"
       },
@@ -25,6 +28,7 @@
     },
     "required": [
       "id",
+      "code",
       "swap",
       "heal",
       "elite",

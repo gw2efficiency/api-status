@@ -203,16 +203,6 @@ const endpoints = [
     matchSchema: true
   },
   {
-    name: '/v2/characters/ID/skills',
-    url: `/v2/characters/${CHARACTER}/skills`,
-    matchSchema: true
-  },
-  {
-    name: '/v2/characters/ID/specializations',
-    url: `/v2/characters/${CHARACTER}/specializations`,
-    matchSchema: true
-  },
-  {
     name: '/v2/characters/ID/training',
     url: `/v2/characters/${CHARACTER}/training`,
     matchSchema: true

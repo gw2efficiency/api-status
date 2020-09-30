@@ -2,19 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "array",
   "items": {
-    "type": "object",
-    "properties": {
-      "id": {
-        "type": "number"
-      },
-      "hint": {
-        "type": "string"
-      }
-    },
-    "required": [
-      "id",
-      "hint"
-    ]
+    "type": "number"
   },
   "properties": {},
   "additionalProperties": false

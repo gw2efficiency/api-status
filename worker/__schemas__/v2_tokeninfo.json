@@ -16,6 +16,10 @@
         "type": "string"
       },
       "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
     }
   },
   "additionalProperties": false

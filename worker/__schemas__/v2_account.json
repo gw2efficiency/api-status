@@ -14,6 +14,11 @@
       "type": "number",
       "required": true
     },
+    "last_modified": {
+      "type": "string",
+      "required": true,
+      "format": "date-time"
+    },
     "world": {
       "type": "number",
       "required": true
@@ -61,6 +66,10 @@
       "required": true
     },
     "wvw_rank": {
+      "type": "number",
+      "required": true
+    },
+    "build_storage_slots": {
       "type": "number",
       "required": true
     }

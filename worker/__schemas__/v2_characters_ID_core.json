@@ -30,6 +30,11 @@
       "type": "number",
       "required": true
     },
+    "last_modified": {
+      "type": "string",
+      "required": true,
+      "format": "date-time"
+    },
     "created": {
       "type": "string",
       "required": true,
