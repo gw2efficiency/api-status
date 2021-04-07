@@ -47,7 +47,21 @@
       },
       "crafting": {
         "type": "array",
-        "items": {}
+        "items": {
+          "type": "object",
+          "properties": {
+            "discipline": {
+              "type": "string"
+            },
+            "rating": {
+              "type": "number"
+            },
+            "active": {
+              "type": "boolean"
+            }
+          },
+          "required": ["discipline", "rating", "active"]
+        }
       },
       "backstory": {
         "type": "array",
@@ -59,241 +73,98 @@
         "type": "array",
         "items": {}
       },
-      "specializations": {
-        "type": "object",
-        "properties": {
-          "pve": {
-            "type": "array",
-            "items": {
-              "oneOf": [
-                {
-                  "type": "null"
+      "build_tabs_unlocked": {
+        "type": "number"
+      },
+      "active_build_tab": {
+        "type": "number"
+      },
+      "build_tabs": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "tab": {
+              "type": "number"
+            },
+            "is_active": {
+              "type": "boolean"
+            },
+            "build": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
                 },
-                {
+                "profession": {
+                  "type": "string"
+                },
+                "specializations": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "number"
+                      },
+                      "traits": {
+                        "type": "array",
+                        "items": {
+                          "type": "number"
+                        }
+                      }
+                    },
+                    "required": ["id", "traits"]
+                  }
+                },
+                "skills": {
                   "type": "object",
                   "properties": {
-                    "id": {
-                      "type": "number"
+                    "heal": {
+                      "oneOf": [{"type": "number"}, {"type": "null"}]
                     },
-                    "traits": {
+                    "utilities": {
                       "type": "array",
                       "items": {
-                        "oneOf": [
-                          {
-                            "type": "null"
-                          },
-                          {
-                            "type": "number"
-                          }
-                        ]
+                        "oneOf": [{"type": "number"}, {"type": "null"}]
                       }
+                    },
+                    "elite": {
+                      "oneOf": [{"type": "number"}, {"type": "null"}]
                     }
                   },
-                  "required": ["id", "traits"]
+                  "required": ["heal", "utilities", "elite"]
+                },
+                "aquatic_skills": {
+                  "type": "object",
+                  "properties": {
+                    "heal": {
+                      "type": "null"
+                    },
+                    "utilities": {
+                      "type": "array",
+                      "items": {
+                        "type": "null"
+                      }
+                    },
+                    "elite": {
+                      "type": "null"
+                    }
+                  },
+                  "required": ["heal", "utilities", "elite"]
                 }
-              ]
+              },
+              "required": ["name", "profession", "specializations", "skills", "aquatic_skills"]
             }
           },
-          "pvp": {
-            "type": "array",
-            "items": {
-              "oneOf": [
-                {
-                  "type": "null"
-                },
-                {
-                  "type": "object",
-                  "properties": {
-                    "id": {
-                      "type": "number"
-                    },
-                    "traits": {
-                      "type": "array",
-                      "items": {
-                        "oneOf": [
-                          {
-                            "type": "null"
-                          },
-                          {
-                            "type": "number"
-                          }
-                        ]
-                      }
-                    }
-                  },
-                  "required": ["id", "traits"]
-                }
-              ]
-            }
-          },
-          "wvw": {
-            "type": "array",
-            "items": {
-              "oneOf": [
-                {
-                  "type": "null"
-                },
-                {
-                  "type": "object",
-                  "properties": {
-                    "id": {
-                      "type": "number"
-                    },
-                    "traits": {
-                      "type": "array",
-                      "items": {
-                        "oneOf": [
-                          {
-                            "type": "null"
-                          },
-                          {
-                            "type": "number"
-                          }
-                        ]
-                      }
-                    }
-                  },
-                  "required": ["id", "traits"]
-                }
-              ]
-            }
-          }
+          "required": ["tab", "is_active", "build"]
         }
       },
-      "skills": {
-        "type": "object",
-        "properties": {
-          "pve": {
-            "type": "object",
-            "properties": {
-              "heal": {
-                "oneOf": [
-                  {
-                    "type": "number"
-                  },
-                  {
-                    "type": "null"
-                  }
-                ],
-                "required": true
-              },
-              "utilities": {
-                "type": "array",
-                "items": {
-                  "oneOf": [
-                    {
-                      "type": "number"
-                    },
-                    {
-                      "type": "null"
-                    }
-                  ]
-                },
-                "required": true
-              },
-              "elite": {
-                "oneOf": [
-                  {
-                    "type": "number"
-                  },
-                  {
-                    "type": "null"
-                  }
-                ],
-                "required": true
-              }
-            },
-            "additionalProperties": false,
-            "required": true
-          },
-          "pvp": {
-            "type": "object",
-            "properties": {
-              "heal": {
-                "oneOf": [
-                  {
-                    "type": "number"
-                  },
-                  {
-                    "type": "null"
-                  }
-                ],
-                "required": true
-              },
-              "utilities": {
-                "type": "array",
-                "items": {
-                  "oneOf": [
-                    {
-                      "type": "number"
-                    },
-                    {
-                      "type": "null"
-                    }
-                  ]
-                },
-                "required": true
-              },
-              "elite": {
-                "oneOf": [
-                  {
-                    "type": "number"
-                  },
-                  {
-                    "type": "null"
-                  }
-                ],
-                "required": true
-              }
-            },
-            "additionalProperties": false,
-            "required": true
-          },
-          "wvw": {
-            "type": "object",
-            "properties": {
-              "heal": {
-                "oneOf": [
-                  {
-                    "type": "number"
-                  },
-                  {
-                    "type": "null"
-                  }
-                ],
-                "required": true
-              },
-              "utilities": {
-                "type": "array",
-                "items": {
-                  "oneOf": [
-                    {
-                      "type": "number"
-                    },
-                    {
-                      "type": "null"
-                    }
-                  ]
-                },
-                "required": true
-              },
-              "elite": {
-                "oneOf": [
-                  {
-                    "type": "number"
-                  },
-                  {
-                    "type": "null"
-                  }
-                ],
-                "required": true
-              }
-            },
-            "additionalProperties": false,
-            "required": true
-          }
-        },
-        "additionalProperties": false
+      "equipment_tabs_unlocked": {
+        "type": "number"
+      },
+      "active_equipment_tab": {
+        "type": "number"
       },
       "equipment": {
         "type": "array",
@@ -312,71 +183,100 @@
             "bound_to": {
               "type": "string"
             },
-            "dyes": {
-              "type": "array",
-              "items": {
-                "oneOf": [
-                  {
-                    "type": "number"
-                  },
-                  {
-                    "type": "null"
-                  }
-                ]
-              }
+            "location": {
+              "type": "string"
             },
-            "upgrades": {
+            "tabs": {
               "type": "array",
-              "items": {
-                "type": "number"
-              }
-            },
-            "charges": {
-              "type": "number"
+              "items": [
+                {
+                  "type": "number"
+                }
+              ]
             }
           },
-          "required": ["id", "slot"]
-        },
-        "required": true
-      },
-      "recipes": {
-        "type": "array",
-        "items": {}
-      },
-      "equipment_pvp": {
-        "type": "object",
-        "properties": {
-          "amulet": {
-            "type": "number"
-          },
-          "rune": {
-            "type": "number"
-          },
-          "sigils": {
-            "type": "array",
-            "items": {
-              "type": "number"
-            }
-          }
+          "required": ["id", "slot", "location", "tabs"]
         }
       },
-      "training": {
+      "equipment_tabs": {
         "type": "array",
         "items": {
           "type": "object",
           "properties": {
-            "id": {
+            "tab": {
               "type": "number"
             },
-            "spent": {
-              "type": "number"
+            "name": {
+              "type": "string"
             },
-            "done": {
+            "is_active": {
               "type": "boolean"
+            },
+            "equipment": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "number"
+                  },
+                  "slot": {
+                    "type": "string"
+                  },
+                  "location": {
+                    "type": "string"
+                  }
+                },
+                "required": ["id", "slot", "location"]
+              }
+            },
+            "equipment_pvp": {
+              "type": "object",
+              "properties": {
+                "amulet": {
+                  "type": "number"
+                },
+                "rune": {
+                  "type": "number"
+                },
+                "sigils": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                }
+              },
+              "required": ["amulet", "rune", "sigils"]
             }
           },
-          "required": ["id", "spent", "done"]
+          "required": ["tab", "name", "is_active", "equipment", "equipment_pvp"]
         }
+      },
+      "recipes": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
+      },
+      "training": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "spent": {
+                "type": "number"
+              },
+              "done": {
+                "type": "boolean"
+              }
+            },
+            "required": ["id", "spent", "done"]
+          }
+        ]
       },
       "bags": {
         "type": "array",
@@ -413,8 +313,7 @@
             }
           },
           "required": ["id", "size", "inventory"]
-        },
-        "required": true
+        }
       }
     },
     "required": [
@@ -432,13 +331,16 @@
       "crafting",
       "backstory",
       "wvw_abilities",
+      "build_tabs_unlocked",
+      "active_build_tab",
+      "build_tabs",
+      "equipment_tabs_unlocked",
+      "active_equipment_tab",
       "equipment",
+      "equipment_tabs",
       "recipes",
-      "equipment_pvp",
       "training",
       "bags"
     ]
-  },
-  "properties": {},
-  "additionalProperties": false
+  }
 }
