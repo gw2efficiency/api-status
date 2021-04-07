@@ -36,6 +36,9 @@
       "age": {
         "type": "number"
       },
+      "last_modified": {
+        "type": "string"
+      },
       "created": {
         "type": "string"
       },
@@ -423,6 +426,7 @@
       "level",
       "guild",
       "age",
+      "last_modified",
       "created",
       "deaths",
       "crafting",
