@@ -34,20 +34,11 @@
               "type": "number"
             }
           },
-          "required": [
-            "id",
-            "value"
-          ]
+          "required": ["id", "value"]
         }
       }
     },
-    "required": [
-      "name",
-      "id",
-      "rank",
-      "date",
-      "scores"
-    ]
+    "required": ["name", "id", "rank", "date", "scores"]
   },
   "properties": {},
   "additionalProperties": false

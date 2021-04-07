@@ -20,12 +20,7 @@
         }
       }
     },
-    "required": [
-      "id",
-      "name",
-      "icon",
-      "unlock_items"
-    ]
+    "required": ["id", "name", "icon", "unlock_items"]
   },
   "properties": {},
   "additionalProperties": false

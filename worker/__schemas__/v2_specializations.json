@@ -44,16 +44,7 @@
         "type": "string"
       }
     },
-    "required": [
-      "id",
-      "name",
-      "profession",
-      "elite",
-      "minor_traits",
-      "major_traits",
-      "icon",
-      "background"
-    ]
+    "required": ["id", "name", "profession", "elite", "minor_traits", "major_traits", "icon", "background"]
   },
   "properties": {},
   "additionalProperties": false

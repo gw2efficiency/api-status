@@ -11,10 +11,7 @@
         "type": "string"
       }
     },
-    "required": [
-      "id",
-      "icon"
-    ]
+    "required": ["id", "icon"]
   },
   "properties": {},
   "additionalProperties": false

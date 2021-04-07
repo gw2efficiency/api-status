@@ -8,9 +8,7 @@
         "type": "string"
       }
     },
-    "required": [
-      "id"
-    ]
+    "required": ["id"]
   },
   "properties": {},
   "additionalProperties": false

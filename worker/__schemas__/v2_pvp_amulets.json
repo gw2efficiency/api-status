@@ -28,12 +28,7 @@
         }
       }
     },
-    "required": [
-      "id",
-      "name",
-      "icon",
-      "attributes"
-    ]
+    "required": ["id", "name", "icon", "attributes"]
   },
   "properties": {},
   "additionalProperties": false

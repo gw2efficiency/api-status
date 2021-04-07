@@ -28,12 +28,7 @@
         }
       }
     },
-    "required": [
-      "name",
-      "rank",
-      "date",
-      "scores"
-    ]
+    "required": ["name", "rank", "date", "scores"]
   },
   "properties": {},
   "additionalProperties": false

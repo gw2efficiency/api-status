@@ -20,12 +20,7 @@
         }
       }
     },
-    "required": [
-      "id",
-      "name",
-      "order",
-      "stories"
-    ]
+    "required": ["id", "name", "order", "stories"]
   },
   "properties": {},
   "additionalProperties": false

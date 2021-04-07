@@ -46,26 +46,11 @@
               "type": "number"
             }
           },
-          "required": [
-            "name",
-            "description",
-            "instruction",
-            "icon",
-            "point_cost",
-            "exp_cost"
-          ]
+          "required": ["name", "description", "instruction", "icon", "point_cost", "exp_cost"]
         }
       }
     },
-    "required": [
-      "id",
-      "name",
-      "requirement",
-      "order",
-      "background",
-      "region",
-      "levels"
-    ]
+    "required": ["id", "name", "requirement", "order", "background", "region", "levels"]
   },
   "properties": {},
   "additionalProperties": false

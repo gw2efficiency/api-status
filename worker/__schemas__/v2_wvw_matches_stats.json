@@ -75,21 +75,11 @@
               }
             }
           },
-          "required": [
-            "id",
-            "type",
-            "deaths",
-            "kills"
-          ]
+          "required": ["id", "type", "deaths", "kills"]
         }
       }
     },
-    "required": [
-      "id",
-      "deaths",
-      "kills",
-      "maps"
-    ]
+    "required": ["id", "deaths", "kills", "maps"]
   },
   "properties": {},
   "additionalProperties": false

@@ -33,12 +33,7 @@
         }
       }
     },
-    "required": [
-      "id",
-      "whitelisted",
-      "buys",
-      "sells"
-    ]
+    "required": ["id", "whitelisted", "buys", "sells"]
   },
   "properties": {},
   "additionalProperties": false

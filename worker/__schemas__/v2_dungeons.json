@@ -19,17 +19,11 @@
               "type": "string"
             }
           },
-          "required": [
-            "id",
-            "type"
-          ]
+          "required": ["id", "type"]
         }
       }
     },
-    "required": [
-      "id",
-      "paths"
-    ]
+    "required": ["id", "paths"]
   },
   "properties": {},
   "additionalProperties": false

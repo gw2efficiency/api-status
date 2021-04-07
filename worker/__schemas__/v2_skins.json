@@ -71,15 +71,7 @@
         }
       }
     },
-    "required": [
-      "name",
-      "type",
-      "flags",
-      "restrictions",
-      "rarity",
-      "id",
-      "icon"
-    ]
+    "required": ["name", "type", "flags", "restrictions", "rarity", "id", "icon"]
   },
   "properties": {},
   "additionalProperties": false

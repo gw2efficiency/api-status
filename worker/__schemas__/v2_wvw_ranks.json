@@ -14,11 +14,7 @@
         "type": "number"
       }
     },
-    "required": [
-      "id",
-      "title",
-      "min_rank"
-    ]
+    "required": ["id", "title", "min_rank"]
   },
   "properties": {},
   "additionalProperties": false

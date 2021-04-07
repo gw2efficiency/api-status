@@ -33,10 +33,7 @@
             }
           }
         },
-        "required": [
-          "id",
-          "level"
-        ]
+        "required": ["id", "level"]
       },
       "required": true
     },
@@ -71,10 +68,7 @@
             }
           }
         },
-        "required": [
-          "id",
-          "level"
-        ]
+        "required": ["id", "level"]
       },
       "required": true
     },
@@ -109,10 +103,7 @@
             }
           }
         },
-        "required": [
-          "id",
-          "level"
-        ]
+        "required": ["id", "level"]
       },
       "required": true
     },
@@ -147,10 +138,7 @@
             }
           }
         },
-        "required": [
-          "id",
-          "level"
-        ]
+        "required": ["id", "level"]
       },
       "required": true
     },

@@ -46,9 +46,7 @@
               "type": "number"
             }
           },
-          "required": [
-            "type"
-          ]
+          "required": ["type"]
         }
       },
       "tiers": {
@@ -83,16 +81,7 @@
         }
       }
     },
-    "required": [
-      "id",
-      "name",
-      "description",
-      "requirement",
-      "locked_text",
-      "type",
-      "flags",
-      "tiers"
-    ]
+    "required": ["id", "name", "description", "requirement", "locked_text", "type", "flags", "tiers"]
   },
   "properties": {},
   "additionalProperties": false

@@ -14,11 +14,7 @@
         "type": "string"
       }
     },
-    "required": [
-      "id",
-      "name",
-      "population"
-    ]
+    "required": ["id", "name", "population"]
   },
   "properties": {},
   "additionalProperties": false

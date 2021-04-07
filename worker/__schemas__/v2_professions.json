@@ -49,10 +49,7 @@
                       "type": "string"
                     }
                   },
-                  "required": [
-                    "id",
-                    "slot"
-                  ]
+                  "required": ["id", "slot"]
                 }
               }
             }
@@ -78,10 +75,7 @@
                       "type": "string"
                     }
                   },
-                  "required": [
-                    "id",
-                    "slot"
-                  ]
+                  "required": ["id", "slot"]
                 }
               }
             }
@@ -110,10 +104,7 @@
                       "type": "string"
                     }
                   },
-                  "required": [
-                    "id",
-                    "slot"
-                  ]
+                  "required": ["id", "slot"]
                 }
               }
             }
@@ -142,10 +133,7 @@
                       "type": "string"
                     }
                   },
-                  "required": [
-                    "id",
-                    "slot"
-                  ]
+                  "required": ["id", "slot"]
                 }
               }
             }
@@ -171,10 +159,7 @@
                       "type": "string"
                     }
                   },
-                  "required": [
-                    "id",
-                    "slot"
-                  ]
+                  "required": ["id", "slot"]
                 }
               }
             }
@@ -200,10 +185,7 @@
                       "type": "string"
                     }
                   },
-                  "required": [
-                    "id",
-                    "slot"
-                  ]
+                  "required": ["id", "slot"]
                 }
               }
             }
@@ -232,10 +214,7 @@
                       "type": "string"
                     }
                   },
-                  "required": [
-                    "id",
-                    "slot"
-                  ]
+                  "required": ["id", "slot"]
                 }
               }
             }
@@ -264,10 +243,7 @@
                       "type": "string"
                     }
                   },
-                  "required": [
-                    "id",
-                    "slot"
-                  ]
+                  "required": ["id", "slot"]
                 }
               }
             }
@@ -296,11 +272,7 @@
               "type": "string"
             }
           },
-          "required": [
-            "id",
-            "slot",
-            "type"
-          ]
+          "required": ["id", "slot", "type"]
         }
       },
       "training": {
@@ -335,33 +307,15 @@
                     "type": "number"
                   }
                 },
-                "required": [
-                  "cost",
-                  "type"
-                ]
+                "required": ["cost", "type"]
               }
             }
           },
-          "required": [
-            "id",
-            "category",
-            "name",
-            "track"
-          ]
+          "required": ["id", "category", "name", "track"]
         }
       }
     },
-    "required": [
-      "id",
-      "name",
-      "icon",
-      "icon_big",
-      "specializations",
-      "weapons",
-      "flags",
-      "skills",
-      "training"
-    ]
+    "required": ["id", "name", "icon", "icon_big", "specializations", "weapons", "flags", "skills", "training"]
   },
   "properties": {},
   "additionalProperties": false

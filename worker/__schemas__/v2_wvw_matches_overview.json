@@ -51,13 +51,7 @@
         "type": "string"
       }
     },
-    "required": [
-      "id",
-      "worlds",
-      "all_worlds",
-      "start_time",
-      "end_time"
-    ]
+    "required": ["id", "worlds", "all_worlds", "start_time", "end_time"]
   },
   "properties": {},
   "additionalProperties": false

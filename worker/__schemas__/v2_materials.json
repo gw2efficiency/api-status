@@ -20,12 +20,7 @@
         "type": "number"
       }
     },
-    "required": [
-      "id",
-      "name",
-      "items",
-      "order"
-    ]
+    "required": ["id", "name", "items", "order"]
   },
   "properties": {},
   "additionalProperties": false

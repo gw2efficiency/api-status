@@ -44,16 +44,7 @@
         }
       }
     },
-    "required": [
-      "id",
-      "name",
-      "sector_id",
-      "type",
-      "map_type",
-      "map_id",
-      "marker",
-      "chat_link"
-    ]
+    "required": ["id", "name", "sector_id", "type", "map_type", "map_id", "marker", "chat_link"]
   },
   "properties": {},
   "additionalProperties": false

@@ -28,20 +28,11 @@
               "type": "string"
             }
           },
-          "required": [
-            "cost",
-            "effect"
-          ]
+          "required": ["cost", "effect"]
         }
       }
     },
-    "required": [
-      "id",
-      "name",
-      "description",
-      "icon",
-      "ranks"
-    ]
+    "required": ["id", "name", "description", "icon", "ranks"]
   },
   "properties": {},
   "additionalProperties": false

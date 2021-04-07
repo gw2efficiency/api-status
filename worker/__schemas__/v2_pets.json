@@ -25,19 +25,11 @@
               "type": "number"
             }
           },
-          "required": [
-            "id"
-          ]
+          "required": ["id"]
         }
       }
     },
-    "required": [
-      "id",
-      "name",
-      "description",
-      "icon",
-      "skills"
-    ]
+    "required": ["id", "name", "description", "icon", "skills"]
   },
   "properties": {},
   "additionalProperties": false

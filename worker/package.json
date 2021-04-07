@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "scripts": {
     "start": "node src/index.js",
-    "format": "prettier --print-width 120 --no-semi --single-quote --no-bracket-spacing --write 'src/**/*.js' && standard --fix 'src/**/*.js'"
+    "format": "prettier --print-width 120 --no-semi --single-quote --no-bracket-spacing --write 'src/**/*.js' && standard --fix 'src/**/*.js'",
+    "format:schemas": "prettier --print-width 120 --no-semi --single-quote --no-bracket-spacing --write '__schemas__/**/*.json'"
   },
   "dependencies": {
     "json-diff": "^0.5.2",

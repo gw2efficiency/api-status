@@ -30,16 +30,7 @@
         "items": {}
       }
     },
-    "required": [
-      "id",
-      "season",
-      "name",
-      "description",
-      "timeline",
-      "level",
-      "order",
-      "chapters"
-    ]
+    "required": ["id", "season", "name", "description", "timeline", "level", "order", "chapters"]
   },
   "properties": {},
   "additionalProperties": false

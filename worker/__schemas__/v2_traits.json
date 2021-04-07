@@ -52,11 +52,7 @@
               "type": "number"
             }
           },
-          "required": [
-            "text",
-            "type",
-            "icon"
-          ]
+          "required": ["text", "type", "icon"]
         }
       },
       "skills": {
@@ -97,11 +93,7 @@
                     "type": "number"
                   }
                 },
-                "required": [
-                  "text",
-                  "type",
-                  "icon"
-                ]
+                "required": ["text", "type", "icon"]
               }
             },
             "description": {
@@ -162,17 +154,7 @@
         "type": "string"
       }
     },
-    "required": [
-      "id",
-      "tier",
-      "order",
-      "name",
-      "description",
-      "slot",
-      "facts",
-      "specialization",
-      "icon"
-    ]
+    "required": ["id", "tier", "order", "name", "description", "slot", "facts", "specialization", "icon"]
   },
   "properties": {},
   "additionalProperties": false

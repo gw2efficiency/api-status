@@ -27,24 +27,15 @@
                     "type": "string"
                   }
                 },
-                "required": [
-                  "id",
-                  "type"
-                ]
+                "required": ["id", "type"]
               }
             }
           },
-          "required": [
-            "id",
-            "events"
-          ]
+          "required": ["id", "events"]
         }
       }
     },
-    "required": [
-      "id",
-      "wings"
-    ]
+    "required": ["id", "wings"]
   },
   "properties": {},
   "additionalProperties": false

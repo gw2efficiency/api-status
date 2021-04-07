@@ -26,12 +26,7 @@
         "type": "string"
       }
     },
-    "required": [
-      "id",
-      "time",
-      "type",
-      "user"
-    ]
+    "required": ["id", "time", "type", "user"]
   },
   "properties": {},
   "additionalProperties": false

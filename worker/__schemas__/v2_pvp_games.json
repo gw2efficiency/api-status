@@ -40,17 +40,7 @@
         }
       }
     },
-    "required": [
-      "id",
-      "map_id",
-      "started",
-      "ended",
-      "result",
-      "team",
-      "profession",
-      "rating_type",
-      "scores"
-    ]
+    "required": ["id", "map_id", "started", "ended", "result", "team", "profession", "rating_type", "scores"]
   },
   "properties": {},
   "additionalProperties": false

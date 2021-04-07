@@ -17,11 +17,7 @@
             "type": "boolean"
           }
         },
-        "required": [
-          "id",
-          "spent",
-          "done"
-        ]
+        "required": ["id", "spent", "done"]
       },
       "required": true
     }

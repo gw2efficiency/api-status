@@ -51,20 +51,11 @@
                     "type": "number"
                   }
                 },
-                "required": [
-                  "points"
-                ]
+                "required": ["points"]
               }
             }
           },
-          "required": [
-            "name",
-            "flags",
-            "large_icon",
-            "small_icon",
-            "pip_icon",
-            "tiers"
-          ]
+          "required": ["name", "flags", "large_icon", "small_icon", "pip_icon", "tiers"]
         }
       },
       "leaderboards": {
@@ -97,9 +88,7 @@
                           }
                         }
                       },
-                      "required": [
-                        "range"
-                      ]
+                      "required": ["range"]
                     }
                   }
                 }
@@ -165,12 +154,7 @@
                           }
                         }
                       },
-                      "required": [
-                        "color",
-                        "type",
-                        "name",
-                        "range"
-                      ]
+                      "required": ["color", "type", "name", "range"]
                     }
                   }
                 }
@@ -196,13 +180,7 @@
                       "type": "string"
                     }
                   },
-                  "required": [
-                    "id",
-                    "type",
-                    "description",
-                    "name",
-                    "ordering"
-                  ]
+                  "required": ["id", "type", "description", "name", "ordering"]
                 }
               }
             }
@@ -238,32 +216,15 @@
                     "type": "number"
                   }
                 },
-                "required": [
-                  "rating"
-                ]
+                "required": ["rating"]
               }
             }
           },
-          "required": [
-            "name",
-            "description",
-            "icon",
-            "overlay",
-            "overlay_small",
-            "tiers"
-          ]
+          "required": ["name", "description", "icon", "overlay", "overlay_small", "tiers"]
         }
       }
     },
-    "required": [
-      "id",
-      "name",
-      "start",
-      "end",
-      "active",
-      "divisions",
-      "leaderboards"
-    ]
+    "required": ["id", "name", "start", "end", "active", "divisions", "leaderboards"]
   },
   "properties": {},
   "additionalProperties": false

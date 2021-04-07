@@ -14,11 +14,7 @@
         "type": "number"
       }
     },
-    "required": [
-      "id",
-      "category",
-      "count"
-    ]
+    "required": ["id", "category", "count"]
   },
   "properties": {},
   "additionalProperties": false

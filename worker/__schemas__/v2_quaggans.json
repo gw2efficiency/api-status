@@ -11,10 +11,7 @@
         "type": "string"
       }
     },
-    "required": [
-      "id",
-      "url"
-    ]
+    "required": ["id", "url"]
   },
   "properties": {},
   "additionalProperties": false

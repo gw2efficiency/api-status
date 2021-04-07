@@ -80,18 +80,11 @@
                     }
                   }
                 },
-                "required": [
-                  "type",
-                  "scores"
-                ]
+                "required": ["type", "scores"]
               }
             }
           },
-          "required": [
-            "id",
-            "scores",
-            "map_scores"
-          ]
+          "required": ["id", "scores", "map_scores"]
         }
       },
       "maps": {
@@ -120,21 +113,11 @@
               }
             }
           },
-          "required": [
-            "id",
-            "type",
-            "scores"
-          ]
+          "required": ["id", "type", "scores"]
         }
       }
     },
-    "required": [
-      "id",
-      "scores",
-      "victory_points",
-      "skirmishes",
-      "maps"
-    ]
+    "required": ["id", "scores", "victory_points", "skirmishes", "maps"]
   },
   "properties": {},
   "additionalProperties": false

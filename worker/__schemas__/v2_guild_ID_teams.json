@@ -46,15 +46,7 @@
         "items": {}
       }
     },
-    "required": [
-      "id",
-      "members",
-      "name",
-      "state",
-      "aggregate",
-      "ladders",
-      "games"
-    ]
+    "required": ["id", "members", "name", "state", "aggregate", "ladders", "games"]
   },
   "properties": {},
   "additionalProperties": false

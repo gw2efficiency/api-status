@@ -23,13 +23,7 @@
         }
       }
     },
-    "required": [
-      "id",
-      "name",
-      "description",
-      "order",
-      "categories"
-    ]
+    "required": ["id", "name", "description", "order", "categories"]
   },
   "properties": {},
   "additionalProperties": false

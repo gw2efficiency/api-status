@@ -27,14 +27,7 @@
         "items": {}
       }
     },
-    "required": [
-      "id",
-      "unlock_items",
-      "order",
-      "icon",
-      "name",
-      "flags"
-    ]
+    "required": ["id", "unlock_items", "order", "icon", "name", "flags"]
   },
   "properties": {},
   "additionalProperties": false

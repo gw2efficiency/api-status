@@ -60,26 +60,11 @@
               }
             }
           },
-          "required": [
-            "id",
-            "name",
-            "icon",
-            "default",
-            "unlock_items"
-          ]
+          "required": ["id", "name", "icon", "default", "unlock_items"]
         }
       }
     },
-    "required": [
-      "id",
-      "name",
-      "description",
-      "type",
-      "stats",
-      "overlay",
-      "underlay",
-      "skins"
-    ]
+    "required": ["id", "name", "description", "type", "stats", "overlay", "underlay", "skins"]
   },
   "properties": {},
   "additionalProperties": false

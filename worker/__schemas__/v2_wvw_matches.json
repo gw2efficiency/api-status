@@ -151,10 +151,7 @@
                     }
                   }
                 },
-                "required": [
-                  "type",
-                  "scores"
-                ]
+                "required": ["type", "scores"]
               }
             }
           }
@@ -250,14 +247,7 @@
                     "items": {}
                   }
                 },
-                "required": [
-                  "id",
-                  "type",
-                  "owner",
-                  "last_flipped",
-                  "points_tick",
-                  "points_capture"
-                ]
+                "required": ["id", "type", "owner", "last_flipped", "points_tick", "points_capture"]
               }
             },
             "deaths": {
@@ -289,15 +279,7 @@
               }
             }
           },
-          "required": [
-            "id",
-            "type",
-            "scores",
-            "bonuses",
-            "objectives",
-            "deaths",
-            "kills"
-          ]
+          "required": ["id", "type", "scores", "bonuses", "objectives", "deaths", "kills"]
         }
       }
     },

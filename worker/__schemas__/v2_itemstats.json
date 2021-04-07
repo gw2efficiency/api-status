@@ -25,11 +25,7 @@
         }
       }
     },
-    "required": [
-      "id",
-      "name",
-      "attributes"
-    ]
+    "required": ["id", "name", "attributes"]
   },
   "properties": {},
   "additionalProperties": false

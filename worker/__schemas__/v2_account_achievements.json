@@ -23,12 +23,7 @@
         }
       }
     },
-    "required": [
-      "id",
-      "current",
-      "max",
-      "done"
-    ]
+    "required": ["id", "current", "max", "done"]
   },
   "properties": {},
   "additionalProperties": false

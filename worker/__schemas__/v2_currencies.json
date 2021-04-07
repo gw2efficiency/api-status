@@ -20,13 +20,7 @@
         "type": "string"
       }
     },
-    "required": [
-      "id",
-      "name",
-      "description",
-      "order",
-      "icon"
-    ]
+    "required": ["id", "name", "description", "order", "icon"]
   },
   "properties": {},
   "additionalProperties": false

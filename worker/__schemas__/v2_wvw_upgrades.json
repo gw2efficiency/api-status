@@ -33,26 +33,15 @@
                     "type": "string"
                   }
                 },
-                "required": [
-                  "name",
-                  "description",
-                  "icon"
-                ]
+                "required": ["name", "description", "icon"]
               }
             }
           },
-          "required": [
-            "name",
-            "yaks_required",
-            "upgrades"
-          ]
+          "required": ["name", "yaks_required", "upgrades"]
         }
       }
     },
-    "required": [
-      "id",
-      "tiers"
-    ]
+    "required": ["id", "tiers"]
   },
   "properties": {},
   "additionalProperties": false

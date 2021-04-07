@@ -11,10 +11,7 @@
         "type": "number"
       }
     },
-    "required": [
-      "id",
-      "value"
-    ]
+    "required": ["id", "value"]
   },
   "properties": {},
   "additionalProperties": false

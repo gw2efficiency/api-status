@@ -27,10 +27,7 @@
                       "type": "number"
                     }
                   },
-                  "required": [
-                    "id",
-                    "count"
-                  ]
+                  "required": ["id", "count"]
                 },
                 {
                   "type": "null"
@@ -39,11 +36,7 @@
             }
           }
         },
-        "required": [
-          "id",
-          "size",
-          "inventory"
-        ]
+        "required": ["id", "size", "inventory"]
       },
       "required": true
     }

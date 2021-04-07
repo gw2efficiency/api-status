@@ -22,11 +22,7 @@
               "type": "number"
             }
           },
-          "required": [
-            "listings",
-            "unit_price",
-            "quantity"
-          ]
+          "required": ["listings", "unit_price", "quantity"]
         }
       },
       "sells": {
@@ -44,19 +40,11 @@
               "type": "number"
             }
           },
-          "required": [
-            "listings",
-            "unit_price",
-            "quantity"
-          ]
+          "required": ["listings", "unit_price", "quantity"]
         }
       }
     },
-    "required": [
-      "id",
-      "buys",
-      "sells"
-    ]
+    "required": ["id", "buys", "sells"]
   },
   "properties": {},
   "additionalProperties": false

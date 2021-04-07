@@ -37,23 +37,11 @@
               "type": "number"
             }
           },
-          "required": [
-            "min_rank",
-            "max_rank",
-            "points"
-          ]
+          "required": ["min_rank", "max_rank", "points"]
         }
       }
     },
-    "required": [
-      "id",
-      "finisher_id",
-      "name",
-      "icon",
-      "min_rank",
-      "max_rank",
-      "levels"
-    ]
+    "required": ["id", "finisher_id", "name", "icon", "min_rank", "max_rank", "levels"]
   },
   "properties": {},
   "additionalProperties": false

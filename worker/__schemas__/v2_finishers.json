@@ -26,14 +26,7 @@
         "type": "string"
       }
     },
-    "required": [
-      "id",
-      "unlock_details",
-      "unlock_items",
-      "order",
-      "icon",
-      "name"
-    ]
+    "required": ["id", "unlock_details", "unlock_items", "order", "icon", "name"]
   },
   "properties": {},
   "additionalProperties": false

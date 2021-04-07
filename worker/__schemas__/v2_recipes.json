@@ -43,10 +43,7 @@
               "type": "number"
             }
           },
-          "required": [
-            "item_id",
-            "count"
-          ]
+          "required": ["item_id", "count"]
         }
       },
       "id": {

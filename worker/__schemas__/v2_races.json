@@ -17,11 +17,7 @@
         }
       }
     },
-    "required": [
-      "id",
-      "name",
-      "skills"
-    ]
+    "required": ["id", "name", "skills"]
   },
   "properties": {},
   "additionalProperties": false

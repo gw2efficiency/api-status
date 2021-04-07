@@ -35,13 +35,7 @@
         }
       }
     },
-    "required": [
-      "id",
-      "title",
-      "description",
-      "answers",
-      "order"
-    ]
+    "required": ["id", "title", "description", "answers", "order"]
   },
   "properties": {},
   "additionalProperties": false

@@ -14,10 +14,7 @@
         }
       }
     },
-    "required": [
-      "id",
-      "layers"
-    ]
+    "required": ["id", "layers"]
   },
   "properties": {},
   "additionalProperties": false

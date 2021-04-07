@@ -26,14 +26,7 @@
         }
       }
     },
-    "required": [
-      "id",
-      "name",
-      "description",
-      "order",
-      "icon",
-      "achievements"
-    ]
+    "required": ["id", "name", "description", "order", "icon", "achievements"]
   },
   "properties": {},
   "additionalProperties": false

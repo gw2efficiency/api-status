@@ -23,14 +23,7 @@
         "type": "string"
       }
     },
-    "required": [
-      "id",
-      "item_id",
-      "price",
-      "quantity",
-      "created",
-      "purchased"
-    ]
+    "required": ["id", "item_id", "price", "quantity", "created", "purchased"]
   },
   "properties": {},
   "additionalProperties": false

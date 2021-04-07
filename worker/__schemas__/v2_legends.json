@@ -26,14 +26,7 @@
         }
       }
     },
-    "required": [
-      "id",
-      "code",
-      "swap",
-      "heal",
-      "elite",
-      "utilities"
-    ]
+    "required": ["id", "code", "swap", "heal", "elite", "utilities"]
   },
   "properties": {},
   "additionalProperties": false

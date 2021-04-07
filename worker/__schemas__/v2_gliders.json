@@ -30,14 +30,7 @@
         "items": {}
       }
     },
-    "required": [
-      "id",
-      "order",
-      "icon",
-      "name",
-      "description",
-      "default_dyes"
-    ]
+    "required": ["id", "order", "icon", "name", "description", "default_dyes"]
   },
   "properties": {},
   "additionalProperties": false

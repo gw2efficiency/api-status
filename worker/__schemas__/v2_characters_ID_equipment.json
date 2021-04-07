@@ -42,10 +42,7 @@
             "type": "number"
           }
         },
-        "required": [
-          "id",
-          "slot"
-        ]
+        "required": ["id", "slot"]
       },
       "required": true
     }

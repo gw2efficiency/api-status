@@ -20,12 +20,7 @@
         "type": "string"
       }
     },
-    "required": [
-      "id",
-      "order",
-      "permissions",
-      "icon"
-    ]
+    "required": ["id", "order", "permissions", "icon"]
   },
   "properties": {},
   "additionalProperties": false

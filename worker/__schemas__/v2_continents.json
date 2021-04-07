@@ -29,14 +29,7 @@
         "type": "number"
       }
     },
-    "required": [
-      "name",
-      "continent_dims",
-      "min_zoom",
-      "max_zoom",
-      "floors",
-      "id"
-    ]
+    "required": ["name", "continent_dims", "min_zoom", "max_zoom", "floors", "id"]
   },
   "properties": {},
   "additionalProperties": false

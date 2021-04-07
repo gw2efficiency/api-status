@@ -86,10 +86,7 @@
                       }
                     }
                   },
-                  "required": [
-                    "id",
-                    "traits"
-                  ]
+                  "required": ["id", "traits"]
                 }
               ]
             }
@@ -121,10 +118,7 @@
                       }
                     }
                   },
-                  "required": [
-                    "id",
-                    "traits"
-                  ]
+                  "required": ["id", "traits"]
                 }
               ]
             }
@@ -156,10 +150,7 @@
                       }
                     }
                   },
-                  "required": [
-                    "id",
-                    "traits"
-                  ]
+                  "required": ["id", "traits"]
                 }
               ]
             }
@@ -341,10 +332,7 @@
               "type": "number"
             }
           },
-          "required": [
-            "id",
-            "slot"
-          ]
+          "required": ["id", "slot"]
         },
         "required": true
       },
@@ -384,11 +372,7 @@
               "type": "boolean"
             }
           },
-          "required": [
-            "id",
-            "spent",
-            "done"
-          ]
+          "required": ["id", "spent", "done"]
         }
       },
       "bags": {
@@ -416,10 +400,7 @@
                         "type": "number"
                       }
                     },
-                    "required": [
-                      "id",
-                      "count"
-                    ]
+                    "required": ["id", "count"]
                   },
                   {
                     "type": "null"
@@ -428,11 +409,7 @@
               }
             }
           },
-          "required": [
-            "id",
-            "size",
-            "inventory"
-          ]
+          "required": ["id", "size", "inventory"]
         },
         "required": true
       }
