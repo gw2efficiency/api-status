@@ -1,6 +1,6 @@
 const qs = require('qs')
 
-const API_KEY = '564F181A-F0FC-114A-A55D-3C1DCD45F3767AF3848F-AB29-4EBF-9594-F91E6A75E015'
+const API_KEY = 'BFCDF695-5D2D-114F-B6A1-FC2466C79A2692147B4D-20B1-4C45-BA25-43808695A041'
 
 function generateUrl (url) {
   const splitUrl = url.split('?')
