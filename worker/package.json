@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "json-diff": "^0.5.2",
-    "node-fetch": "^1.7.3",
+    "node-fetch": "^2.6.7",
     "qs": "^6.5.1",
     "validate-by-example": "^1.5.0"
   },
