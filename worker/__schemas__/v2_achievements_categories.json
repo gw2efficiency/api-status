@@ -22,7 +22,12 @@
       "achievements": {
         "type": "array",
         "items": {
-          "type": "number"
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "number"
+            }
+          }
         }
       }
     },
