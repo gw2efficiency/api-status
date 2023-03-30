@@ -4,8 +4,10 @@
   "properties": {
     "id": {
       "type": "number",
-      "required": true
+      "minimum": 115267,
+      "exclusiveMinimum": true
     }
   },
+  "required": ["id"],
   "additionalProperties": false
 }
