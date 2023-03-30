@@ -4,6 +4,9 @@
   "items": {
     "type": "object",
     "properties": {
+      "id": {
+        "type": "number"
+      },
       "type": {
         "type": "string"
       },
@@ -11,9 +14,6 @@
         "type": "number"
       },
       "output_item_count": {
-        "type": "number"
-      },
-      "min_rating": {
         "type": "number"
       },
       "time_to_craft_ms": {
@@ -24,6 +24,9 @@
         "items": {
           "type": "string"
         }
+      },
+      "min_rating": {
+        "type": "number"
       },
       "flags": {
         "type": "array",
@@ -36,33 +39,33 @@
         "items": {
           "type": "object",
           "properties": {
-            "item_id": {
+            "type": {
+              "type": "string"
+            },
+            "id": {
               "type": "number"
             },
             "count": {
               "type": "number"
             }
           },
-          "required": ["item_id", "count"]
+          "required": ["type", "id", "count"]
         }
-      },
-      "id": {
-        "type": "number"
       },
       "chat_link": {
         "type": "string"
       }
     },
     "required": [
+      "id",
       "type",
       "output_item_id",
       "output_item_count",
-      "min_rating",
       "time_to_craft_ms",
       "disciplines",
+      "min_rating",
       "flags",
       "ingredients",
-      "id",
       "chat_link"
     ]
   },
