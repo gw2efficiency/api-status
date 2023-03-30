@@ -105,12 +105,12 @@
                     "type": "object",
                     "properties": {
                       "id": {
-                        "type": "number"
+                        "oneOf": [{"type": "number"}, {"type": "null"}]
                       },
                       "traits": {
                         "type": "array",
                         "items": {
-                          "type": "number"
+                          "oneOf": [{"type": "number"}, {"type": "null"}]
                         }
                       }
                     },
@@ -139,16 +139,16 @@
                   "type": "object",
                   "properties": {
                     "heal": {
-                      "type": "null"
+                      "anyOf": [{"type": "number"}, {"type": "null"}]
                     },
                     "utilities": {
                       "type": "array",
                       "items": {
-                        "type": "null"
+                        "anyOf": [{"type": "number"}, {"type": "null"}]
                       }
                     },
                     "elite": {
-                      "type": "null"
+                      "anyOf": [{"type": "number"}, {"type": "null"}]
                     }
                   },
                   "required": ["heal", "utilities", "elite"]
@@ -195,7 +195,7 @@
               ]
             }
           },
-          "required": ["id", "slot", "location", "tabs"]
+          "required": ["id", "slot", "location"]
         }
       },
       "equipment_tabs": {
@@ -242,7 +242,7 @@
                 "sigils": {
                   "type": "array",
                   "items": {
-                    "type": "number"
+                    "oneOf": [{"type": "number"}, {"type": "null"}]
                   }
                 }
               },
