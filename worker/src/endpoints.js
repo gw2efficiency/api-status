@@ -208,6 +208,11 @@ const endpoints = [
     matchSchema: true
   },
   {
+    name: '/v2/characters/ID/quests',
+    url: `/v2/characters/${CHARACTER}/quests`,
+    matchSchema: true
+  },
+  {
     name: '/v2/colors',
     url: '/v2/colors',
     matchSchema: true
