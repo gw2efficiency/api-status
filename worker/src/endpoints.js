@@ -122,16 +122,6 @@ const endpoints = [
     matchSchema: true
   },
   {
-    name: '/v2/achievements/daily',
-    url: '/v2/achievements/daily',
-    matchSchema: true
-  },
-  {
-    name: '/v2/achievements/daily/tomorrow',
-    url: '/v2/achievements/daily/tomorrow',
-    matchSchema: true
-  },
-  {
     name: '/v2/achievements/groups',
     url:
       '/v2/achievements/groups?ids=BE8B9954-5B55-4FCB-9022-B871AD00EAAB,65B4B678-607E-4D97-B458-076C3E96A810,B42E2379-9599-46CA-9D4A-40A27E192BBE',
