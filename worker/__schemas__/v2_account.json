@@ -53,6 +53,21 @@
       "type": "boolean",
       "required": true
     },
+    "wvw": {
+      "type": "object",
+      "properties": {
+        "team_id": {
+          "type": "number",
+          "required": true
+        },
+        "rank": {
+          "type": "number",
+          "required": true
+        }
+      },
+      "additionalProperties": false,
+      "required": true
+    },
     "fractal_level": {
       "type": "number",
       "required": true
@@ -62,10 +77,6 @@
       "required": true
     },
     "monthly_ap": {
-      "type": "number",
-      "required": true
-    },
-    "wvw_rank": {
       "type": "number",
       "required": true
     },
