@@ -6,7 +6,7 @@
     "format": "prettier --print-width 120 --no-semi --single-quote --no-bracket-spacing --write 'src/**/*.js' && standard --fix 'src/**/*.js'"
   },
   "dependencies": {
-    "compression": "^1.7.1",
+    "compression": "^1.8.2",
     "cors": "^2.8.4",
     "express": "^4.16.0",
     "morgan": "^1.9.0"
